@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Wordpress &#8211; Shishir Raven</title>
-	<atom:link href="/category/wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Fri, 29 Jul 2022 17:25:09 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Wordpress &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Removing all the Default Theme Javascript and CSS from a WordPress Template.</title>
-		<link>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
-					<comments>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 17:25:09 +0000</pubDate>
@@ -108,15 +108,15 @@ add_action( 'wp_enqueue_scripts', 'goals_enqueue_stuff',1000 );</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Custom Post Type returning only posts belonging to the Author in WordPress REST API</title>
-		<link>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
-					<comments>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 05 Apr 2022 06:52:47 +0000</pubDate>
@@ -163,15 +163,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>Suppose you are providing a solution where user wants the user to post and some entries into WordPress custom post type(CPT). there you can apply this solution. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Enabling Filters for Meta Fields in the WordPress Rest API.</title>
-		<link>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/</link>
-					<comments>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 25 Jan 2022 23:46:47 +0000</pubDate>
@@ -272,15 +272,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>WordPress REST API. Sorting/Orderby for custom meta fields in WordPress and fixing &#8220;Invalid parameter(s): orderby&#8221;</title>
-		<link>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/</link>
-					<comments>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 24 Jan 2022 00:24:34 +0000</pubDate>
@@ -421,15 +421,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>That&#8217;s it. If you </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>WordPress Bulk Delete All comments</title>
-		<link>/2021/02/24/wordpress-bulk-delete-all-comments/</link>
-					<comments>/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 18:35:20 +0000</pubDate>
@@ -552,15 +552,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Fixing the WordPress “500 Internal Server Error” while upgrading the server to 7.3 in Cpanel</title>
-		<link>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/</link>
-					<comments>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 25 Nov 2019 19:32:49 +0000</pubDate>
@@ -588,15 +588,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>I hope it helps you!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Keeping wordpress Clean</title>
-		<link>/2019/01/24/keeping-wordpress-clean/</link>
-					<comments>/2019/01/24/keeping-wordpress-clean/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/01/24/keeping-wordpress-clean/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/01/24/keeping-wordpress-clean/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 24 Jan 2019 12:18:59 +0000</pubDate>
@@ -632,15 +632,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>If anyone has ideas on how they keep their wordpress site clean and running fast please share your ideas in the comments below. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/01/24/keeping-wordpress-clean/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/01/24/keeping-wordpress-clean/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Gutenberg and Pods shortcode.</title>
-		<link>/2019/01/24/gutenberg-and-pods-shortcode/</link>
-					<comments>/2019/01/24/gutenberg-and-pods-shortcode/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/01/24/gutenberg-and-pods-shortcode/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/01/24/gutenberg-and-pods-shortcode/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 24 Jan 2019 11:59:38 +0000</pubDate>
@@ -684,15 +684,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>If someone has a better solution please post it in the comments below. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/01/24/gutenberg-and-pods-shortcode/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/01/24/gutenberg-and-pods-shortcode/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How To Create A WordPress Plugin</title>
-		<link>/2018/12/21/how-to-create-a-wordpress-plugin/</link>
-					<comments>/2018/12/21/how-to-create-a-wordpress-plugin/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2018/12/21/how-to-create-a-wordpress-plugin/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2018/12/21/how-to-create-a-wordpress-plugin/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 21 Dec 2018 16:54:52 +0000</pubDate>
@@ -1067,15 +1067,15 @@ add_action( 'wp_head', array( &amp;$this, 'putToHeader' ) );</code></pre>
 <p>Hope this article might have helped you learn the basics about the WordPress plugins. Please leave your comments below. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/12/21/how-to-create-a-wordpress-plugin/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2018/12/21/how-to-create-a-wordpress-plugin/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>WordPress Glutenberg. Test drive.</title>
-		<link>/2018/12/12/wordpress-glutenberg-test-drive/</link>
-					<comments>/2018/12/12/wordpress-glutenberg-test-drive/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2018/12/12/wordpress-glutenberg-test-drive/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2018/12/12/wordpress-glutenberg-test-drive/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 12 Dec 2018 21:27:00 +0000</pubDate>
@@ -1171,7 +1171,7 @@ add_action( 'wp_head', array( &amp;$this, 'putToHeader' ) );</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/12/12/wordpress-glutenberg-test-drive/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2018/12/12/wordpress-glutenberg-test-drive/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

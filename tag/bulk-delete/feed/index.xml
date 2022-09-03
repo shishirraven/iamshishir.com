@@ -9,8 +9,8 @@
 
 <channel>
 	<title>bulk delete &#8211; Shishir Raven</title>
-	<atom:link href="/tag/bulk-delete/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/tag/bulk-delete/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Wed, 24 Feb 2021 18:35:20 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>bulk delete &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>WordPress Bulk Delete All comments</title>
-		<link>/2021/02/24/wordpress-bulk-delete-all-comments/</link>
-					<comments>/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 18:35:20 +0000</pubDate>
@@ -153,7 +153,7 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

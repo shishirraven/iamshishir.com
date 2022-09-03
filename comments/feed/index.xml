@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Shishir Raven	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Sat, 03 Sep 2022 21:27:57 +0000</lastBuildDate>
 	<sy:updatePeriod>

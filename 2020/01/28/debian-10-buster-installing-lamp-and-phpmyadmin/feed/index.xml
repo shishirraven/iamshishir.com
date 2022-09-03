@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Debian 10 Buster, Installing LAMP and PHPMyAdmin	</title>
-	<atom:link href="/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/feed/" rel="self" type="application/rss+xml" />
-	<link>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/</link>
 	<description>I code things</description>
 	<lastBuildDate>Tue, 28 Jan 2020 18:44:39 +0000</lastBuildDate>
 	<sy:updatePeriod>

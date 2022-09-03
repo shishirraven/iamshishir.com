@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Vue 3 &#8211; Shishir Raven</title>
-	<atom:link href="/category/vue-3/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/vue-3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Sun, 17 Jul 2022 15:35:35 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Vue 3 &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hosting VueJS Project on Github Pages</title>
-		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
-					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
@@ -99,15 +99,15 @@ export default defineConfig({
 <p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Adding Sortable to a List in VueJS 3 in 3 Simple steps.</title>
-		<link>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
-					<comments>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 30 Mar 2022 01:48:18 +0000</pubDate>
@@ -166,15 +166,15 @@ export default {
 <p> </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Fastest way to use ⚡ Vite + Vue 3 + Tailwind CSS ✔</title>
-		<link>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
-					<comments>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 12 Feb 2022 15:46:58 +0000</pubDate>
@@ -238,7 +238,7 @@ npm run serve</pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

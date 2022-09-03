@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Delhi &#8211; Shishir Raven</title>
-	<atom:link href="/category/delhi/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/delhi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Mon, 04 Mar 2019 18:21:24 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Delhi &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Am I Hopeful about  Delhi? Parking, Illegal Constructions, Cleanliness.</title>
-		<link>/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/</link>
-					<comments>/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 04 Mar 2019 18:21:24 +0000</pubDate>
@@ -82,15 +82,15 @@
 <p>Write in comments what you think.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/04/hopeful-about-delhi-parking-illegal-constructions-cleanliness/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Solutions to Delhi&#8217;s Air Pollution that I can think of.</title>
-		<link>/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/</link>
-					<comments>/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 12 Dec 2018 22:33:27 +0000</pubDate>
@@ -178,7 +178,7 @@ Mostly the reason people spend so much time on the road is the condition of road
 <p>Please leave comment on what you think is a solution.&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2018/12/12/air-that-we-breathe-is-getting-worse-but-what-is-the-solution/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

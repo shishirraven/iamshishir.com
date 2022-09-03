@@ -9,8 +9,8 @@
 
 <channel>
 	<title>How to &#8211; Shishir Raven</title>
-	<atom:link href="/category/how-to/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/how-to/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Fri, 01 Mar 2019 14:14:55 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>How to &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>How to use multiple canvas for Paper JS on a single page?</title>
-		<link>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/</link>
-					<comments>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 01 Mar 2019 14:14:55 +0000</pubDate>
@@ -69,15 +69,15 @@ myCircle.fillColor = 'green';</code></pre>
 <p>I am currently building a complex application which includes drawing architectural layouts. And I need to make multiple canvases to be working in VueJS loops. Please comment and let me know if anyone has good Ideas about how I can make that happen. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to make a Bootstrap Menu active in a Single Page Website</title>
-		<link>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/</link>
-					<comments>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 01 Mar 2019 14:03:50 +0000</pubDate>
@@ -143,15 +143,15 @@ myCircle.fillColor = 'green';</code></pre>
 <p>That&#8217;s it. This will get our job done. ?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Paper JS : Drawing Rectangle with independent Rounded Corners.</title>
-		<link>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/</link>
-					<comments>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 29 Jan 2019 21:54:37 +0000</pubDate>
@@ -311,7 +311,7 @@ rectangle.fullySelected = false;</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

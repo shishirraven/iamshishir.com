@@ -9,8 +9,8 @@
 
 <channel>
 	<title>puppeteer &#8211; Shishir Raven</title>
-	<atom:link href="/category/puppeteer/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/puppeteer/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Mon, 18 Apr 2022 20:22:53 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>puppeteer &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Automatically extracting price from Amazon.com</title>
-		<link>/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
-					<comments>/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 18 Apr 2022 20:22:53 +0000</pubDate>
@@ -72,7 +72,7 @@ let browser;
 ;</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

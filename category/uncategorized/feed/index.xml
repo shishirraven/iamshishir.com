@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; Shishir Raven</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Fri, 15 Jul 2022 18:23:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Uncategorized &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Finally Microsoft has build the feature that I was looking for. It&#8217;s Focus Sessions.</title>
-		<link>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
-					<comments>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 15 Jul 2022 18:23:39 +0000</pubDate>
@@ -76,15 +76,15 @@
 <p>Let me know what you think about this feature. !</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to Speed up Project Development with a .bat file.</title>
-		<link>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
-					<comments>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 09:47:11 +0000</pubDate>
@@ -136,15 +136,15 @@
 <pre class="wp-block-code"><code>del yourdb.sql</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to avoid node_modules folder in Zip.</title>
-		<link>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
-					<comments>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 29 Apr 2022 08:59:32 +0000</pubDate>
@@ -186,15 +186,15 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Crowdsourcing, what it is, types, benefits and how you can use it.</title>
-		<link>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/</link>
-					<comments>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 20 Feb 2021 16:31:16 +0000</pubDate>
@@ -693,15 +693,15 @@
 <div style="height:59px" aria-hidden="true" class="wp-block-spacer"></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to write articles faster?</title>
-		<link>/2021/02/06/how-to-write-articles-faster/</link>
-					<comments>/2021/02/06/how-to-write-articles-faster/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/02/06/how-to-write-articles-faster/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/02/06/how-to-write-articles-faster/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 06 Feb 2021 06:11:24 +0000</pubDate>
@@ -997,15 +997,15 @@
 <figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-990" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/06/how-to-write-articles-faster/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/02/06/how-to-write-articles-faster/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to access your localhost from Anywhere</title>
-		<link>/2020/04/11/how-to-access-your-localhost-from-anywhere/</link>
-					<comments>/2020/04/11/how-to-access-your-localhost-from-anywhere/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/04/11/how-to-access-your-localhost-from-anywhere/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/04/11/how-to-access-your-localhost-from-anywhere/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 11 Apr 2020 16:06:35 +0000</pubDate>
@@ -1053,15 +1053,15 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/04/11/how-to-access-your-localhost-from-anywhere/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/04/11/how-to-access-your-localhost-from-anywhere/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Vtiger Opensource showing blank page after Installation and logout.</title>
-		<link>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/</link>
-					<comments>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 01 Apr 2020 15:44:42 +0000</pubDate>
@@ -1078,15 +1078,15 @@
 // $news = $modelInstance->getNews();</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Zip only specific extensions on Linux/Debian</title>
-		<link>/2020/03/31/zip-only-specific-extensions-on-linux-debian/</link>
-					<comments>/2020/03/31/zip-only-specific-extensions-on-linux-debian/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/03/31/zip-only-specific-extensions-on-linux-debian/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/03/31/zip-only-specific-extensions-on-linux-debian/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 31 Mar 2020 13:45:57 +0000</pubDate>
@@ -1114,15 +1114,15 @@
 <pre class="wp-block-code"><code>zip -r foo website_folder -i '*.php' '*.html' '*.js' '*.css'</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/03/31/zip-only-specific-extensions-on-linux-debian/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/03/31/zip-only-specific-extensions-on-linux-debian/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Debian 10 Buster, Installing LAMP and PHPMyAdmin</title>
-		<link>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/</link>
-					<comments>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 28 Jan 2020 18:44:39 +0000</pubDate>
@@ -1236,15 +1236,15 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON phpmyadmin.* TO 'pma'@'localhost'</code>
 <p>I am thankful for all the authors who have written all the above articles it was a great help. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Finding the heaviest files or folders in Debian.</title>
-		<link>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/</link>
-					<comments>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 24 Jan 2020 16:37:50 +0000</pubDate>
@@ -1305,7 +1305,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON phpmyadmin.* TO 'pma'@'localhost'</code>
 <p>Thanks</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

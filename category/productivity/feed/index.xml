@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Productivity &#8211; Shishir Raven</title>
-	<atom:link href="/category/productivity/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/productivity/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Thu, 23 Apr 2020 01:10:25 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Productivity &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>How to Automate Backup for PHP &#038; MySQL Project on Google Drive.</title>
-		<link>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
-					<comments>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 23 Apr 2020 01:10:25 +0000</pubDate>
@@ -187,15 +187,15 @@ set /p id="Press any key to exit."
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Why starting early is good.</title>
-		<link>/2019/01/03/why-starting-early-is-good/</link>
-					<comments>/2019/01/03/why-starting-early-is-good/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/01/03/why-starting-early-is-good/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/01/03/why-starting-early-is-good/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 03 Jan 2019 07:06:36 +0000</pubDate>
@@ -211,15 +211,15 @@ set /p id="Press any key to exit."
 <p>So it&#8217;s good to keep a time buffer. Time buffer gives spaced out time to your mind to remember and focus on details which cannot be captured in a plan. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/01/03/why-starting-early-is-good/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/01/03/why-starting-early-is-good/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Being Organized.</title>
-		<link>/2018/12/30/being-organized/</link>
-					<comments>/2018/12/30/being-organized/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2018/12/30/being-organized/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2018/12/30/being-organized/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sun, 30 Dec 2018 15:17:48 +0000</pubDate>
@@ -295,7 +295,7 @@ set /p id="Press any key to exit."
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/12/30/being-organized/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2018/12/30/being-organized/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

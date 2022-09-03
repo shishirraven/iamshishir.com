@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PHP &#8211; Shishir Raven</title>
-	<atom:link href="/category/php/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/php/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Wed, 03 Feb 2021 21:44:27 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>PHP &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>PHP Function for Generating Random Number &#038; Random Digits placeholder.</title>
-		<link>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/</link>
-					<comments>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/02/03/function-for-generating-random-number-random-digits-placeholder/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/02/03/function-for-generating-random-number-random-digits-placeholder/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 21:44:27 +0000</pubDate>
@@ -115,15 +115,15 @@ echo $result;
 <p>If you are are developer and need help in coding or want to outsource your work. Please contact me on my Email ID : shishir.raven@gmail.com or my Skype ID : shishir.raven</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/02/03/function-for-generating-random-number-random-digits-placeholder/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to Automate Backup for PHP &#038; MySQL Project on Google Drive.</title>
-		<link>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
-					<comments>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 23 Apr 2020 01:10:25 +0000</pubDate>
@@ -280,15 +280,15 @@ set /p id="Press any key to exit."
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Image Optimization in PHP</title>
-		<link>/2020/04/16/image-optimization-in-php/</link>
-					<comments>/2020/04/16/image-optimization-in-php/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/04/16/image-optimization-in-php/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/04/16/image-optimization-in-php/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 16 Apr 2020 18:41:54 +0000</pubDate>
@@ -348,15 +348,15 @@ set /p id="Press any key to exit."
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/04/16/image-optimization-in-php/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/04/16/image-optimization-in-php/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to duplicate a tree-like nested structure in Database</title>
-		<link>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/</link>
-					<comments>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 01 Jan 2020 21:16:23 +0000</pubDate>
@@ -473,15 +473,15 @@ foreach($new_folder_ids as $new_id)
 <p>The above is a sample quote of I achieve it. <br>It was a little challenging. I am definitely going to put this in the Machine test for the people I hire for programming. <br><br>If you need help in solving a similar issue you can contact me. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How Email Verification works on Registration in PHP</title>
-		<link>/2019/03/14/how-email-verification-works-on-registration/</link>
-					<comments>/2019/03/14/how-email-verification-works-on-registration/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/14/how-email-verification-works-on-registration/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/14/how-email-verification-works-on-registration/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 14 Mar 2019 13:44:06 +0000</pubDate>
@@ -509,15 +509,15 @@ foreach($new_folder_ids as $new_id)
 <p>a. User Register by filling a form. <br><br>b. The information which he fills is store in a table along with a <strong>random generated code. </strong><br><br>c. <strong>An Email Verification mail is sent to the user</strong> that contains a <strong>Verification link</strong> which is advised to be clicked. <br>This link looks similar to the following. <br>http://your-site.com/verify_email.php?email=a@a.com&amp;unique_code=xy13z <br><br>d. When user clicks on this link the page request is sent and the<strong> code and the email is sent as GET variables.</strong> <br><br>e. When <strong>server receives this URL request</strong> it can <strong>check the email and unique code in the database for a match.</strong> <br><br>f. If a <strong>match is found</strong> the <strong>column containing the email verification status is updated </strong>and the user may be redirected to the login page. <br><br>That&#8217;s it. ?</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/14/how-email-verification-works-on-registration/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/14/how-email-verification-works-on-registration/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to send an HTML Mail using Pear:Mail.</title>
-		<link>/2019/03/13/how-to-send-an-html-mail-using-pearmail/</link>
-					<comments>/2019/03/13/how-to-send-an-html-mail-using-pearmail/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/13/how-to-send-an-html-mail-using-pearmail/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/13/how-to-send-an-html-mail-using-pearmail/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 13 Mar 2019 12:39:29 +0000</pubDate>
@@ -581,15 +581,15 @@ $smtp = Mail::factory('smtp',
  ?></code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/13/how-to-send-an-html-mail-using-pearmail/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/13/how-to-send-an-html-mail-using-pearmail/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Making Pear:Mail Package to  work on Xampp</title>
-		<link>/2019/03/12/making-pearmail-package-to-work-on-xampp/</link>
-					<comments>/2019/03/12/making-pearmail-package-to-work-on-xampp/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/12/making-pearmail-package-to-work-on-xampp/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/12/making-pearmail-package-to-work-on-xampp/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 12 Mar 2019 19:04:04 +0000</pubDate>
@@ -681,15 +681,15 @@ pear install -a Net_SMTP</code></pre>
 <p>To learn about how to send emails using SMTP account from PHP Read this post. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/12/making-pearmail-package-to-work-on-xampp/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/12/making-pearmail-package-to-work-on-xampp/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to insert data into a MySQL table in PHP</title>
-		<link>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/</link>
-					<comments>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 11 Mar 2019 13:04:53 +0000</pubDate>
@@ -960,7 +960,7 @@ header("Location:success.php");
 <p>Best of luck.  ? <br>Keep experimenting. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

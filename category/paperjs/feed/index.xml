@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PaperJS &#8211; Shishir Raven</title>
-	<atom:link href="/category/paperjs/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/paperjs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Wed, 15 Sep 2021 16:21:06 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>PaperJS &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Multiple Dividing a Path/Shape into multiple parts in PaperJS. Solution.</title>
-		<link>/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/</link>
-					<comments>/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 15 Sep 2021 16:21:06 +0000</pubDate>
@@ -146,15 +146,15 @@ var partsGroup = splitShape(myCircle,path)
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/09/15/multiple-dividing-a-path-shape-into-multiple-parts-in-paperjs/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to Draw an Ellipsis inside a Quadrilateral with 4 points in Paper JS.</title>
-		<link>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/</link>
-					<comments>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 22 Mar 2021 13:14:15 +0000</pubDate>
@@ -256,15 +256,15 @@ path2.fillColor = 'pink'
 <p>In this function, I use Quadratic Curve to create the Ellipsis. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Zoom to fit objects in Paper JS.</title>
-		<link>/2019/03/05/zoom-to-fit-objects-in-paper-js/</link>
-					<comments>/2019/03/05/zoom-to-fit-objects-in-paper-js/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/05/zoom-to-fit-objects-in-paper-js/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/05/zoom-to-fit-objects-in-paper-js/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 05 Mar 2019 15:05:54 +0000</pubDate>
@@ -313,15 +313,15 @@ $(document).ready(function()
 <div class="wp-block-ugb-button ugb-button-wrapper ugb-button--align-center"><div><a class="ugb-button ugb-button--align-center ugb-button--size-normal ugb-button--has-icon" href="https://jsfiddle.net/shishirraven/j67Lwdfp/" style="border-radius:49px" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" data-icon="play-circle" class="svg-inline--fa ugbfa-play-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" value="fas-play-circle"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg><span class="ugb-button--inner">Demo on JsFiddle</span></a></div></div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/05/zoom-to-fit-objects-in-paper-js/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/05/zoom-to-fit-objects-in-paper-js/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to use multiple canvas for Paper JS on a single page?</title>
-		<link>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/</link>
-					<comments>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 01 Mar 2019 14:14:55 +0000</pubDate>
@@ -360,15 +360,15 @@ myCircle.fillColor = 'green';</code></pre>
 <p>I am currently building a complex application which includes drawing architectural layouts. And I need to make multiple canvases to be working in VueJS loops. Please comment and let me know if anyone has good Ideas about how I can make that happen. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Paper JS : Drawing Rectangle with independent Rounded Corners.</title>
-		<link>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/</link>
-					<comments>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 29 Jan 2019 21:54:37 +0000</pubDate>
@@ -528,15 +528,15 @@ rectangle.fullySelected = false;</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Finding closest Point on the line Javascript function with Paper JS Example.</title>
-		<link>/2018/12/20/finding-closest-point-on-the-line/</link>
-					<comments>/2018/12/20/finding-closest-point-on-the-line/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2018/12/20/finding-closest-point-on-the-line/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2018/12/20/finding-closest-point-on-the-line/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 20 Dec 2018 16:01:45 +0000</pubDate>
@@ -593,7 +593,7 @@ rectangle.fullySelected = false;</code></pre>
 <script async="" src="//jsfiddle.net/shishirraven/4dmjh0sa/45/embed/js,html,css,result/dark/"></script>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/12/20/finding-closest-point-on-the-line/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2018/12/20/finding-closest-point-on-the-line/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

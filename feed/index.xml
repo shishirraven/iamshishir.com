@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Shishir Raven</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Sat, 03 Sep 2022 21:27:57 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Snake &#038; Ladders Multiplayer Game.</title>
-		<link>/2022/08/21/snake-ladders-multiplayer-game/</link>
-					<comments>/2022/08/21/snake-ladders-multiplayer-game/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/08/21/snake-ladders-multiplayer-game/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/08/21/snake-ladders-multiplayer-game/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sun, 21 Aug 2022 23:25:48 +0000</pubDate>
@@ -75,15 +75,15 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/08/21/snake-ladders-multiplayer-game/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/08/21/snake-ladders-multiplayer-game/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Removing all the Default Theme Javascript and CSS from a WordPress Template.</title>
-		<link>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
-					<comments>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 17:25:09 +0000</pubDate>
@@ -161,15 +161,15 @@ add_action( 'wp_enqueue_scripts', 'goals_enqueue_stuff',1000 );</code></pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hosting VueJS Project on Github Pages</title>
-		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
-					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
@@ -238,15 +238,15 @@ export default defineConfig({
 <p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Finally Microsoft has build the feature that I was looking for. It&#8217;s Focus Sessions.</title>
-		<link>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
-					<comments>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 15 Jul 2022 18:23:39 +0000</pubDate>
@@ -292,15 +292,15 @@ export default defineConfig({
 <p>Let me know what you think about this feature. !</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Why is somebody not working on these ideas</title>
-		<link>/2022/07/14/why-is-somebody-not-working-on-these-ideas/</link>
-					<comments>/2022/07/14/why-is-somebody-not-working-on-these-ideas/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/14/why-is-somebody-not-working-on-these-ideas/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/14/why-is-somebody-not-working-on-these-ideas/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 14 Jul 2022 05:01:14 +0000</pubDate>
@@ -332,15 +332,15 @@ export default defineConfig({
 <p>And publish and promote such ideas and designs.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/14/why-is-somebody-not-working-on-these-ideas/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/14/why-is-somebody-not-working-on-these-ideas/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to Speed up Project Development with a .bat file.</title>
-		<link>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
-					<comments>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 09:47:11 +0000</pubDate>
@@ -392,15 +392,15 @@ export default defineConfig({
 <pre class="wp-block-code"><code>del yourdb.sql</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to avoid node_modules folder in Zip.</title>
-		<link>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
-					<comments>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Fri, 29 Apr 2022 08:59:32 +0000</pubDate>
@@ -442,15 +442,15 @@ export default defineConfig({
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Automatically extracting price from Amazon.com</title>
-		<link>/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
-					<comments>/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Mon, 18 Apr 2022 20:22:53 +0000</pubDate>
@@ -492,15 +492,15 @@ let browser;
 ;</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Custom Post Type returning only posts belonging to the Author in WordPress REST API</title>
-		<link>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
-					<comments>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Tue, 05 Apr 2022 06:52:47 +0000</pubDate>
@@ -547,15 +547,15 @@ add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
 <p>Suppose you are providing a solution where user wants the user to post and some entries into WordPress custom post type(CPT). there you can apply this solution. </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Adding Sortable to a List in VueJS 3 in 3 Simple steps.</title>
-		<link>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
-					<comments>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 30 Mar 2022 01:48:18 +0000</pubDate>
@@ -614,7 +614,7 @@ export default {
 <p> </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

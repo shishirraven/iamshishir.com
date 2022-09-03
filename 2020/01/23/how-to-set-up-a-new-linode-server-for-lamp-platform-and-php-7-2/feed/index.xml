@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: PHP 7.3 LAMP Setup on Linode, Simple steps	</title>
-	<atom:link href="/2020/01/23/how-to-set-up-a-new-linode-server-for-lamp-platform-and-php-7-2/feed/" rel="self" type="application/rss+xml" />
-	<link>/2020/01/23/how-to-set-up-a-new-linode-server-for-lamp-platform-and-php-7-2/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/2020/01/23/how-to-set-up-a-new-linode-server-for-lamp-platform-and-php-7-2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/2020/01/23/how-to-set-up-a-new-linode-server-for-lamp-platform-and-php-7-2/</link>
 	<description>I code things</description>
 	<lastBuildDate>Thu, 23 Jan 2020 14:48:19 +0000</lastBuildDate>
 	<sy:updatePeriod>

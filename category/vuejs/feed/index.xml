@@ -9,8 +9,8 @@
 
 <channel>
 	<title>VueJS &#8211; Shishir Raven</title>
-	<atom:link href="/category/vuejs/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://shishirraven.github.io/iamshishir.com/category/vuejs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<description>I code things</description>
 	<lastBuildDate>Sun, 17 Jul 2022 15:35:35 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,14 +23,14 @@
 <image>
 	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
 	<title>VueJS &#8211; Shishir Raven</title>
-	<link>/</link>
+	<link>https://shishirraven.github.io/iamshishir.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hosting VueJS Project on Github Pages</title>
-		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
-					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
@@ -99,15 +99,15 @@ export default defineConfig({
 <p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Fastest way to use ⚡ Vite + Vue 3 + Tailwind CSS ✔</title>
-		<link>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
-					<comments>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 12 Feb 2022 15:46:58 +0000</pubDate>
@@ -171,15 +171,15 @@ npm run serve</pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Setting Predefined names for JS chunks on VueJS Build.</title>
-		<link>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/</link>
-					<comments>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 05 Feb 2022 18:59:11 +0000</pubDate>
@@ -277,15 +277,15 @@ npm run serve</pre>
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to use Bootstrap SASS with VueJS.</title>
-		<link>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/</link>
-					<comments>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Thu, 03 Feb 2022 20:01:09 +0000</pubDate>
@@ -404,15 +404,15 @@ npm run serve</pre>
 <p>That&#8217;s it, If you are looking for developer to work along with you on a VueJS project or any interesting project or just want to say hi. Drop me an email at shishir.raven@gmail.com </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Firebase Authentication for a VueJS project.</title>
-		<link>/2021/10/09/firebase-authentication-for-a-vuejs-project/</link>
-					<comments>/2021/10/09/firebase-authentication-for-a-vuejs-project/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2021/10/09/firebase-authentication-for-a-vuejs-project/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2021/10/09/firebase-authentication-for-a-vuejs-project/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Sat, 09 Oct 2021 05:52:52 +0000</pubDate>
@@ -440,15 +440,15 @@ npm run serve</pre>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/10/09/firebase-authentication-for-a-vuejs-project/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2021/10/09/firebase-authentication-for-a-vuejs-project/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Basics before learning Vue JS</title>
-		<link>/2019/03/06/basics-before-learning-vue-js/</link>
-					<comments>/2019/03/06/basics-before-learning-vue-js/#respond</comments>
+		<link>https://shishirraven.github.io/iamshishir.com/2019/03/06/basics-before-learning-vue-js/</link>
+					<comments>https://shishirraven.github.io/iamshishir.com/2019/03/06/basics-before-learning-vue-js/#respond</comments>
 		
 		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
 		<pubDate>Wed, 06 Mar 2019 21:48:46 +0000</pubDate>
@@ -600,7 +600,7 @@ npm run serve</pre>
 <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik &#8211; www.freepik.com</a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2019/03/06/basics-before-learning-vue-js/feed/</wfw:commentRss>
+					<wfw:commentRss>https://shishirraven.github.io/iamshishir.com/2019/03/06/basics-before-learning-vue-js/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
