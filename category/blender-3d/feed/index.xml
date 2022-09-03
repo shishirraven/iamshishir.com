@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blender 3D &#8211; Shishir Raven</title>
+	<atom:link href="/category/blender-3d/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sun, 17 Mar 2019 20:31:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Blender 3D &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Blender 3D. When you do not have numpad</title>
+		<link>/2019/03/17/blender-3d-when-you-do-not-have-numpad/</link>
+					<comments>/2019/03/17/blender-3d-when-you-do-not-have-numpad/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 17 Mar 2019 20:31:26 +0000</pubDate>
+				<category><![CDATA[Blender 3D]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=426</guid>
+
+					<description><![CDATA[There are many shortcuts in Blender that use numpads. Mostly keyboards on the laptop do not have a numpad. And so when I try to hit shortcuts such as Num 7 for a top view. It does not work. Hopefully, there is a solution to that. There is a setting under user preferences that can [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>There are many shortcuts in Blender that use numpads. Mostly keyboards on the laptop do not have a numpad. And so when I try to hit shortcuts such as Num 7 for a top view. It does not work. </p>
+
+
+
+<span id="more-426"></span>
+
+
+
+<p>Hopefully, there is a solution to that. <br>There is a setting under user preferences that can help called <strong>Emulate Numpad </strong> once you tick that you can use the number keys right above your number pad to use the shortcuts. </p>
+
+
+
+<p>See the following screenshot to find where the options exists. <br>File &gt; User Preferences &gt; Input Tab </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img width="776" height="646" src="https://iamshishir.com/wp-content/uploads/2019/03/image-18.png" alt="" class="wp-image-427" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095337/image-18.png 776w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095337/image-18-300x250.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095337/image-18-768x639.png 768w" sizes="(max-width: 776px) 100vw, 776px" /></figure></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/17/blender-3d-when-you-do-not-have-numpad/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

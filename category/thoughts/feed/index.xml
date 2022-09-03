@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Thoughts &#8211; Shishir Raven</title>
+	<atom:link href="/category/thoughts/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 14 Jul 2022 05:01:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Thoughts &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Why is somebody not working on these ideas</title>
+		<link>/2022/07/14/why-is-somebody-not-working-on-these-ideas/</link>
+					<comments>/2022/07/14/why-is-somebody-not-working-on-these-ideas/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 14 Jul 2022 05:01:14 +0000</pubDate>
+				<category><![CDATA[Thoughts]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1212</guid>
+
+					<description><![CDATA[Well efficiency is missing in our current usage of resources like the use of electricity. Like I miss switching off the fan when I leave the room. Couldn&#8217;t an automated system which could detect an empty room for 5 minutes and turn off the fan a brilliant idea. One of the similar ideas is the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well efficiency is missing in our current usage of resources like the use of electricity. Like I miss switching off the fan when I leave the room.</p>
+
+
+
+<p>Couldn&#8217;t an automated system which could detect an empty room for 5 minutes and turn off the fan a brilliant idea.</p>
+
+
+
+<p>One of the similar ideas is the use of natural light. Could we design our buildings in a more sustainable ways.</p>
+
+
+
+<p>It always strikes me the how many lights fill a showroom. Could there be a way we could design in such a way that natural light could replace it as much as possible.</p>
+
+
+
+<p>I think government should run design and innovation competitions to innovate this.</p>
+
+
+
+<p>And publish and promote such ideas and designs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/14/why-is-somebody-not-working-on-these-ideas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

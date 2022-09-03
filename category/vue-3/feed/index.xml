@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Vue 3 &#8211; Shishir Raven</title>
+	<atom:link href="/category/vue-3/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sun, 17 Jul 2022 15:35:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Vue 3 &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hosting VueJS Project on Github Pages</title>
+		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1222</guid>
+
+					<description><![CDATA[Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. I added the base URL to the vite config file. I added the base also to the router [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. </p>
+
+
+
+<p>I added the base URL to the vite config file. </p>
+
+
+
+<pre class="wp-block-code"><code>import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path'
+
+export default defineConfig({
+  base: "/bravevue/",
+  plugins: &#91;vue()],
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
+    },
+  },
+  server: {
+    open: true,
+  },
+});
+</code></pre>
+
+
+
+<p>I added the base also to the router file. </p>
+
+
+
+<pre class="wp-block-code"><code>const router = createRouter({
+  history: createWebHistory("/bravevue/"),
+  routes,
+  linkActiveClass: "dark:bg-slate-800 ",
+});</code></pre>
+
+
+
+<p>Well even after this the code did not worked fine if we refresh the page. So I had to make a copy of index.html to 404.html. This is a work around through it sends a 404 error to the browser anyways. </p>
+
+
+
+<p>I wish there could be a more elegant solution to this but for now it works. </p>
+
+
+
+<p>That&#8217;s it. </p>
+
+
+
+<p>I am building a open source component library called <a href="https://shishirraven.github.io/bravevue/">bravevue</a> if you are looking for a customized headless UI library you are free to use this. </p>
+
+
+
+<p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Adding Sortable to a List in VueJS 3 in 3 Simple steps.</title>
+		<link>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
+					<comments>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2022 01:48:18 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1164</guid>
+
+					<description><![CDATA[Step 1. Install vue.draggable.next Step 2 : Import and add as component Step 2 : Use it as follows to create a Loop. Note: Don&#8217;t replace &#8220;element&#8221; with the model name. I was making this mistake and it took me a while that it has to remain as element name only.]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p><br><strong>Step 1</strong>. Install vue.draggable.next</p>
+
+
+
+<pre class="wp-block-code"><code>yarn add vuedraggable@next
+
+npm i -S vuedraggable@next</code></pre>
+
+
+
+<p><strong>Step 2 :</strong> Import and add as component</p>
+
+
+
+<pre class="wp-block-code"><code>import draggable from 'vuedraggable';
+export default {
+  components:{draggable},
+...</code></pre>
+
+
+
+<p>Step 2 : Use it as follows to create a Loop. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;draggable group="node"  v-model="posts" item-key="id"&gt;
+        &lt;template #item="{ element, index }" &gt;
+            &lt;div&gt;{{ element.title }}&lt;/div&gt;
+        &lt;/template&gt;
+&lt;/draggable&gt;
+   
+</code></pre>
+
+
+
+<p>Note: Don&#8217;t replace &#8220;element&#8221; with the model name. I was making this mistake and it took me a while that it has to remain as element name only. </p>
+
+
+
+<p></p>
+
+
+
+<p> </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fastest way to use ⚡ Vite + Vue 3 + Tailwind CSS ✔</title>
+		<link>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
+					<comments>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 12 Feb 2022 15:46:58 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1014</guid>
+
+					<description><![CDATA[This starter template includes: Vite 3 Vue 3 Tailwind CSS 3 Vue Router Getting Started Run the following inside your new project folder. npx degit shishirraven/vue_tailwind_starter_template npm i npm run dev npm run build npm run serve Vue 3 + Vite This template should help get you started developing with Vue 3 in Vite. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img width="960" height="540" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3.png" alt="" class="wp-image-1228" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3.png 960w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3-300x169.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3-768x432.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p></p>
+
+
+
+<p>This starter template includes:</p>
+
+
+
+<ul><li><a href="https://vitejs.dev/guide/">Vite 3</a></li><li><a href="https://vuejs.org/guide/introduction.html">Vue 3</a></li><li><a href="https://tailwindcss.com/docs/configuration">Tailwind CSS 3</a></li><li><a href="https://github.com/vuejs/router">Vue Router</a></li></ul>
+
+
+
+<h3><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md#getting-started"></a>Getting Started</h3>
+
+
+
+<p>Run the following inside your new project folder.</p>
+
+
+
+<pre class="wp-block-preformatted">npx degit shishirraven/vue_tailwind_starter_template</pre>
+
+
+
+<pre class="wp-block-preformatted">npm i
+npm run dev
+npm run build
+npm run serve</pre>
+
+
+
+<h1><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md#vue-3--vite"></a>Vue 3 + Vite</h1>
+
+
+
+<p>This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3&nbsp;<code>&lt;script setup&gt;</code>&nbsp;SFCs, check out the&nbsp;<a href="https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup">script setup docs</a>&nbsp;to learn more.</p>
+
+
+
+<p><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md">https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md</a></p>
+
+
+
+<p> </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

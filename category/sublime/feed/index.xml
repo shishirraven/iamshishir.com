@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sublime &#8211; Shishir Raven</title>
+	<atom:link href="/category/sublime/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Wed, 12 Dec 2018 21:39:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Sublime &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>&#8220;New View into File&#8221; Sublime feature is what I use while editing Complex files.</title>
+		<link>/2018/12/12/new-view-into-file-sublime-feature-is-what-i-use-while-editing-complex-files/</link>
+					<comments>/2018/12/12/new-view-into-file-sublime-feature-is-what-i-use-while-editing-complex-files/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2018 21:39:07 +0000</pubDate>
+				<category><![CDATA[Sublime]]></category>
+		<guid isPermaLink="false">http://localhost/test/shishirraven/?p=14</guid>
+
+					<description><![CDATA[I am recently editing a file which is fairly complex and it contains both&#160; JS, HTML and CSS all embedded into single file. Well no one will actually advise me to use it this way because there should be probably in their own files. But for the sake of simplicity and quick editing. I decided [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<span id="more-14"></span>
+
+
+
+<p>I am recently editing a file which is fairly complex and it contains both&nbsp; JS, HTML and CSS all embedded into single file. Well no one will actually advise me to use it this way because there should be probably in their own files. But for the sake of simplicity and quick editing. I decided to keep them all into a single file.&nbsp;<br><br>Now while editing when the code becomes longer and you want to find the Variable names and copy code from the same file it becomes difficult to scroll and find the content and then scroll back to there you want to paste it.&nbsp;<br><br>Here is where I find sublimes Open &#8220;New View into file&#8221; so very useful. You can open the same file in multiple tabs. As many times as you want and then scroll independently to any section. Copy from one View to another and all views are updated automatically.&nbsp;<br><br>For me it has like saved so much effort. I am pretty much sure that all the editors must have a similar feature. Find and use it when you want to edit long files.&nbsp;<br></p>
+
+
+
+<figure class="wp-block-image is-resized"><img src="https://iamshishir.com/wp-content/uploads/2018/12/image-5.png" alt="" class="wp-image-46" width="375" height="443" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095127/image-5.png 498w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095127/image-5-254x300.png 254w" sizes="(max-width: 375px) 100vw, 375px" /></figure>
+
+
+
+<p><br></p>
+
+
+
+<p>You can find this inside &#8220;Files&#8221; menu.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/12/new-view-into-file-sublime-feature-is-what-i-use-while-editing-complex-files/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

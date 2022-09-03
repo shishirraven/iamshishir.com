@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Inkscape &#8211; Shishir Raven</title>
+	<atom:link href="/category/inkscape/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Tue, 05 Mar 2019 18:20:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Inkscape &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to import EPS in Inkscape.</title>
+		<link>/2019/03/05/how-to-import-eps-in-inkscape/</link>
+					<comments>/2019/03/05/how-to-import-eps-in-inkscape/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 18:20:05 +0000</pubDate>
+				<category><![CDATA[Inkscape]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=280</guid>
+
+					<description><![CDATA[When you try to open an EPS file into Inkscape by dragging or by double clicking you will receive an error similar to following. How to Fix this error using GhostStript? What is GhostScript?Ghostscript is a suite of software based on an interpreter for Adobe Systems&#8217; PostScript and Portable Document Format page description languages. And [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>When you try to open an EPS file into Inkscape by dragging or by double clicking you will receive an error similar to following. </p>
+
+
+
+<span id="more-280"></span>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img width="519" height="217" src="https://iamshishir.com/wp-content/uploads/2019/03/image-3.png" alt="" class="wp-image-284" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095245/image-3.png 519w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095245/image-3-300x125.png 300w" sizes="(max-width: 519px) 100vw, 519px" /><figcaption>Error that you may trying to open eps in Inkscape</figcaption></figure></div>
+
+
+
+<h2>How to Fix this error using GhostStript?</h2>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="108" height="119" src="https://iamshishir.com/wp-content/uploads/2019/03/ghostscript_logo.png" alt="" class="wp-image-285"/></figure></div>
+
+
+
+<p><strong>What is GhostScript?</strong><br>Ghostscript is a suite of software based on an interpreter for Adobe Systems&#8217; PostScript and Portable Document Format page description languages. <br><br>And Since EPS is Adobe Illustrator format GhostScript will help us in making EPS importable into Inkscape. </p>
+
+
+
+<h2>Setup on Windows.</h2>
+
+
+
+<h3>Step 1 : Install GhostScript. </h3>
+
+
+
+<p>Find the version which matches you Windows Platform download and run Installer. </p>
+
+
+
+<div class="wp-block-ugb-button ugb-button-wrapper ugb-button--align-center"><div><a class="ugb-button ugb-button--align-center ugb-button--size-normal" href="https://www.ghostscript.com/download/gsdnld.html" style="border-radius:4px" target="_blank" rel="noopener noreferrer"><span class="ugb-button--inner">Open GhostScript Download Page</span></a></div></div>
+
+
+
+<h3>Step 2 : Setup Environment Variables.</h3>
+
+
+
+<p>We need to setup two environmental variables one for &#8220;bin&#8221; folder and second for &#8220;lib&#8221; folder of GhostScript.<br><br></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="609" height="682" src="https://iamshishir.com/wp-content/uploads/2019/03/image-9.png" alt="" class="wp-image-292" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095249/image-9.png 609w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095249/image-9-268x300.png 268w" sizes="(max-width: 609px) 100vw, 609px" /></figure></div>
+
+
+
+<p></p>
+
+
+
+<p><strong>Detailed Steps to setup Environment Variables. </strong><br>a. On Windows Search type &#8220;Environment Variables&#8221; and click on the matching result. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="500" height="806" src="https://iamshishir.com/wp-content/uploads/2019/03/image-5.png" alt="" class="wp-image-287" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095246/image-5.png 500w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095246/image-5-186x300.png 186w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+
+<p><a href="https://iamshishir.com/wp-admin/index.php"></a>b. Select Path and click edit. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="723" height="793" src="https://iamshishir.com/wp-content/uploads/2019/03/image-6.png" alt="" class="wp-image-288" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095247/image-6.png 723w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095247/image-6-274x300.png 274w" sizes="(max-width: 723px) 100vw, 723px" /></figure></div>
+
+
+
+<p>c. Click on &#8220;New&#8221; and then click on &#8220;Browse&#8221;.<br></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="626" height="688" src="https://iamshishir.com/wp-content/uploads/2019/03/image-7.png" alt="" class="wp-image-289" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095247/image-7.png 626w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095247/image-7-273x300.png 273w" sizes="(max-width: 626px) 100vw, 626px" /></figure></div>
+
+
+
+<p>d. Browse to GS folder in your Program Files. (Usually its inside C drive, but find it in your machine. ) and bin folder and then lib folder</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="636" height="642" src="https://iamshishir.com/wp-content/uploads/2019/03/image-8.png" alt="" class="wp-image-290" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095248/image-8.png 636w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095248/image-8-297x300.png 297w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095248/image-8-150x150.png 150w" sizes="(max-width: 636px) 100vw, 636px" /></figure></div>
+
+
+
+<p>f. After you add both the folders they should look as following in your path folder. <br><br></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="609" height="682" src="https://iamshishir.com/wp-content/uploads/2019/03/image-10.png" alt="" class="wp-image-293" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095250/image-10.png 609w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095250/image-10-268x300.png 268w" sizes="(max-width: 609px) 100vw, 609px" /></figure></div>
+
+
+
+<h3>Done ?</h3>
+
+
+
+<p>Now if you try to open and EPS file into Inkscape by dragging or by selecting program you will get as screen similar to the following. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="633" height="629" src="https://iamshishir.com/wp-content/uploads/2019/03/image-11.png" alt="" class="wp-image-294" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095251/image-11.png 633w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095251/image-11-300x298.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095251/image-11-150x150.png 150w" sizes="(max-width: 633px) 100vw, 633px" /></figure></div>
+
+
+
+<p>Once you click the .eps will open up in InkScape!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/05/how-to-import-eps-in-inkscape/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Label Design for Daniel&#8217;s Secret, Pickle &#038; Chutney Products</title>
+		<link>/2019/03/05/label-design-for-daniels-secret/</link>
+					<comments>/2019/03/05/label-design-for-daniels-secret/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 10:20:04 +0000</pubDate>
+				<category><![CDATA[Graphic Design]]></category>
+		<category><![CDATA[Inkscape]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=248</guid>
+
+					<description><![CDATA[Tools Used :Inkscape.]]></description>
+										<content:encoded><![CDATA[
+<ul class="wp-container-2 wp-block-gallery-1 wp-block-gallery columns-2 is-cropped"><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind-709x1024.png" alt="" data-id="249" data-link="https://iamshishir.com/?attachment_id=249" class="wp-image-249" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind_back-709x1024.png" alt="" data-id="250" data-link="https://iamshishir.com/?attachment_id=250" class="wp-image-250" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit-709x1024.png" alt="" data-id="251" data-link="https://iamshishir.com/?attachment_id=251" class="wp-image-251" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="715" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit_back-715x1024.png" alt="" data-id="252" data-link="https://iamshishir.com/?attachment_id=252" class="wp-image-252" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-715x1024.png 715w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-209x300.png 209w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-768x1100.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back.png 1008w" sizes="(max-width: 715px) 100vw, 715px" /></figure></li></ul>
+
+
+
+<p><strong>Tools Used :</strong><br>Inkscape. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/05/label-design-for-daniels-secret/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

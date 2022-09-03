@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VueJS &#8211; Shishir Raven</title>
+	<atom:link href="/category/vuejs/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sun, 17 Jul 2022 15:35:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>VueJS &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hosting VueJS Project on Github Pages</title>
+		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1222</guid>
+
+					<description><![CDATA[Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. I added the base URL to the vite config file. I added the base also to the router [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. </p>
+
+
+
+<p>I added the base URL to the vite config file. </p>
+
+
+
+<pre class="wp-block-code"><code>import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path'
+
+export default defineConfig({
+  base: "/bravevue/",
+  plugins: &#91;vue()],
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
+    },
+  },
+  server: {
+    open: true,
+  },
+});
+</code></pre>
+
+
+
+<p>I added the base also to the router file. </p>
+
+
+
+<pre class="wp-block-code"><code>const router = createRouter({
+  history: createWebHistory("/bravevue/"),
+  routes,
+  linkActiveClass: "dark:bg-slate-800 ",
+});</code></pre>
+
+
+
+<p>Well even after this the code did not worked fine if we refresh the page. So I had to make a copy of index.html to 404.html. This is a work around through it sends a 404 error to the browser anyways. </p>
+
+
+
+<p>I wish there could be a more elegant solution to this but for now it works. </p>
+
+
+
+<p>That&#8217;s it. </p>
+
+
+
+<p>I am building a open source component library called <a href="https://shishirraven.github.io/bravevue/">bravevue</a> if you are looking for a customized headless UI library you are free to use this. </p>
+
+
+
+<p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fastest way to use ⚡ Vite + Vue 3 + Tailwind CSS ✔</title>
+		<link>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/</link>
+					<comments>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 12 Feb 2022 15:46:58 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1014</guid>
+
+					<description><![CDATA[This starter template includes: Vite 3 Vue 3 Tailwind CSS 3 Vue Router Getting Started Run the following inside your new project folder. npx degit shishirraven/vue_tailwind_starter_template npm i npm run dev npm run build npm run serve Vue 3 + Vite This template should help get you started developing with Vue 3 in Vite. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img width="960" height="540" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3.png" alt="" class="wp-image-1228" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3.png 960w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3-300x169.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095947/image-3-768x432.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p></p>
+
+
+
+<p>This starter template includes:</p>
+
+
+
+<ul><li><a href="https://vitejs.dev/guide/">Vite 3</a></li><li><a href="https://vuejs.org/guide/introduction.html">Vue 3</a></li><li><a href="https://tailwindcss.com/docs/configuration">Tailwind CSS 3</a></li><li><a href="https://github.com/vuejs/router">Vue Router</a></li></ul>
+
+
+
+<h3><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md#getting-started"></a>Getting Started</h3>
+
+
+
+<p>Run the following inside your new project folder.</p>
+
+
+
+<pre class="wp-block-preformatted">npx degit shishirraven/vue_tailwind_starter_template</pre>
+
+
+
+<pre class="wp-block-preformatted">npm i
+npm run dev
+npm run build
+npm run serve</pre>
+
+
+
+<h1><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md#vue-3--vite"></a>Vue 3 + Vite</h1>
+
+
+
+<p>This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3&nbsp;<code>&lt;script setup&gt;</code>&nbsp;SFCs, check out the&nbsp;<a href="https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup">script setup docs</a>&nbsp;to learn more.</p>
+
+
+
+<p><a href="https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md">https://github.com/shishirraven/vue_tailwind_starter_template/blob/main/README.md</a></p>
+
+
+
+<p> </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/02/12/fastest-way-to-use-%e2%9a%a1-vite-vue-3-tailwind-css-%e2%9c%94/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Setting Predefined names for JS chunks on VueJS Build.</title>
+		<link>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/</link>
+					<comments>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 05 Feb 2022 18:59:11 +0000</pubDate>
+				<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=973</guid>
+
+					<description><![CDATA[What is hash and why is it add it to the files while you build the project. Whenever we are generating project building a project automatically in the JS folder and which are included in the main index file have a hash attached to it. Hash is nothing but a kind of random string which [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="what-is-hash-and-why-is-it-add-it-to-the-files-while-you-build-the-project">What is hash and why is it add it to the files while you build the project. </h2>
+
+
+
+<p> Whenever we are generating project building a project automatically in the JS folder and which are included in the main index file have a hash attached to it. Hash is nothing but a kind of random string which is attached to the filename.</p>
+
+
+
+<p> Probably the reason why the hash is attached to the filename is for the purpose of removing cache every time a new version of web app appears.</p>
+
+
+
+<p> When we would have a new version automatically if the file name is different the browser will load the new files and hence if the browser keeps the JavaScript as a hash the problem of clearing the cache won&#8217;t be there. </p>
+
+
+
+<p>It&#8217;s not only the hash but you will also notice that define switch are generated might also contain a random string as for their filename. </p>
+
+
+
+<p> This property occurs when you do not keep chunk name for the router files call when you are looking to files through async components</p>
+
+
+
+<h2 id="why-do-you-need-fixed-names">Why do you need fixed names ?</h2>
+
+
+
+<p>When you need to export the project and embed it into a different project like in my case I need it VueJS application to be embedded in as WordprPress plugin, every time I made a change to my VueJS project the files which were exported on every build had different filenames. </p>
+
+
+
+<p>Having different filenames caused me to change all the scripts for chunks and the main file to be changed on my WordPress plugin. And these were like 35 files because I used async components a lot in my project. </p>
+
+
+
+<p>Now if the names of these JS files would have been fixed and not changing with every build, I would be saved of this task. </p>
+
+
+
+<p></p>
+
+
+
+<h2 id="how-i-got-the-problem-fixed-vue2-vue-cli-solution">How I got the Problem fixed? Vue2/Vue CLI Solution</h2>
+
+
+
+<p>After I researched I found that there is a setting  called <a href="https://cli.vuejs.org/config/#filenamehashing">filenameHashing</a> this is true by default and if you will turn if false the hashing stops. The following is how I used it in my vue.config.js file. </p>
+
+
+
+<div class="not-prose">
+  <script src="https://gist.github.com/shishirraven/0cb9a774a0cfe8bb13b12fd888210ca4.js"></script>
+</div>
+
+
+
+<p>After turning off the filenameHashing. </p>
+
+
+
+<p>For all the <a href="https://vuejs.org/v2/guide/components-dynamic-async.html">Async components</a> that I was loading I had to add the Chunk Name. </p>
+
+
+
+<p>To do so I added the comment on every asyc component which is looks like /* webpackChunkName: &#8220;your-chunk-name&#8221; */ And then the problem was sloved. </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/b82da3486ac7f481c12438bab9c0cbe5.js"></script>
+</div>
+
+
+
+<h2 id="same-problem-fixed-in-vue3-vite">Same problem fixed in Vue3/Vite. </h2>
+
+
+
+<p>I added build.rollupOptions.output to vite.config.js as shown below. </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/7a15c697f14c34d9a964506edad372a9.js"></script>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/02/05/setting-predefined-names-for-js-chunks-on-vuejs-build/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to use Bootstrap SASS with VueJS.</title>
+		<link>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/</link>
+					<comments>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2022 20:01:09 +0000</pubDate>
+				<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=877</guid>
+
+					<description><![CDATA[Bootstrap and why it so Good and should I use it with Vue? Bootstrap is a great CSS framework and has been dominating the CSS scene. The primary reason why bootstrap has been a great framework is the ability that it provides to not only designers but also to the developers to build UI faster. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<h2 id="bootstrap-and-why-it-so-good-and-should-i-use-it-with-vue">Bootstrap and why it so Good and should I use it with Vue?</h2>
+
+
+
+<p>Bootstrap is a great CSS framework and has been dominating the CSS scene. The primary reason why bootstrap has been a great framework is the ability that it provides to not only designers but also to the developers to build UI faster. </p>
+
+
+
+<p>Well I have been coding before all the popular frameworks started to appear and I too was looking for solutions that can make building the UI faster and better. And I was building my own CSS framework when the first version of Bootstrap arrived. It had all the features which I was building and more. </p>
+
+
+
+<p>Moreover choosing a framework was natural choice since it could easily be taught and used as a team. </p>
+
+
+
+<p>Primary reason of its huge scale success is its ability to build design in a more standard way and also minimizing the choices while you are building a design. For example previous to CSS frameworks we had to decide what width he columns should be kept and it was difficult. What I mostly did is research on the popular websites of that time and follow the pattern. </p>
+
+
+
+<p>But once CSS frameworks with CSS Grid came they provided to choose a combination form 12 blocks. This made life easier also the page looked more aligned and looked so much better. </p>
+
+
+
+<p>Vue JS again is a great front end library. What I loved most about it is its Options API, Single Page Components and loved it more because of its ability to simply be introduced in existing projects and then you can scale it up as much as you want. </p>
+
+
+
+<p>Using bootstrap with VueJS is a great idea but once I have used Tailwind CSS its hard to go back to Bootstrap framework and I will strongly recommend it if you are going to start a new project. Tailwind is much more powerful and scalable than Bootstrap. And like me once you get a hand of it it would be difficult to get back to the Bootstrap. </p>
+
+
+
+<p>But if you are already using Bootstrap in your current project then its a good idea to stick to it. </p>
+
+
+
+<h2 id="bootstrap-saasbootstrap-saas-is-something-which-makes-bootstrap-more-customizable-and-you-can-tinker-around-with-to-change-fonts-and-colors-you-can-even-update-it-completely-different-from-what-it-looks-as">Bootstrap SaaS </h2>
+
+
+
+<p id="bootstrap-saasbootstrap-saas-is-something-which-makes-bootstrap-more-customizable-and-you-can-tinker-around-with-to-change-fonts-and-colors-you-can-even-update-it-completely-different-from-what-it-looks-as">Bootstrap SaaS is something which makes  Bootstrap more customizable and you can tinker around with it to change fonts and colors, you can even update it completely different from what it looks as. </p>
+
+
+
+<p>I usually use bootstrap SaaS to remove the components that I won&#8217;t be using, this helps my project lighter. </p>
+
+
+
+<p>Moreover when you are using Bootstrap with VueJS you wont be using JavaScript based components such as dropdown, accordion, modal, carousel won&#8217;t work with VueJS out of the box. Well I won&#8217;t suggest that they be used that way. So its better to remove from SaaS the components which are not required. </p>
+
+
+
+<p>For this very reason you could try a solution like <a href="https://bootstrap-vue.org/">boostrapVue</a>  it gives you components which you can directly in your project. </p>
+
+
+
+<p>I personally do not like using these because it binds CSS directly in your project like <a href="https://vuetifyjs.com/en/">Vuetify</a> which particularly is not a very good idea to go about for a simple fact that all the projects end up looking identical and this for me makes the project look boring. (Just my opinion). </p>
+
+
+
+<p>For this same reason I started writing my own basic components like modal, dropdown, tabs etc. which can play well with any framework may it be bootstrap, tailwind or just plain CSS. Still not a full fledged library but I love the concept and is superflexible. Its callled <a href="https://shishirraven.github.io/bravevue/#/">BraveVue.</a></p>
+
+
+
+<p>Once I started building the library I also discovered that on the same concept there is another library which is available which is called <a href="https://headlessui.dev/">headless UI </a>by tailwind. You should definitely try it out. </p>
+
+
+
+<h2 id="how-to-start-using-bootstrap-in-your-vuejs-project">How to start using Bootstrap in your VueJS Project</h2>
+
+
+
+<p>There are more than one way to use Bootstrap in your project, I basically export my projects as Web App so many times I do not load bootstrap from npm rather I just put the CSS files in the index.html and that the quickest and the fastest way to setup Bootstrap in my projects. </p>
+
+
+
+<p>But if you are planning to use SasS along with the bootstrap you should install it using npm and then you can start using it. </p>
+
+
+
+<pre class="wp-block-code"><code>npm install bootstrap --save</code></pre>
+
+
+
+<p> Then you can use boostrap Sass by including and customizing components as you wish. The following is the setup that I used for <a href="https://shishirraven.github.io/bravevue/#/brave_select">BraveVue Documentation</a>. You can make your own customizations. </p>
+
+
+
+<p>All you need to do is add Boostrap components to your style sass. Usually you would need to add it to your app.vue.</p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/973340fbc5c72133913d4c220ae35af9.js"></script>
+</div>
+
+
+
+<p>You can select the components that you need from the Bootstrap and make your own color customizations to it as you wish. </p>
+
+
+
+<p>That&#8217;s it, If you are looking for developer to work along with you on a VueJS project or any interesting project or just want to say hi. Drop me an email at shishir.raven@gmail.com </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Firebase Authentication for a VueJS project.</title>
+		<link>/2021/10/09/firebase-authentication-for-a-vuejs-project/</link>
+					<comments>/2021/10/09/firebase-authentication-for-a-vuejs-project/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 09 Oct 2021 05:52:52 +0000</pubDate>
+				<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=850</guid>
+
+					<description><![CDATA[Firebase Authentication is a service that allows us to authenticate users with ease. In this article, we’ll learn how to use it in a VueJS application. If you need to register or sign in the users of your app, Firebase provides us with an easy way of doing so. Firebase Authentication provides authentication with Facebook, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Firebase Authentication is a service that allows us to authenticate users with ease. In this article, we’ll learn how to use it in a VueJS application. If you need to register or sign in the users of your app, Firebase provides us with an easy way of doing so.</p>
+
+
+
+<p></p>
+
+
+
+<p>Firebase Authentication provides authentication with Facebook, Google, Github and many other Social Login along with Email. </p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/10/09/firebase-authentication-for-a-vuejs-project/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Basics before learning Vue JS</title>
+		<link>/2019/03/06/basics-before-learning-vue-js/</link>
+					<comments>/2019/03/06/basics-before-learning-vue-js/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 06 Mar 2019 21:48:46 +0000</pubDate>
+				<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=299</guid>
+
+					<description><![CDATA[A Basic Tutorial for Beginners who want to learn VueJS from Zero. I follow this approach while training new Interns at Webfort Technologies If you are a beginner the concepts presented in this post will really help you. Why VueJS is an excellent choice? VueJS is an excellent library and very powerful one. I love [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-medium-font-size">A Basic Tutorial for Beginners who want to learn VueJS from Zero. I follow this approach while training new Interns at <a href="http://www.thewebfort.com/">Webfort Technologies</a></p>
+
+
+
+<span id="more-299"></span>
+
+
+
+<p>If you are a beginner the concepts presented in this post will really help you. </p>
+
+
+
+<h2>Why VueJS is an excellent choice?</h2>
+
+
+
+<p>VueJS is an excellent library and very powerful one. I love it. I prefer it over Angular and React. Just because of its simplicity. </p>
+
+
+
+<p>Sometimes you may just want to use the library only on a part of the Project and page and VueJS allows you to use it for that particular portion. This helps you slowly introducing VueJS to your project which is great. </p>
+
+
+
+<p>VueJS is easy and beginners would quickly grasp it as compared to similar libraries such as Angular or React. </p>
+
+
+
+<h2>First things First. <br>Data is the Starting Point for Any Application. </h2>
+
+
+
+<p>Data is one of the indispensable part of any application irrespective of programming language or framework.  </p>
+
+
+
+<h3><strong>Structuring data is a art. </strong></h3>
+
+
+
+<p>You can think data structure similar to how you organise the things at your home or office. If you properly organise it you will always find it easier to get things. </p>
+
+
+
+<p>It is all about strategically creating places where we will keep each data so that it&#8217;s easier to perform operations such as search, update and delete.</p>
+
+
+
+<h3>Learning a bit more about types of data and how we can structure them. </h3>
+
+
+
+<p>An application can have many types of data and before we decide how to structure them we need to understand a few important types. </p>
+
+
+
+<ol><li><strong>Simple Textual Data. </strong>For example a story or article. </li><li><strong>Related Data.  </strong>For example Personal details of a person who is registering on to an Application. for example name, email and phone no. </li><li><strong>Tabular Data : </strong>For example top 10 movies on IMDB with the movie name and their release date and ranking. </li><li><strong>Nested Data : </strong>User with his photo albums and his photos Inside the Photo Album.</li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="900" height="992" src="https://iamshishir.com/wp-content/uploads/2019/03/data_types.png" alt="" class="wp-image-300" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095254/data_types.png 900w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095254/data_types-272x300.png 272w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095254/data_types-768x847.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure></div>
+
+
+
+<p> There are many type of data storages digital and non-digital and storing each of these data into these storages and format has their own advantages and disadvantages. <br></p>
+
+
+
+<h3>Storing &amp; structuring data on Paper. <br>Just so that we can understand how we store data with a simpler example first. </h3>
+
+
+
+<p>Simplest and most ancient form of storing data is on paper inside notebooks. From the above all of the above can be stored into a sheet of paper but the most suitable is Simple Data which can be like a story book or Novel. Which can be divided into chapters and page no&#8217;s recorded in a table of index. </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="640" height="426" src="https://iamshishir.com/wp-content/uploads/2019/03/old-books-1941274_640.jpg" alt="" class="wp-image-309" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095303/old-books-1941274_640.jpg 640w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095303/old-books-1941274_640-300x200.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption>Storing Data inside Books</figcaption></figure>
+
+
+
+<p>Related data can be saved into data and can be recorded simply on paper. </p>
+
+
+
+<p>Tabular data can also be recorded on paper by drawing tables. But once you put the data on paper its difficult to sort the data Alphabetically unless you put the data that way. Also if the data is not sorted it would be difficult to find any records. </p>
+
+
+
+<p><strong>How to keep Nested Data on paper</strong><br>Nested data is fairly difficult to record on paper. The only way to keep it in a good way is to keep different books creating a relation based on a index. </p>
+
+
+
+<p>In the below diagram you can see and example of how we may keep data into different books.  <br></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="718" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/saving_nested_data_on_books-718x1024.png" alt="" class="wp-image-301" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095255/saving_nested_data_on_books-718x1024.png 718w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095255/saving_nested_data_on_books-210x300.png 210w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095255/saving_nested_data_on_books-768x1095.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095255/saving_nested_data_on_books.png 988w" sizes="(max-width: 718px) 100vw, 718px" /></figure></div>
+
+
+
+<h3>Storing Data into Excel or a Database System. </h3>
+
+
+
+<p>Similar to how we have organised data into different books on paper in the above section. We can organise Nested data into different tabs or sheets on Excel. <br><br>Also In Database we can keep the same data into different tables relating them based on primary key and foreign keys. </p>
+
+
+
+<h2>Storing Data in JSON: because in Vue JS we store data in JSON</h2>
+
+
+
+<p>JSON stands for Javascript object notion. JSON is very popular as a lightweight data exchange format. <br>It has a self explanatory structure and we can keep nested data into it without needing to create relations. </p>
+
+
+
+<p>VueJs applications keep data as an Javascript Object. So before we learn about VueJS. It&#8217;s important to cover basics about JSON.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="947" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/json_representation-947x1024.png" alt="" class="wp-image-303" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095258/json_representation-947x1024.png 947w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095258/json_representation-278x300.png 278w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095258/json_representation-768x830.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095258/json_representation.png 950w" sizes="(max-width: 947px) 100vw, 947px" /><figcaption>Example of how we can keep nested data into JSON.</figcaption></figure></div>
+
+
+
+<p>In real world the data is nested. JSON supports nested data, and hence it becomes very easy to keep data into it in comparison to keeping data in relational databases. </p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik &#8211; www.freepik.com</a>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/06/basics-before-learning-vue-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

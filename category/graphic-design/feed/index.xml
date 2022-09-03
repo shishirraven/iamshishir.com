@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Graphic Design &#8211; Shishir Raven</title>
+	<atom:link href="/category/graphic-design/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Tue, 05 Mar 2019 10:20:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Graphic Design &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Label Design for Daniel&#8217;s Secret, Pickle &#038; Chutney Products</title>
+		<link>/2019/03/05/label-design-for-daniels-secret/</link>
+					<comments>/2019/03/05/label-design-for-daniels-secret/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 10:20:04 +0000</pubDate>
+				<category><![CDATA[Graphic Design]]></category>
+		<category><![CDATA[Inkscape]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=248</guid>
+
+					<description><![CDATA[Tools Used :Inkscape.]]></description>
+										<content:encoded><![CDATA[
+<ul class="wp-container-2 wp-block-gallery-1 wp-block-gallery columns-2 is-cropped"><li class="blocks-gallery-item"><figure><img width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind-709x1024.png" alt="" data-id="249" data-link="https://iamshishir.com/?attachment_id=249" class="wp-image-249" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind_back-709x1024.png" alt="" data-id="250" data-link="https://iamshishir.com/?attachment_id=250" class="wp-image-250" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit-709x1024.png" alt="" data-id="251" data-link="https://iamshishir.com/?attachment_id=251" class="wp-image-251" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="715" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit_back-715x1024.png" alt="" data-id="252" data-link="https://iamshishir.com/?attachment_id=252" class="wp-image-252" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-715x1024.png 715w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-209x300.png 209w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-768x1100.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back.png 1008w" sizes="(max-width: 715px) 100vw, 715px" /></figure></li></ul>
+
+
+
+<p><strong>Tools Used :</strong><br>Inkscape. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/05/label-design-for-daniels-secret/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

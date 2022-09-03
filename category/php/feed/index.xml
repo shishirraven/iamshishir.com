@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PHP &#8211; Shishir Raven</title>
+	<atom:link href="/category/php/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Wed, 03 Feb 2021 21:44:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>PHP &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PHP Function for Generating Random Number &#038; Random Digits placeholder.</title>
+		<link>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/</link>
+					<comments>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 21:44:27 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=701</guid>
+
+					<description><![CDATA[While developing a SMS sending Tool, we wanted to provide the developers to use placeholders such as. {{random_number_7}} or {{random_string_8}}When these placeholders will be used in the bulk SMS sending program they will be replaced by a random number of 7 digits and random string of 8 digits respectively. Behind the scene we had to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>While developing a SMS sending Tool, we wanted to provide the developers to use placeholders such as. </p>
+
+
+
+<p>{{random_number_7}} or {{random_string_8}}<br>When these placeholders will be used in the bulk SMS sending program they will be replaced by a random number of 7 digits and random string of 8 digits respectively. </p>
+
+
+
+<p>Behind the scene we had to create PHP functions which will pick up the test such as the following for the SMS to be sent. </p>
+
+
+
+<p><strong>SMS example. </strong><br>Dear {{Username}}, your entry code is :  {{random_string_5}}. <br>And your OTP : {{random_number_6}}</p>
+
+
+
+<p>Now to automatically replace these place holders I build the following function with the help of preg_replace. <br></p>
+
+
+
+<p>Function to Replace Random Numbers. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+function replace_num_callback($matches) 
+{
+  return rand(pow(10, $matches&#91;1]-1), pow(10, $matches&#91;1])-1);
+}
+$input = "Dear {{Username}}, your entry code is :  {{random_string_5}}. 
+And your OTP : {{random_number_6}}";
+$pattern = '/\{\{random_number_(.*?)\}\}/i';
+$result = preg_replace_callback($pattern, 'replace_num_callback', $input);
+echo $result;
+?&gt;</code></pre>
+
+
+
+<p>Replacing the Random Strings. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+
+function randomString($n) { 
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
+    $randomString = ''; 
+  
+    for ($i = 0; $i &lt; $n; $i++) { 
+        $index = rand(0, strlen($characters) - 1); 
+        $randomString .= $characters&#91;$index]; 
+    } 
+  
+    return $randomString; 
+} 
+
+function replace_string_callback($matches) 
+{
+  return randomString($matches&#91;1]);
+}
+$input = "Dear {{Username}}, your entry code is :  {{random_string_5}}. 
+And your OTP : {{random_number_6}}";
+$pattern = '/\{\{random_number_(.*?)\}\}/i';
+$result = preg_replace_callback($pattern, 'replace_string_callback', $input);
+echo $result;
+?&gt;</code></pre>
+
+
+
+<p>That&#8217;s It. </p>
+
+
+
+<p>If you are are developer and need help in coding or want to outsource your work. Please contact me on my Email ID : shishir.raven@gmail.com or my Skype ID : shishir.raven</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/03/function-for-generating-random-number-random-digits-placeholder/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Automate Backup for PHP &#038; MySQL Project on Google Drive.</title>
+		<link>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
+					<comments>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2020 01:10:25 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=680</guid>
+
+					<description><![CDATA[Taking backups is a way of ensuring that if your computer crashes you won&#8217;t lose hours of valuable work. I have a habit of building rapid prototypes and project of hundreds of ideas and I usually do not get time to take their backups on a regular bases. Considering the current situation when the Corona [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Taking backups is a way of ensuring that if your computer crashes you won&#8217;t lose hours of valuable work. </p>
+
+
+
+<p>I have a habit of building rapid prototypes and project of hundreds of ideas and I usually do not get time to take their backups on a regular bases. </p>
+
+
+
+<p>Considering the current situation when the Corona Virus has hit the world, I was just imagining what would happen if my computer crashes. I would have to start from zero on some of the things. And also it&#8217;s difficult to get data recovered or computer repaired when we are under lockdown. </p>
+
+
+
+<p>Well to avoid this I have created a 1 click backup system that will help me upload my project folder + a mysql dump to the online server. </p>
+
+
+
+<p>I thought of writing this post to help others out who might also be finding a solution to automate their backup process. </p>
+
+
+
+<p>Please not I have Xampp setup on windows and these steps apply to windows. If you are on a different platform this article might only be useful for you to get and Idea and build a simple solution. </p>
+
+
+
+<h2>Objectives </h2>
+
+
+
+<ol><li>Make the task of taking backup as much easier as possible. </li><li>All the backup will be saved according to date and planning to upload a daily backup. </li><li>Avoid talking backup of &#8220;Vendor&#8221; folder which is created by Composer. To avoid bloating the project size and since these can be downloaded later. </li><li>Avoid taking backup of &#8220;node_modules&#8221; (I also use VueCLI) to build parts of my project. I want to avoid node_modules folder because it takes up a lot of space, and these dependencies can easily be downloaded later. </li><li>Upload the Zip Folder to Google drive. </li></ol>
+
+
+
+<h2><strong>Tools Used. </strong></h2>
+
+
+
+<p>I have used 7zip command line which I downloaded from their website. <br><a href="https://www.7-zip.org/download.html">https://www.7-zip.org/download.html</a>. I had to use 7zip because I need a command so that I can exclude a folder such as &#8220;node_modules&#8221; while creating a zip file. </p>
+
+
+
+<h2>Technique </h2>
+
+
+
+<p>The idea was to build this solution fastest as possible so the rough idea was to create a bat file which will take the sql dump using mysql utilities and create a file inside the folder. Then use a 7zip command to exclude the &#8220;vendor&#8221; and &#8220;node_modules&#8221; folder. </p>
+
+
+
+<p>Once the zip is created this is moved to a folder called &#8220;online_backup&#8221;. &#8220;online_backup&#8221; folder is synced with the server using the &#8220;Backup and sync&#8221; app by Google. </p>
+
+
+
+<p>Backup and Sync app simply uploads anything which inside the folder which you have added too the online server. </p>
+
+
+
+<h2>How to setup your project folder for backup. </h2>
+
+
+
+<h3>Download 7zip </h3>
+
+
+
+<p>Download the command line version or standalone console version. <br><a href="https://www.7-zip.org/download.html">https://www.7-zip.org/download.html</a></p>
+
+
+
+<p>Unzip and copy the 7za.exe to your project folder. It is not necessary to place it there you can also add it to your environment variable. </p>
+
+
+
+<h3>Create a bat file</h3>
+
+
+
+<p>Once you have this you need to create a backup.bat file. you can keep the bat file inside your project folder. (But I assume you know how to code and you can modify the code and keep it where you like.)</p>
+
+
+
+<pre class="wp-block-code"><code>echo off
+del backup_projectname_%date%.zip
+C:\xampp\mysql\bin\mysqldump -h localhost -u root dbname > dbname.sql
+7za.exe  a ./backup_projectname_%date%.zip   ./ -r   -xr!vendor -xr!node_modules
+move backup_projectname_%date%.zip D:\online_backup\
+del dbname.sql
+echo "Backup Taken and is moved to D:\onlinebackups\. Press any key to exit;"
+set /p id="Press any key to exit."
+</code></pre>
+
+
+
+<p>Explanation of what is happening in the above file. </p>
+
+
+
+<pre class="wp-block-code"><code>C:\xampp\mysql\bin\mysqldump -h localhost -u root dbname > dbname.sql</code></pre>
+
+
+
+<p>This line simply creates a dump of a database called &#8220;dbname&#8221;. You need to replace this with your database name. The dump is placed inside your project folder. </p>
+
+
+
+<pre class="wp-block-code"><code>7za.exe  a ./backup_projectname_%date%.zip   ./ -r   -xr!vendor -xr!node_modules</code></pre>
+
+
+
+<p><br>This line uses 7zip exe to create a file called &#8220;backup_projectname_%date%.zip&#8221; inside your project folder. <br>Not &#8220;%date%&#8221; automatically gets replaced with the current date. </p>
+
+
+
+<p><strong>-xr!vendor -xr!node_modules </strong>these tell 7zip to skip the folders which are named &#8220;vendor&#8221; and &#8220;node_module&#8221;. You can add your own folders you wish to skip. </p>
+
+
+
+<pre class="wp-block-code"><code>move backup_projectname_%date%.zip D:\online_backup\</code></pre>
+
+
+
+<p>This line simply moves the newly created zip file to &#8220;D:\online_backup&#8221; this is the folder which I have synced with &#8220;Backup &amp; Sync&#8221; app from google. </p>
+
+
+
+<h3>Use Backup &amp; Sync Google App to upload the folder automatically to Google Drive. </h3>
+
+
+
+<p>You can download the backup and Sync here. <br><a href="https://www.google.com/drive/download/backup-and-sync/">https://www.google.com/drive/download/backup-and-sync/</a></p>
+
+
+
+<p>I will not explain the steps here as it is pretty straight forward once you download the app. </p>
+
+
+
+<h3>Done</h3>
+
+
+
+<p>Once all the above steps are down you just have to click the bat file and the backup will be created with your MySQL database and placed in the Google Drive folder which will upload it online. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Image Optimization in PHP</title>
+		<link>/2020/04/16/image-optimization-in-php/</link>
+					<comments>/2020/04/16/image-optimization-in-php/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2020 18:41:54 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=673</guid>
+
+					<description><![CDATA[Why should I care about Image Optimization? Faster loading page is what we all need, this is the reason why we use google search. It simply loads faster than any other search engine. Web-pages contain images and images are one of the components which contribute most to the size of any webpage. More heavy the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2><strong>Why should I care about Image Optimization?</strong></h2>
+
+
+
+<p>Faster loading page is what we all need, this is the reason why we use google search. It simply loads faster than any other search engine. </p>
+
+
+
+<p>Web-pages contain images and images are one of the components which contribute most to the size of any webpage. More heavy the webpages, more it will take to load. </p>
+
+
+
+<p>Webpages may contain Images which are not optimized. In simple terms, this means the image size can be reduced without contributing to the quality of the image. </p>
+
+
+
+<p>Google and other Search engines recommend a better user experience so it  very likely that Fast loading pages are given better ranks then slow loading pages. </p>
+
+
+
+<h2><strong>Optimizing Image by choosing the right format</strong> JPEG, PNG, GIF, WEBP</h2>
+
+
+
+<p>JPEG and PNG are primary choice for images today, the reason is that JPEG and PNG are universally accepted. </p>
+
+
+
+<p>A suggestion is given by Google Light box to optimize our image format. <br></p>
+
+
+
+<blockquote class="wp-block-quote"><p>Serve images in next-gen formats :Image formats like <strong>JPEG 2000, JPEG XR, and WebP </strong>often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.</p><cite>Google Lighthouse</cite></blockquote>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Format</strong></td><td><strong>Support in Browsers</strong></td></tr><tr><td>JPEG 2000</td><td><a href="https://caniuse.com/#search=JPEG%202000">Supported only in Safari</a></td></tr><tr><td>JPEG XR</td><td><a href="https://caniuse.com/#search=JPEG%20XR" target="_blank" rel="noreferrer noopener">Works only in IE</a></td></tr><tr><td>WebP</td><td><a href="https://caniuse.com/#search=webp">Works on All except Safari</a></td></tr></tbody></table></figure>
+
+
+
+<p>Considering the Support only WebP seems to be the best format. But because it lacks support on <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers">Safari which has 15% of the share</a>. It&#8217;s not recommended if we want to support Safari. </p>
+
+
+
+<blockquote class="wp-block-quote"><p>TIP: You can use <a href="https://www.irfanview.com/">IrfanView</a> to bulk convert your images into any format. Its Free, Lightweight and easy to use.</p></blockquote>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/16/image-optimization-in-php/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to duplicate a tree-like nested structure in Database</title>
+		<link>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/</link>
+					<comments>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 01 Jan 2020 21:16:23 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=621</guid>
+
+					<description><![CDATA[What do I mean by a nested tree-like structure? I simply mean that each node either has a parent_id as 0 which means it is a tree node. Or the node is a child of another node such in which parent id is the id of an existing node. This is a basic pattern to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>What do I mean by a nested tree-like structure? </strong></p>
+
+
+
+<p>I simply mean that each node either has a parent_id as 0 which means it is a tree node. Or the node is a child of another node such in which parent id is the id of an existing node. </p>
+
+
+
+<p>This is a basic pattern to keep trees. Something similar to this. </p>
+
+
+
+<figure class="wp-block-image size-large"><img width="323" height="470" src="https://iamshishir.com/wp-content/uploads/2020/01/image.png" alt="" class="wp-image-623" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/01/03095418/image.png 323w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/01/03095418/image-206x300.png 206w" sizes="(max-width: 323px) 100vw, 323px" /><figcaption>How the Tree Structure is kept in a Database. <br></figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="278" height="260" src="https://iamshishir.com/wp-content/uploads/2020/01/image-1.png" alt="" class="wp-image-624"/><figcaption>How Tree Structure looks. </figcaption></figure>
+
+
+
+<p><strong>Problem</strong>.</p>
+
+
+
+<p>While duplicating this tree-like structure is that when you duplicate you end up generating new ids for the whole tree. Which is not straight forward. </p>
+
+
+
+<p> <strong>Idea. </strong><br>My Algorithm is quite simple. </p>
+
+
+
+<ul><li>Make a copy of all the existing nodes. </li><li>Keep a mapping of  node_ids and their new duplicate ID. </li><li>On all the New Nodes inserted use the mapping to update the parent id to their new IDs. </li></ul>
+
+
+
+<p>The following is a sample code that I used to duplicate a similar structure. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+include("connection.php");
+
+$template_id = $_POST&#91;'template_id']; 
+echo $check_templates_query  =   "SELECT *
+                            FROM templates
+                            where templates.id='".$template_id."'";
+$templates_query_rs = mysqli_query($con,$check_templates_query) or die(mysqli_error($con));
+$prow = mysqli_fetch_array($templates_query_rs);
+
+/* Duplicating the Main Template. */
+mysqli_query($con, "insert into templates(template_name, description, category_id) values('".$_POST&#91;"template_name"]."','".$_POST&#91;"description"]."','".$prow&#91;"category_id"]."')") or die(mysqli_error($con));
+$new_template_id = mysqli_insert_id($con); 
+
+
+
+/* Making copies of All the nodes and Saving Mapping. */
+
+$id_mapping = array(); 
+$new_folder_ids = array(); 
+
+$template_folders   =   "SELECT template_folders.* from template_folders where 
+                       template_id='".$template_id."'";
+$template_folder_rs = mysqli_query($con,$template_folders) or die(mysqli_error($con));
+
+while($row = mysqli_fetch_array($template_folder_rs))
+{
+	mysqli_query($con,"insert into template_folders(template_id, folder_name, pid,created_on, modified_on) values (
+	'".$new_template_id."',
+	'".$row&#91;"folder_name"]."',
+	'".$row&#91;"pid"]."',
+	'".date("Y-m-d H:i:s")."',
+	'".date("Y-m-d H:i:s")."'	
+	) ") or die(mysqli_error($con));
+	$new_folder_id = mysqli_insert_id($con); 
+	$folder_mapping&#91;] = array(
+								"id"=&gt;$row&#91;"id"],
+								"new_id"=&gt;$new_folder_id 
+							);
+	$new_folder_ids&#91;] = $new_folder_id; 
+}
+
+/* Updating the Parent ID's into New IDs through mapping. */
+
+foreach($new_folder_ids as $new_id)
+{
+	$template_folders   =   "SELECT template_folders.* from template_folders where 
+                        id='".$new_id."'";
+	$template_folder_rs = mysqli_query($con,$template_folders) or die(mysqli_error($con));
+	$row = mysqli_fetch_array($template_folder_rs); 
+	if($row&#91;"pid"]!=0)
+	{
+		// Finding the mapping from the Array. 
+		$key = array_search($row&#91;"pid"], array_column($folder_mapping, 'id'));
+		$new_pid = $folder_mapping&#91;$key]&#91;"new_id"]; 
+
+		// Updating the column into the selected row. 
+		mysqli_query($con,"update template_folders set pid='".$new_pid."' where id='".$row&#91;"id"]."'") or die(mysqli_error($con)); 
+	}
+}
+
+</code></pre>
+
+
+
+<p>The above is a sample quote of I achieve it. <br>It was a little challenging. I am definitely going to put this in the Machine test for the people I hire for programming. <br><br>If you need help in solving a similar issue you can contact me. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/01/01/how-to-duplicate-a-tree-like-nested-structure-in-database/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How Email Verification works on Registration in PHP</title>
+		<link>/2019/03/14/how-email-verification-works-on-registration/</link>
+					<comments>/2019/03/14/how-email-verification-works-on-registration/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 14 Mar 2019 13:44:06 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=401</guid>
+
+					<description><![CDATA[Users can register using any Email on any website. But all the websites verify these emails by sending an email with an activation link. What happens exactly behind the scene is quite simple. a. User Register by filling a form. b. The information which he fills is store in a table along with a random [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Users can register using any Email on any website. But all the websites verify these emails by sending an email with an activation link. </p>
+
+
+
+<p>What happens exactly behind the scene is quite simple. </p>
+
+
+
+<span id="more-401"></span>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="900" height="2484" src="https://iamshishir.com/wp-content/uploads/2019/03/how_email_verification_works-2.png" alt="" class="wp-image-413" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2.png 900w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2-109x300.png 109w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2-371x1024.png 371w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2-768x2120.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2-557x1536.png 557w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095328/how_email_verification_works-2-742x2048.png 742w" sizes="(max-width: 900px) 100vw, 900px" /><figcaption>Login of Email Verification illustrated in diagram. </figcaption></figure></div>
+
+
+
+<p>a. User Register by filling a form. <br><br>b. The information which he fills is store in a table along with a <strong>random generated code. </strong><br><br>c. <strong>An Email Verification mail is sent to the user</strong> that contains a <strong>Verification link</strong> which is advised to be clicked. <br>This link looks similar to the following. <br>http://your-site.com/verify_email.php?email=a@a.com&amp;unique_code=xy13z <br><br>d. When user clicks on this link the page request is sent and the<strong> code and the email is sent as GET variables.</strong> <br><br>e. When <strong>server receives this URL request</strong> it can <strong>check the email and unique code in the database for a match.</strong> <br><br>f. If a <strong>match is found</strong> the <strong>column containing the email verification status is updated </strong>and the user may be redirected to the login page. <br><br>That&#8217;s it. ?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/14/how-email-verification-works-on-registration/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to send an HTML Mail using Pear:Mail.</title>
+		<link>/2019/03/13/how-to-send-an-html-mail-using-pearmail/</link>
+					<comments>/2019/03/13/how-to-send-an-html-mail-using-pearmail/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 13 Mar 2019 12:39:29 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=399</guid>
+
+					<description><![CDATA[Example to send an HTML main in PHP using Pear:Mail.]]></description>
+										<content:encoded><![CDATA[
+<p>Example to send an HTML main in PHP using Pear:Mail. </p>
+
+
+
+<span id="more-399"></span>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php 
+require_once "Mail.php"; 
+require_once "Mail/mime.php";
+
+$from 		= "your-email@host.com";
+$to 		= "your-email@host.com"; 
+$username 	= "your-email@host.com";
+$password 	= "yourPassword"; 
+$host 		= "mail.host.com"; 
+
+$subject 	="Simple Email Test from SMTP"; 
+$text = 'This is a text message.';// Text version of the email
+$html = '&lt;html>&lt;body>&lt;p>HTML message&lt;/p>&lt;/body>&lt;/html>';// HTML version of the email
+
+$crlf = "\r\n";
+
+$headers = array (	'From' => $from,
+					'To' => $to,
+					'Subject' => $subject);
+
+// Creating the Mime message
+$mime = new Mail_mime($crlf);
+
+// Setting the body of the email
+$mime->setTXTBody($text);
+$mime->setHTMLBody($html);
+
+$body = $mime->get();
+$headers = $mime->headers($headers);
+
+
+$smtp = Mail::factory('smtp',
+	array ('host' => $host,
+	'auth' => true,
+	'username' => $username,
+	'password' => $password));
+	$mail = $smtp->send($to, $headers, $body);
+	
+	if (PEAR::isError($mail)) {
+		echo("&lt;p>" . $mail->getMessage() . "&lt;/p>");
+	} else {
+	echo("&lt;p>Message successfully sent!&lt;/p>");
+	}
+
+ ?></code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/13/how-to-send-an-html-mail-using-pearmail/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Making Pear:Mail Package to  work on Xampp</title>
+		<link>/2019/03/12/making-pearmail-package-to-work-on-xampp/</link>
+					<comments>/2019/03/12/making-pearmail-package-to-work-on-xampp/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 12 Mar 2019 19:04:04 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=328</guid>
+
+					<description><![CDATA[Are you receiving an error when you are trying to send mail through PHP using Pear Mail module. Similar to how it is shown below. We can fix this my installing the PEAR::Mail on your Xampp.. What is Pear::Mail package? Class that provides multiple interfaces for sending emails How to install the PEAR::Mail on your [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Are you receiving an error when you are trying to send mail through PHP using Pear Mail module. Similar to how it is shown below. </p>
+
+
+
+<span id="more-328"></span>
+
+
+
+<pre class="wp-block-code"><code>
+Warning: require_once(Mail.php): failed to open stream: No such file or directory in C:\xampp\htdocs\mailtest.php on line 2
+
+Fatal error: require_once(): Failed opening required 'Mail.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\mailtest.php on line 2</code></pre>
+
+
+
+<p>We can fix this my installing the PEAR::Mail on your Xampp.. </p>
+
+
+
+<h2>What is Pear::Mail package?</h2>
+
+
+
+<p>Class that provides multiple interfaces for sending emails <br></p>
+
+
+
+<h2>How to install the PEAR::Mail on your Xampp. </h2>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="868" height="554" src="https://iamshishir.com/wp-content/uploads/2019/03/image-16.png" alt="" class="wp-image-335" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095311/image-16.png 868w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095311/image-16-300x191.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095311/image-16-768x490.png 768w" sizes="(max-width: 868px) 100vw, 868px" /></figure></div>
+
+
+
+<p>Command Prompt will open up which will look similar to the following. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="898" height="470" src="https://iamshishir.com/wp-content/uploads/2019/03/image-13.png" alt="" class="wp-image-330" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095309/image-13.png 898w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095309/image-13-300x157.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095309/image-13-768x402.png 768w" sizes="(max-width: 898px) 100vw, 898px" /></figure></div>
+
+
+
+<p>Past or type the following command that wil automatically download and install the package for you.   </p>
+
+
+
+<pre class="wp-block-code"><code>pear install -a Mail</code></pre>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="561" height="168" src="https://iamshishir.com/wp-content/uploads/2019/03/image-14.png" alt="" class="wp-image-331" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095309/image-14.png 561w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095309/image-14-300x90.png 300w" sizes="(max-width: 561px) 100vw, 561px" /></figure></div>
+
+
+
+<p>Once you typed, press enter to execute the command.</p>
+
+
+
+<p>Once the execution is over you will see the result similar to following screenshot.  </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="897" height="366" src="https://iamshishir.com/wp-content/uploads/2019/03/image-15.png" alt="" class="wp-image-332" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095310/image-15.png 897w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095310/image-15-300x122.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095310/image-15-768x313.png 768w" sizes="(max-width: 897px) 100vw, 897px" /></figure></div>
+
+
+
+<p>Now to send SMTP Mail is installed. <br>If you want to sent out emails in HTML format. I recommend to install the following two packages as well. <br>Just type and press enter again. </p>
+
+
+
+<pre class="wp-block-code"><code>pear install -a Mail_Mime
+pear install -a Net_SMTP</code></pre>
+
+
+
+<p>Once you run these you are all set to use Pear::Mail in your code. ?</p>
+
+
+
+<p>To learn about how to send emails using SMTP account from PHP Read this post. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/12/making-pearmail-package-to-work-on-xampp/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to insert data into a MySQL table in PHP</title>
+		<link>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/</link>
+					<comments>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2019 13:04:53 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=314</guid>
+
+					<description><![CDATA[Super Basics of PHP &#38; MySQL of how to create a form that will store the data into a MySQL Table. Step 1 : Create a connection file. You can save this file by naming it connection.php. And Please don&#8217;t forget to replace &#8220;db_password&#8221; and &#8220;your_database&#8221; placeholders with your own username and password for your [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-large-font-size">Super Basics of PHP &amp; MySQL of how to create a form that will store the data into a MySQL Table.</p>
+
+
+
+<span id="more-314"></span>
+
+
+
+<h2><strong>Step 1 :</strong>  Create a connection file. </h2>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php 
+/* 1. Instance Database . */
+$con= mysqli_connect("localhost","root","db_password","your_database");
+// Check connection
+if (mysqli_connect_errno())
+{
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+?></code></pre>
+
+
+
+<p>You can save this file by naming it connection.php. And Please don&#8217;t forget to replace &#8220;db_password&#8221; and &#8220;your_database&#8221; placeholders with your own username and password for your database. </p>
+
+
+
+<h2>Step 2 : Create a form. </h2>
+
+
+
+<p>You need to create a form on your page. The following is a basic form that would be part of your page. You can put your own heading and other sections and elements to surround this form. But for the sake of example I am only writing the bare necessary part required. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;form action="action_page.php" method="POST">
+	&lt;input type="text" name="name" placeholder="name>
+	&lt;input type="text" name="email_id" placeholder="email>
+	&lt;input type="submit">
+&lt;/form></code></pre>
+
+
+
+<p>Now the above code is really simple. It is a form which has to input text fields and on submit field. </p>
+
+
+
+<p><strong>Important things that we should look for are. </strong></p>
+
+
+
+<p><strong>Form action : </strong> <br>In the above example it is &#8220;action_page.php&#8221;<br>Form action tells when the page is submitted where will the data be sent and the page be redirected. <br><br></p>
+
+
+
+<p><strong>Form method: </strong><br>In our example we are using the &#8220;POST&#8221; method. <br><br>There are basically two methods for a form &#8220;POST&#8221; &amp; &#8220;GET&#8221;. <br>Post can send more data, is more secure where as GET method put the data into the address of the page. </p>
+
+
+
+<p>You can research  more on these differences. But for this example we will stick with the POST method. <br><br><strong>Input fields and their names</strong><br>We have to give unique names to our input fields by using name attribute of the input tag. It is important because by the same name we will receive these value on the page where the action takes us. <br>In our form we are using two named inputs which are. <br><br>1. name<br>2. email_id<br><br>We will be sending these to the &#8220;action_page.php&#8221; as we have defined in our action attribute of our form tag. <br><br>To access these fields we will be using <br>$_POST[&#8220;name] and <br>$_POST[&#8220;email_id&#8221;]. </p>
+
+
+
+<h2>Step 3 : Validating the data and inserting into the database. </h2>
+
+
+
+<p>Once the form is submitted all the data is sent to the action page. Which in our case is action_page.php. And all this data is accessible through $_POST array. </p>
+
+
+
+<p><br>Because there are many character sets and special characters which the user might enter in the inputs. It is necessary for us to make sure these characters and special characters and handled properly. To this we escape these strings.  </p>
+
+
+
+<p>To escape the Special Characters before using them in a MySQL Statement. We will use <strong>mysqli_escape_string.  </strong><br><br>It escapes special characters in a string for use in an SQL statement, taking into account the current charset of the mysql Server</p>
+
+
+
+<p>Special characters can cause errors while executing a SQL Command. So it is highly recommended to escape these before using them further. <br><br>in the below example we will escape the strings and save into a variable. </p>
+
+
+
+<pre class="wp-block-code"><code>$name = mysqli_escape_string($con,$_POST["name"];</code></pre>
+
+
+
+<p><strong>mysqli_escape_string</strong> function has two parameters. <br><br><strong>Connection </strong>: This is important for the command to know the character set of the db so that it can escape accordingly.<br><strong>String to escape :  </strong>In our case it is the string that we got from our $_POST[&#8220;name&#8221;] that we expect to be passed to our action page from our form page.  <br><br>After escaping both our values the code will look similar to. </p>
+
+
+
+<pre class="wp-block-code"><code>$name = mysqli_escape_string($con,$_POST["name"];
+$email = mysqli_escape_string($con,$_POST["email"];</code></pre>
+
+
+
+<h3>Inserting into the database </h3>
+
+
+
+<p>MySQL server understands SQL Commands or statements. And we have to use the data to create a SQL command or statement that the server understands. If you do not know basic SQL it is highly recommended that you learn it. Here in this example we will be only using insert statement. </p>
+
+
+
+<p>We need to tell the SQL server where to save the data and what data to save. So first we need to figure out the following. </p>
+
+
+
+<p>a. Into which <strong>table</strong> we would be inserting the data. <br>b. <strong>What data</strong> we would be inserting into each field fo the selected table.&nbsp;</p>
+
+
+
+<p>In our example &#8211; </p>
+
+
+
+<p>Table Name is : <strong>users</strong> <br>Field Names : <strong>full_name</strong>, <strong>email</strong>. <br><br>First we will write a SQL insert statement. <br>The Syntax of an insert statement is as follows. <br></p>
+
+
+
+<pre class="wp-block-code"><code>Insert into &lt;table_name>(field1,field2) values('value1','value2'); </code></pre>
+
+
+
+<p>More about mysql insert syntax can be found on their <a href="https://dev.mysql.com/doc/refman/8.0/en/insert.html">Official Page. </a></p>
+
+
+
+<p>So according to the syntax our statement would be . </p>
+
+
+
+<pre class="wp-block-code"><code>insert into `users`(full_name,email) values('shishir','shishir.raven@gmail.com'); </code></pre>
+
+
+
+<p>But hey! The data would be coming from the form and hence we need to replace it in our statement.</p>
+
+
+
+<p>So we will create this string using PHP as shown below. </p>
+
+
+
+<pre class="wp-block-code"><code>$sql = "insert into `users`(full_name,email) values('".$name."','" . $email."'); "</code></pre>
+
+
+
+<p>. (dot) is used to concatenate two strings in PHP. </p>
+
+
+
+<p>So the final code should look like. </p>
+
+
+
+<pre class="wp-block-code"><code>$name = mysqli_escape_string($con,$_POST["name"];
+$email = mysqli_escape_string($con,$_POST["email"];
+$sql = "insert into `users`(full_name,email) values('".$name."','" . $email."')";</code></pre>
+
+
+
+<p>Till now, we only have a sql statement or command in a variable. </p>
+
+
+
+<p>But this command need to be sent to the SQL Server. We do this using mysqli_query() function in PHP</p>
+
+
+
+<p>mysqli_query() function has two parameters. <br><br>1st Parameter is Connection. <br>2nd Parameters is SQL.  <br><br><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://php.net/manual/en/mysqli.query.php" target="_blank"><u>Find more about syntax here. </u></a></p>
+
+
+
+<p>Using mysqli in our example would look like. </p>
+
+
+
+<pre class="wp-block-code"><code>mysqli_query($con, $sql); </code></pre>
+
+
+
+<p>Sometimes when we send a command to the mySql server errors can occur. In case of the errors we might want to know the error message and prevent further execution of the script. </p>
+
+
+
+<p>To stop on error and display error messages we would use <br><strong>or die()</strong> function and we will use <strong>mysqli_error() </strong>which shows the last error on mySQL server. </p>
+
+
+
+<pre class="wp-block-code"><code>mysqli_query($con,$sql) or die(mysqli_error($con));</code></pre>
+
+
+
+<p>So now our final code should look like. </p>
+
+
+
+<pre class="wp-block-code"><code>// Escaping Strings. 
+$name = mysqli_escape_string($con,$_POST["name"];
+$email = mysqli_escape_string($con,$_POST["email"];
+
+// Creating a SQL Statement and storing into variable. 
+$sql = "insert into `users`(full_name,email) values('".$name."','" . $email."')"; 
+
+mysqli_query($con,$sql) or die(mysqli_error($con));</code></pre>
+
+
+
+<p>That&#8217;s it!  ?<br>The values should get inserted into the database. </p>
+
+
+
+<p>Data has been inserted into the database. Now the user might get a blank page since we have not written any code to show him any success message. You may want to redirect the user to a page where you have written a success message or whatever page you want him to land on. </p>
+
+
+
+<p>To redirect we can use header function. In the following example if the following statement is executed the user will be redirected to a page called &#8220;success.php&#8221;</p>
+
+
+
+<pre class="wp-block-code"><code>header("Location:success.php"); </code></pre>
+
+
+
+<p><strong>Please note:</strong><br>If there are any output like by using echo or any spaces that are likely to be displayed on the page. header will show an error. </p>
+
+
+
+<p>Final page should look like the following. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php 
+include("connection.php");
+
+// Escaping Strings. 
+$name = mysqli_escape_string($con,$_POST["name"];
+$email = mysqli_escape_string($con,$_POST["email"];
+
+// Creating a SQL Statement and storing into variable. 
+$sql = "insert into `users`(full_name,email) values('".$name."','" . $email."')"; 
+
+mysqli_query($con,$sql) or die(mysqli_error($con));
+header("Location:success.php"); 
+?>
+</code></pre>
+
+
+
+<p>Don&#8217;t forget to create a success.php page. </p>
+
+
+
+<p>Hope you will find this basic outline of how to insert data from a HTML form to mysql through PHP helpful. </p>
+
+
+
+<p>Best of luck.  ? <br>Keep experimenting. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/11/how-to-insert-data-into-a-mysql-table-in-php/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

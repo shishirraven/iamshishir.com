@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>My Work &#8211; Shishir Raven</title>
+	<atom:link href="/category/my-work/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sat, 03 Sep 2022 21:27:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>My Work &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Snake &#038; Ladders Multiplayer Game.</title>
+		<link>/2022/08/21/snake-ladders-multiplayer-game/</link>
+					<comments>/2022/08/21/snake-ladders-multiplayer-game/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 21 Aug 2022 23:25:48 +0000</pubDate>
+				<category><![CDATA[Games build by me]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1258</guid>
+
+					<description><![CDATA[I build a multi player game of the classic &#8220;Snake &#38; Ladders&#8221;, the game can be played between 1 or more remote players. Technologies Used. Vue JS Tailwind CSS for Styling. Socket.io for Real Time communication.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-container-2 wp-block-gallery-1 wp-block-gallery has-nested-images columns-default is-cropped">
+<figure class="wp-block-image size-large"><img width="1052" height="776" data-id="1259"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png" alt="" class="wp-image-1259" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png 1052w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-300x221.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-1024x755.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-768x567.png 768w" sizes="(max-width: 1052px) 100vw, 1052px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1254" height="938" data-id="1260"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png" alt="" class="wp-image-1260" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png 1254w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-300x224.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-1024x766.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-768x574.png 768w" sizes="(max-width: 1254px) 100vw, 1254px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1762" height="952" data-id="1261"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png" alt="" class="wp-image-1261" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png 1762w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-300x162.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1024x553.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-768x415.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1536x830.png 1536w" sizes="(max-width: 1762px) 100vw, 1762px" /></figure>
+</figure>
+
+
+
+<p>I build a multi player game of the classic &#8220;Snake &amp; Ladders&#8221;, the game can be played between 1 or more remote players. </p>
+
+
+
+<div class="wp-container-3 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://iamshishir.com/snake_and_ladders/">Play Snake and Ladders </a></div>
+</div>
+
+
+
+<h2>Technologies Used. </h2>
+
+
+
+<ol><li>Vue JS</li><li>Tailwind CSS for Styling. </li><li>Socket.io for Real Time communication. </li></ol>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/08/21/snake-ladders-multiplayer-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Label Design for Daniel&#8217;s Secret, Pickle &#038; Chutney Products</title>
+		<link>/2019/03/05/label-design-for-daniels-secret/</link>
+					<comments>/2019/03/05/label-design-for-daniels-secret/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 10:20:04 +0000</pubDate>
+				<category><![CDATA[Graphic Design]]></category>
+		<category><![CDATA[Inkscape]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=248</guid>
+
+					<description><![CDATA[Tools Used :Inkscape.]]></description>
+										<content:encoded><![CDATA[
+<ul class="wp-container-5 wp-block-gallery-4 wp-block-gallery columns-2 is-cropped"><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind-709x1024.png" alt="" data-id="249" data-link="https://iamshishir.com/?attachment_id=249" class="wp-image-249" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095229/garlic_and_tamarind.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/garlic_and_tamarind_back-709x1024.png" alt="" data-id="250" data-link="https://iamshishir.com/?attachment_id=250" class="wp-image-250" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095232/garlic_and_tamarind_back.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="709" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit-709x1024.png" alt="" data-id="251" data-link="https://iamshishir.com/?attachment_id=251" class="wp-image-251" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-709x1024.png 709w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-208x300.png 208w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit-768x1109.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095234/mango_and_jackfruit.png 1000w" sizes="(max-width: 709px) 100vw, 709px" /></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="715" height="1024" src="https://iamshishir.com/wp-content/uploads/2019/03/mango_and_jackfruit_back-715x1024.png" alt="" data-id="252" data-link="https://iamshishir.com/?attachment_id=252" class="wp-image-252" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-715x1024.png 715w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-209x300.png 209w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back-768x1100.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095237/mango_and_jackfruit_back.png 1008w" sizes="(max-width: 715px) 100vw, 715px" /></figure></li></ul>
+
+
+
+<p><strong>Tools Used :</strong><br>Inkscape. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/05/label-design-for-daniels-secret/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Game : Catch the Icons</title>
+		<link>/2018/12/13/game-catch-the-icons/</link>
+					<comments>/2018/12/13/game-catch-the-icons/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 13 Dec 2018 02:14:30 +0000</pubDate>
+				<category><![CDATA[My Work]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[html 5]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=70</guid>
+
+					<description><![CDATA[Simple Game where you just need to catch the icons dropping by birds in the Sky.&#160; Game was created by me in 2014&#160; just with jQuery and CSS. Can be improved a lot with current technologies and libraries. It was so much fun and it took just a day to finish it.&#160;&#160;]]></description>
+										<content:encoded><![CDATA[
+<span id="more-70"></span>
+
+
+
+<div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="https://iamshishir.com/projects/catch-the-icons">Play Game : Catch the Icons</a></div>
+
+
+
+<p style="text-align:left">Simple Game where you just need to catch the icons dropping by birds in the Sky.&nbsp;</p>
+
+
+
+<p>Game was created by me in 2014&nbsp; just with jQuery and CSS. Can be improved a lot with current technologies and libraries.</p>
+
+
+
+<p>It was so much fun and it took just a day to finish it.&nbsp;&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/13/game-catch-the-icons/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Drinking 8 Glasses of Water Android App.</title>
+		<link>/2018/12/13/drinking-8-glasses-of-water-android-app/</link>
+					<comments>/2018/12/13/drinking-8-glasses-of-water-android-app/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 13 Dec 2018 01:05:08 +0000</pubDate>
+				<category><![CDATA[My Work]]></category>
+		<category><![CDATA[Android App]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=58</guid>
+
+					<description><![CDATA[Well keeping yourself hydrated is good for health and I seemed to be forgetting this all the time. So I build this app which allows you to log the glasses of water that you intake for a day.&#160; The app is a bare minimum it just lets you log the glasses of water you drank. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<span id="more-58"></span>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="497" src="https://iamshishir.com/wp-content/uploads/2018/12/image-9-1024x497.png" alt="" class="wp-image-59" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-1024x497.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-300x146.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-768x373.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9.png 1277w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Well keeping yourself hydrated is good for health and I seemed to be forgetting this all the time. So I build this app which allows you to log the glasses of water that you intake for a day.&nbsp;</p>
+
+
+
+<p>The app is a bare minimum it just lets you log the glasses of water you drank. No disturbing reminders nothing too special. I may add a few features in the future.</p>
+
+
+
+<p>You can download the App for free on Amazon store.&nbsp;</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.amazon.com/Drink-8-Glasses-of-Water/dp/B075NVBTGZ">Download on Amazon Store</a></div>
+
+
+
+<p>Some say that its enough to drink water when you are thirsty. And some say 8 glasses is a good amount. This app is for the ones that go with 8 glasses a day. I do not recommend anything. Please research and take advice from experts as to what goes best for you.&nbsp;</p>
+
+
+
+<p>This app was pretty much my pet project.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/13/drinking-8-glasses-of-water-android-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

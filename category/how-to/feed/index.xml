@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>How to &#8211; Shishir Raven</title>
+	<atom:link href="/category/how-to/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Fri, 01 Mar 2019 14:14:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>How to &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to use multiple canvas for Paper JS on a single page?</title>
+		<link>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/</link>
+					<comments>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 01 Mar 2019 14:14:55 +0000</pubDate>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[PaperJS]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=170</guid>
+
+					<description><![CDATA[We can use PaperScope to achieve this. The following is a simple example. I am currently building a complex application which includes drawing architectural layouts. And I need to make multiple canvases to be working in VueJS loops. Please comment and let me know if anyone has good Ideas about how I can make that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>We can use PaperScope to achieve this. The following is a simple example. </p>
+
+
+
+<pre class="wp-block-code"><code>var scope = new paper.PaperScope();
+var scope2 = new paper.PaperScope();
+
+var canvas_1 = document.getElementById('canvas_1');
+scope.setup(canvas_1)
+var canvas_2 = document.getElementById('canvas_2');
+scope2.setup(canvas_2)
+
+scope.activate();
+var myCircle = new scope.Path.Circle(new scope.Point(100, 70), 50);
+myCircle.fillColor = 'black';
+
+scope2.activate();
+var myCircle = new scope2.Path.Circle(new scope2.Point(100, 70), 50);
+myCircle.fillColor = 'green';</code></pre>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://jsfiddle.net/shishirraven/g18ab2mc/">Demo on JsFiddle</a></div>
+
+
+
+<p>I am currently building a complex application which includes drawing architectural layouts. And I need to make multiple canvases to be working in VueJS loops. Please comment and let me know if anyone has good Ideas about how I can make that happen. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/01/how-to-use-multiple-canvas-for-paper-js-on-a-single-page/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to make a Bootstrap Menu active in a Single Page Website</title>
+		<link>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/</link>
+					<comments>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 01 Mar 2019 14:03:50 +0000</pubDate>
+				<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[How to]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=166</guid>
+
+					<description><![CDATA[Usually on an active menu we apply a slightly different style. Like look at the bootstrap example below. Notice how the font color of home is slightly darker than the rest of the menus, indicating how it is an active menu. Now in bootstrap this is done by adding a active class to that menu. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Usually on an active menu we apply a slightly different style.  Like look at the bootstrap example below. <br><br>Notice how the font color of home is slightly darker  than the rest of the menus, indicating how it is an active menu. <br></p>
+
+
+
+<figure class="wp-block-image"><img width="1024" height="75" src="https://iamshishir.com/wp-content/uploads/2019/03/image-1024x75.png" alt="" class="wp-image-167" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-1024x75.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-300x22.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-768x56.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<span id="more-166"></span>
+
+
+
+<p>Now in bootstrap this is done by adding a active class to that menu. <br></p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="620" src="https://iamshishir.com/wp-content/uploads/2019/03/image-1-1024x620.png" alt="" class="wp-image-168" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-1024x620.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-300x182.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-768x465.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1.png 1147w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>In a Single Page Application(SPA) you can apply this active class to the current section by the use of Jquery. </p>
+
+
+
+<p>Jquery is by default included in any bootstrap project but if you are using something other than bootstrap you may include it. </p>
+
+
+
+<p>( Note :It&#8217;s not necessary that you use jQuery to achieve this and this can be done using plain Javascript also but for example we would put jQuery to use. )</p>
+
+
+
+<p>The following is the Strategy we will use. </p>
+
+
+
+<ol><li>On click of any &#8216;nav-item&#8217; class we would remove &#8216;active&#8217; class from all li.nav-item elements</li><li>We will add &#8216;active&#8217; class to current .nav-item. </li></ol>
+
+
+
+<p>Here is how we will code it for bootstrap menu. </p>
+
+
+
+<pre class="wp-block-code"><code>$(".nav-item").on("click", function(e){
+  // Remove class active form all li.nav-tiem
+  $("li.nav-item").removeClass("active");
+  // Add Class to current Element. 
+  $(this).addClass("active");
+});</code></pre>
+
+
+
+<p>That&#8217;s it. This will get our job done. ?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Paper JS : Drawing Rectangle with independent Rounded Corners.</title>
+		<link>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/</link>
+					<comments>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 29 Jan 2019 21:54:37 +0000</pubDate>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[PaperJS]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=157</guid>
+
+					<description><![CDATA[Paper JS support Rounded Rectangles but it applies it to all corners. In my project I require rounded corners to be applied only to selected corners. Like as shown below. After searching hours on the official document and searching internet for solutions I decided to create a function myself. The following is the function that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img loading="lazy" width="396" height="136" src="https://iamshishir.com/wp-content/uploads/2019/01/image-2.png" alt="" class="wp-image-159" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/01/03095214/image-2.png 396w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/01/03095214/image-2-300x103.png 300w" sizes="(max-width: 396px) 100vw, 396px" /></figure>
+
+
+
+<p>Paper JS support Rounded Rectangles but it applies it to all corners. In my project I require rounded corners to be applied only to selected corners. <br>Like as shown below. After searching hours on the official document and searching internet for solutions I decided to create a function myself. </p>
+
+
+
+<span id="more-157"></span>
+
+
+
+<p>The following is the function that I created that works simply out of box. </p>
+
+
+
+<pre class="wp-block-code"><code>var canvas = document.getElementById("myCanvas");
+
+paper.install(window);
+paper.setup(canvas);
+
+var cornerSize = new Size(10, 10);
+
+
+var specialRectangle = function(putOnPoint, boxSize, cornerSizeSpecific) {
+
+    // Finding all the original Points. 
+    var point1 = putOnPoint;
+    var point2 = point1.add(new Point(boxSize.width, 0));
+    var point3 = point2.add(new Point(0, boxSize.height))
+    var point4 = point3.subtract(new Point(boxSize.width, 0));;
+
+    var recPath = new Path();
+    recPath.closed = true;
+
+    // Top Left Corner
+    if (cornerSizeSpecific[0] != null) {
+        var firstPoint = putOnPoint.add(new Point(0, cornerSizeSpecific[0].height))
+        var lastPoint = putOnPoint.add(new Point(cornerSizeSpecific[0].width, 0))
+        var firstSegment = new Segment(firstPoint, null, {
+            x: 0,
+            y: (cornerSizeSpecific[0].height * -1) / 2
+        });
+        var secondSegment = new Segment(lastPoint, {
+            x: (cornerSizeSpecific[0].width * -1) / 2,
+            y: 0
+        }, null);
+        recPath.add(firstSegment, secondSegment);
+        recPath.strokeColor = 'black';
+    } else {
+        recPath.add(point1);
+    }
+
+    // Top Right
+    if (cornerSizeSpecific[1] != null) {
+        var firstPoint = point2.subtract(new Point(cornerSizeSpecific[0].width, 0))
+        var firstSegment = new Segment(firstPoint, null, {
+            y: 0,
+            x: (cornerSizeSpecific[0].width * 1) / 2
+        });
+        var lastPoint = point2.add(new Point(0, cornerSizeSpecific[0].height))
+        var secondSegment = new Segment(lastPoint, {
+            y: (cornerSizeSpecific[0].height * -1) / 2,
+            x: 0
+        }, null);
+        recPath.add(firstSegment, secondSegment);
+        recPath.strokeColor = 'black';
+    } else {
+        recPath.add(point2);
+    }
+
+    // Bottom Right
+    if (cornerSizeSpecific[2] != null) {
+        var firstPoint = point3.subtract(new Point(0, cornerSizeSpecific[0].height))
+        var firstSegment = new Segment(firstPoint, null, {
+            x: 0,
+            y: (cornerSizeSpecific[0].height * 1) / 2
+        });
+        var lastPoint = point3.subtract(new Point(cornerSizeSpecific[0].width, 0))
+        var secondSegment = new Segment(lastPoint, {
+            x: (cornerSizeSpecific[0].width * 1) / 2,
+            y: 0
+        }, null);
+        recPath.add(firstSegment, secondSegment);
+        recPath.strokeColor = 'black';
+    } else {
+        recPath.add(point3);
+    }
+
+    // Botom Left. 
+    if (cornerSizeSpecific[3] != null) {
+        var firstPoint = point4.add(new Point(cornerSizeSpecific[0].width, 0))
+        var firstSegment = new Segment(firstPoint, null, {
+            y: 0,
+            x: (cornerSizeSpecific[0].width * -1) / 2
+        });
+        var lastPoint = point4.subtract(new Point(0, cornerSizeSpecific[0].height))
+        var secondSegment = new Segment(lastPoint, {
+            y: (cornerSizeSpecific[0].height * 1) / 2,
+            x: 0
+        }, null);
+        recPath.add(firstSegment, secondSegment);
+        recPath.strokeColor = 'black';
+    } else {
+        recPath.add(point4);
+    }
+
+    //recPath.fullySelected = true;
+    return recPath;
+
+    // Building the first Corner. 
+}
+
+/* Running the object.  */
+var pointToPlot = new Point(30, 30);
+var sizeOfRectangle = new Size(70, 70);
+var cornerSizeSpecific = [new Size(10, 10), new Size(10, 10), new Size(10, 10), new Size(10, 10)];
+var rectangle = new specialRectangle(pointToPlot, sizeOfRectangle, cornerSizeSpecific);
+
+
+var pointToPlot = new Point(130, 30);
+var sizeOfRectangle = new Size(70, 70);
+var cornerSizeSpecific = [new Size(10, 10), null, null, null];
+var rectangle = new specialRectangle(pointToPlot, sizeOfRectangle, cornerSizeSpecific);
+
+
+var pointToPlot = new Point(230, 30);
+var sizeOfRectangle = new Size(70, 70);
+var cornerSizeSpecific = [new Size(20, 20), new Size(20, 20), null, null];
+var rectangle = new specialRectangle(pointToPlot, sizeOfRectangle, cornerSizeSpecific);
+
+rectangle.fullySelected = false;</code></pre>
+
+
+
+<p>The following is a running example on JsFiddle. </p>
+
+
+
+<iframe loading="lazy" width="100%" height="300" src="//jsfiddle.net/shishirraven/72dxn5t6/118/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest="" frameborder="0"></iframe>
+
+
+
+<p>Please feel free to use in your project and if there are any comments, suggestions or improvements. Please post theme below. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/01/29/paper-js-drawing-rectangle-with-independent-rounded-corners/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

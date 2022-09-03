@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PaperJS &#8211; Shishir Raven</title>
+	<atom:link href="/tag/paperjs/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Mon, 22 Mar 2021 13:14:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>PaperJS &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Draw an Ellipsis inside a Quadrilateral with 4 points in Paper JS.</title>
+		<link>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/</link>
+					<comments>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 22 Mar 2021 13:14:15 +0000</pubDate>
+				<category><![CDATA[PaperJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=788</guid>
+
+					<description><![CDATA[To draw a Ellipsis in Paper.js is quite simple and straightforward. You do not need to write a script to that. Problem But in my recent project I faced a situation where I had to draw a ellipsis kind of shape within 4 points (In my case they form a Rectangle.) The problem with the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>To draw a Ellipsis in Paper.js is quite simple and straightforward. You do not need to write a script to that. </p>
+
+
+
+<p></p>
+
+
+
+<h2 id="problem">Problem</h2>
+
+
+
+<p>But in my recent project I faced a situation where I had to draw a ellipsis kind of shape within 4 points (In my case they form a Rectangle.)</p>
+
+
+
+<p>The problem with the PaperJS way of creating Ellipsis is that we can create a Ellipsis by giving it a Rectangle. But the way rectangles are drawn is only by providing two points which automatically calculates the other two sides. But it assumes that the Rectangle will form at 90 degrees on the Canvas. </p>
+
+
+
+<p></p>
+
+
+
+<span id="more-788"></span>
+
+
+
+<figure class="wp-block-image size-large"><img width="343" height="340" src="https://iamshishir.com/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-789" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/03/03095543/image.png 343w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/03/03095543/image-300x297.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/03/03095543/image-150x150.png 150w" sizes="(max-width: 343px) 100vw, 343px" /><figcaption>This is how Paper js uses the two points to create a rectangle. </figcaption></figure>
+
+
+
+<p>But when you are drawing a Rotated Rectangle it is not possible to recreate without knowing the Angle of Rotation. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="393" height="387" src="https://iamshishir.com/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-790" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/03/03095544/image-1.png 393w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/03/03095544/image-1-300x295.png 300w" sizes="(max-width: 393px) 100vw, 393px" /><figcaption>It cannot draw a rectangular shape like this without assuming that the bottom side is parallel to the ground. </figcaption></figure>
+
+
+
+<p>When I am creating a Rectangle with 4 points it cannot always be at a right angle on the Coordinate system. </p>
+
+
+
+<p>To draw such a diagram I created a small function. which produces the required output. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://iamshishir.com/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-791"/><figcaption>Drawing  the Ellipsis inside a Rectangluar box. </figcaption></figure>
+
+
+
+<h2 id="solution">Solution </h2>
+
+
+
+<pre class="wp-block-code"><code>var rectanglePoints = &#91;&#91;10, 10], &#91;400,10], &#91;400, 500],&#91;10,500]];
+var path = new Path({
+    segments: rectanglePoints,
+    fillColor: 'grey',
+    closed: true
+});
+var midPoints = Array(); 
+for(var i=0;i&lt;rectanglePoints.length-1;i++)
+{
+    var first = rectanglePoints&#91;i];
+    var second = rectanglePoints&#91;i+1];
+    var x = (first&#91;0]+second&#91;0])/2;
+    var y = (first&#91;1]+second&#91;1])/2;
+    midPoints.push(&#91;x,y]);
+}
+    var first = rectanglePoints&#91;rectanglePoints.length-1];
+    var second = rectanglePoints&#91;0];
+    var x = (first&#91;0]+second&#91;0])/2;
+    var y = (first&#91;1]+second&#91;1])/2;
+    midPoints.push(&#91;x,y]);
+    midPoints.unshift(&#91;x,y])
+var path2 = new Path();
+path2.strokeColor='red'
+path2.strokeWidth= 1,
+path2.addSegment(midPoints&#91;0])
+for(var i=0;i&lt;rectanglePoints.length;i++)
+{
+    path2.quadraticCurveTo(rectanglePoints&#91;i], midPoints&#91;i+1])
+}
+path2.fillColor = 'pink'
+</code></pre>
+
+
+
+<p>In this function, I use Quadratic Curve to create the Ellipsis. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/03/22/how-to-draw-an-ellipsis-inside-a-quadrilateral-with-4-points-in-paper-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

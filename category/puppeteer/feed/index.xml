@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>puppeteer &#8211; Shishir Raven</title>
+	<atom:link href="/category/puppeteer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Mon, 18 Apr 2022 20:22:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>puppeteer &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Automatically extracting price from Amazon.com</title>
+		<link>/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
+					<comments>/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 18 Apr 2022 20:22:53 +0000</pubDate>
+				<category><![CDATA[puppeteer]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1189</guid>
+
+					<description><![CDATA[This post illustrates how you can extract price from amazon.in or amazon.com using puppeteer.This project uses Node.JS and puppeteer library to do the extractions. Extracting Prices from Amazon.in and outputting to console.]]></description>
+										<content:encoded><![CDATA[
+<p>This post illustrates how you can extract price from amazon.in or amazon.com using puppeteer.<br>This project uses Node.JS and <a href="https://pptr.dev/">puppeteer library </a>to do the extractions. </p>
+
+
+
+<p></p>
+
+
+
+<h2>Extracting Prices from Amazon.in and outputting to console. </h2>
+
+
+
+<pre class="wp-block-code"><code>const puppeteer = require("puppeteer");
+
+const url =
+  "https://www.amazon.in/LG-Charcoal-Convection-Microwave-MJEN326PK/dp/B0816YMD45/ref=sr_1_5?crid=16ARG5YVRB0QV&amp;keywords=microwave+charcoal&amp;qid=1650310100&amp;sprefix=microwave+charcoal%2Caps%2C229&amp;sr=8-5";
+let browser;
+(async () =&gt; {
+  browser = await puppeteer.launch({
+    headless: true,
+  });
+  const &#91;page] = await browser.pages();
+  await page.goto(url, {waitUntil: "networkidle0"});
+  const selector = ".a-price&gt;.a-offscreen";
+  await page.waitForSelector(selector);
+  const price = await page.$eval(selector, el =&gt; el.innerText);
+  console.log(price); // =&gt; $58.95
+})()
+  .catch(err =&gt; console.error(err))
+  .finally(async () =&gt; await browser.close())
+;</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

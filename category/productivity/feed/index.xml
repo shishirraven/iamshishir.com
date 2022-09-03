@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Productivity &#8211; Shishir Raven</title>
+	<atom:link href="/category/productivity/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 23 Apr 2020 01:10:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Productivity &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Automate Backup for PHP &#038; MySQL Project on Google Drive.</title>
+		<link>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/</link>
+					<comments>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2020 01:10:25 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=680</guid>
+
+					<description><![CDATA[Taking backups is a way of ensuring that if your computer crashes you won&#8217;t lose hours of valuable work. I have a habit of building rapid prototypes and project of hundreds of ideas and I usually do not get time to take their backups on a regular bases. Considering the current situation when the Corona [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Taking backups is a way of ensuring that if your computer crashes you won&#8217;t lose hours of valuable work. </p>
+
+
+
+<p>I have a habit of building rapid prototypes and project of hundreds of ideas and I usually do not get time to take their backups on a regular bases. </p>
+
+
+
+<p>Considering the current situation when the Corona Virus has hit the world, I was just imagining what would happen if my computer crashes. I would have to start from zero on some of the things. And also it&#8217;s difficult to get data recovered or computer repaired when we are under lockdown. </p>
+
+
+
+<p>Well to avoid this I have created a 1 click backup system that will help me upload my project folder + a mysql dump to the online server. </p>
+
+
+
+<p>I thought of writing this post to help others out who might also be finding a solution to automate their backup process. </p>
+
+
+
+<p>Please not I have Xampp setup on windows and these steps apply to windows. If you are on a different platform this article might only be useful for you to get and Idea and build a simple solution. </p>
+
+
+
+<h2>Objectives </h2>
+
+
+
+<ol><li>Make the task of taking backup as much easier as possible. </li><li>All the backup will be saved according to date and planning to upload a daily backup. </li><li>Avoid talking backup of &#8220;Vendor&#8221; folder which is created by Composer. To avoid bloating the project size and since these can be downloaded later. </li><li>Avoid taking backup of &#8220;node_modules&#8221; (I also use VueCLI) to build parts of my project. I want to avoid node_modules folder because it takes up a lot of space, and these dependencies can easily be downloaded later. </li><li>Upload the Zip Folder to Google drive. </li></ol>
+
+
+
+<h2><strong>Tools Used. </strong></h2>
+
+
+
+<p>I have used 7zip command line which I downloaded from their website. <br><a href="https://www.7-zip.org/download.html">https://www.7-zip.org/download.html</a>. I had to use 7zip because I need a command so that I can exclude a folder such as &#8220;node_modules&#8221; while creating a zip file. </p>
+
+
+
+<h2>Technique </h2>
+
+
+
+<p>The idea was to build this solution fastest as possible so the rough idea was to create a bat file which will take the sql dump using mysql utilities and create a file inside the folder. Then use a 7zip command to exclude the &#8220;vendor&#8221; and &#8220;node_modules&#8221; folder. </p>
+
+
+
+<p>Once the zip is created this is moved to a folder called &#8220;online_backup&#8221;. &#8220;online_backup&#8221; folder is synced with the server using the &#8220;Backup and sync&#8221; app by Google. </p>
+
+
+
+<p>Backup and Sync app simply uploads anything which inside the folder which you have added too the online server. </p>
+
+
+
+<h2>How to setup your project folder for backup. </h2>
+
+
+
+<h3>Download 7zip </h3>
+
+
+
+<p>Download the command line version or standalone console version. <br><a href="https://www.7-zip.org/download.html">https://www.7-zip.org/download.html</a></p>
+
+
+
+<p>Unzip and copy the 7za.exe to your project folder. It is not necessary to place it there you can also add it to your environment variable. </p>
+
+
+
+<h3>Create a bat file</h3>
+
+
+
+<p>Once you have this you need to create a backup.bat file. you can keep the bat file inside your project folder. (But I assume you know how to code and you can modify the code and keep it where you like.)</p>
+
+
+
+<pre class="wp-block-code"><code>echo off
+del backup_projectname_%date%.zip
+C:\xampp\mysql\bin\mysqldump -h localhost -u root dbname > dbname.sql
+7za.exe  a ./backup_projectname_%date%.zip   ./ -r   -xr!vendor -xr!node_modules
+move backup_projectname_%date%.zip D:\online_backup\
+del dbname.sql
+echo "Backup Taken and is moved to D:\onlinebackups\. Press any key to exit;"
+set /p id="Press any key to exit."
+</code></pre>
+
+
+
+<p>Explanation of what is happening in the above file. </p>
+
+
+
+<pre class="wp-block-code"><code>C:\xampp\mysql\bin\mysqldump -h localhost -u root dbname > dbname.sql</code></pre>
+
+
+
+<p>This line simply creates a dump of a database called &#8220;dbname&#8221;. You need to replace this with your database name. The dump is placed inside your project folder. </p>
+
+
+
+<pre class="wp-block-code"><code>7za.exe  a ./backup_projectname_%date%.zip   ./ -r   -xr!vendor -xr!node_modules</code></pre>
+
+
+
+<p><br>This line uses 7zip exe to create a file called &#8220;backup_projectname_%date%.zip&#8221; inside your project folder. <br>Not &#8220;%date%&#8221; automatically gets replaced with the current date. </p>
+
+
+
+<p><strong>-xr!vendor -xr!node_modules </strong>these tell 7zip to skip the folders which are named &#8220;vendor&#8221; and &#8220;node_module&#8221;. You can add your own folders you wish to skip. </p>
+
+
+
+<pre class="wp-block-code"><code>move backup_projectname_%date%.zip D:\online_backup\</code></pre>
+
+
+
+<p>This line simply moves the newly created zip file to &#8220;D:\online_backup&#8221; this is the folder which I have synced with &#8220;Backup &amp; Sync&#8221; app from google. </p>
+
+
+
+<h3>Use Backup &amp; Sync Google App to upload the folder automatically to Google Drive. </h3>
+
+
+
+<p>You can download the backup and Sync here. <br><a href="https://www.google.com/drive/download/backup-and-sync/">https://www.google.com/drive/download/backup-and-sync/</a></p>
+
+
+
+<p>I will not explain the steps here as it is pretty straight forward once you download the app. </p>
+
+
+
+<h3>Done</h3>
+
+
+
+<p>Once all the above steps are down you just have to click the bat file and the backup will be created with your MySQL database and placed in the Google Drive folder which will upload it online. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/23/how-to-automate-backup-for-php-mysql-project-on-google-drive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why starting early is good.</title>
+		<link>/2019/01/03/why-starting-early-is-good/</link>
+					<comments>/2019/01/03/why-starting-early-is-good/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 03 Jan 2019 07:06:36 +0000</pubDate>
+				<category><![CDATA[Productivity]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=138</guid>
+
+					<description><![CDATA[Not always everything is planned. And even when things are planned we might miss important things. So it&#8217;s good to keep a time buffer. Time buffer gives spaced out time to your mind to remember and focus on details which cannot be captured in a plan.]]></description>
+										<content:encoded><![CDATA[
+<p>Not always everything is planned. And even when things are planned we might  miss important things. </p>
+
+
+
+<p>So it&#8217;s good to keep a time buffer. Time buffer gives spaced out time to your mind to remember and focus on details which cannot be captured in a plan. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/01/03/why-starting-early-is-good/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Being Organized.</title>
+		<link>/2018/12/30/being-organized/</link>
+					<comments>/2018/12/30/being-organized/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 30 Dec 2018 15:17:48 +0000</pubDate>
+				<category><![CDATA[Productivity]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=133</guid>
+
+					<description><![CDATA[When you are not organized in thought and action you tend to lose and lot of things in life. Such as time. It&#8217;s like when you are preparing for an exam. If you do not know how much time it should take you to complete the course material you will are more likely not to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>When you are not organized in thought and action you tend to lose and lot of things in life. Such as time. It&#8217;s like when you are preparing for an exam. If you do not know how much time it should take you to complete the course material you will are more likely not to devote enough time in organizing your time around. </p>
+
+
+
+<span id="more-133"></span>
+
+
+
+<p>Now it&#8217;s not always about starting early but it also about knowing the exact amount of effort required. Timing and order of things also play and important role. For example if you get too early you would have to wait for things to happen and you will tend to lose rest if you do not have anything to do. And if you get up too late then it is likely that you will make other wait. </p>
+
+
+
+<p>Now this goes with everything a proper calculation and plan for things can make you act at proper time and get thing right without losing too much of effort. </p>
+
+
+
+<p>Bing organized can comprise of many things of these things are the following which are most important.</p>
+
+
+
+<h2>Planning is most important aspect of Organizing. </h2>
+
+
+
+<p>There are many stages of a planning. When we plan for a certain goals we tend to also develop a strategy that will be most efficient and effective. Efficiency and effectiveness is not a goal initially in any task. But if you want to achieve greater results with least efforts then these special points play a very crucial role. </p>
+
+
+
+<p>Like for example making a simple a Shopping List before you go out for shopping can make it so much easier for you to plan your route. Even inside the shopping list if you organize the items in the order of priority you are more likely to spend best of your energies on the items which will give you most utility. </p>
+
+
+
+<h2>We run mostly on routines and habits more than what we plan. </h2>
+
+
+
+<p>Now it&#8217;s not always that we get time to organize our day. And usually the day starts with our routine and habits. Routines and habits take some time to form but these are the ones which control us. We subconsciously take actions which we do not take be actively thinking about but kind of happen automatically. </p>
+
+
+
+<p>Like it&#8217;s quite automatic for people to get up in the morning and brush your teeths. the do not consciously think much about it. Like any pros or cons about brushing it just happens automatically. It&#8217;s very important to have this kind of automatic behavior because you just can keep thinking about such a small topic every day. It just goes with that it is is good to brush your teeth daily period. I am not saying that you will never think about brushing your teeth or reconsider the toothpaste you are using. Yes of course you will do sometimes. But not always. </p>
+
+
+
+<h2>Not everything can be planned. </h2>
+
+
+
+<p>Attention and focus is something which is rare and as we are going towards the future we have so much to think. There is an explosion of information which is available online. Even deciding a decent dish from the list of endless options of menu which is available at the food apps is process that can cause decision fatigue. Deciding what needs to be done in a day in an efficient manner is quite a game in itself. Our lives are filled with so much and we can give attention to very little things. So not only we have to plan our lives but it is also true that we need to plan on the important aspects of our life than all the life as a whole. </p>
+
+
+
+<p>Because it would be difficult to plan everything. So one of the good ways to plan our lives is to plan our time even before we plan our money. Because we have very limited time. If we know how we can manage our time we will understand so much about our lives. </p>
+
+
+
+<h3>Plan you Routine. </h3>
+
+
+
+<p>Routine is something that you can do mindlessly everyday and this is one of the things which will affect your future the most. Like you going to the GYM. you can mindlessly go from one exercise to another as told to you by your Gym instructor. But once you are regular and devoting a few months you will develop a good physique. Now all this happen when it becomes you routine. But when you break the routine then its is somewhat impossible to achieve. Routines are powerful and these must be harnessed. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/30/being-organized/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

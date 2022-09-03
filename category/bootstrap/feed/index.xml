@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bootstrap &#8211; Shishir Raven</title>
+	<atom:link href="/category/bootstrap/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 03 Feb 2022 20:01:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Bootstrap &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to use Bootstrap SASS with VueJS.</title>
+		<link>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/</link>
+					<comments>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2022 20:01:09 +0000</pubDate>
+				<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=877</guid>
+
+					<description><![CDATA[Bootstrap and why it so Good and should I use it with Vue? Bootstrap is a great CSS framework and has been dominating the CSS scene. The primary reason why bootstrap has been a great framework is the ability that it provides to not only designers but also to the developers to build UI faster. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<h2 id="bootstrap-and-why-it-so-good-and-should-i-use-it-with-vue">Bootstrap and why it so Good and should I use it with Vue?</h2>
+
+
+
+<p>Bootstrap is a great CSS framework and has been dominating the CSS scene. The primary reason why bootstrap has been a great framework is the ability that it provides to not only designers but also to the developers to build UI faster. </p>
+
+
+
+<p>Well I have been coding before all the popular frameworks started to appear and I too was looking for solutions that can make building the UI faster and better. And I was building my own CSS framework when the first version of Bootstrap arrived. It had all the features which I was building and more. </p>
+
+
+
+<p>Moreover choosing a framework was natural choice since it could easily be taught and used as a team. </p>
+
+
+
+<p>Primary reason of its huge scale success is its ability to build design in a more standard way and also minimizing the choices while you are building a design. For example previous to CSS frameworks we had to decide what width he columns should be kept and it was difficult. What I mostly did is research on the popular websites of that time and follow the pattern. </p>
+
+
+
+<p>But once CSS frameworks with CSS Grid came they provided to choose a combination form 12 blocks. This made life easier also the page looked more aligned and looked so much better. </p>
+
+
+
+<p>Vue JS again is a great front end library. What I loved most about it is its Options API, Single Page Components and loved it more because of its ability to simply be introduced in existing projects and then you can scale it up as much as you want. </p>
+
+
+
+<p>Using bootstrap with VueJS is a great idea but once I have used Tailwind CSS its hard to go back to Bootstrap framework and I will strongly recommend it if you are going to start a new project. Tailwind is much more powerful and scalable than Bootstrap. And like me once you get a hand of it it would be difficult to get back to the Bootstrap. </p>
+
+
+
+<p>But if you are already using Bootstrap in your current project then its a good idea to stick to it. </p>
+
+
+
+<h2 id="bootstrap-saasbootstrap-saas-is-something-which-makes-bootstrap-more-customizable-and-you-can-tinker-around-with-to-change-fonts-and-colors-you-can-even-update-it-completely-different-from-what-it-looks-as">Bootstrap SaaS </h2>
+
+
+
+<p id="bootstrap-saasbootstrap-saas-is-something-which-makes-bootstrap-more-customizable-and-you-can-tinker-around-with-to-change-fonts-and-colors-you-can-even-update-it-completely-different-from-what-it-looks-as">Bootstrap SaaS is something which makes  Bootstrap more customizable and you can tinker around with it to change fonts and colors, you can even update it completely different from what it looks as. </p>
+
+
+
+<p>I usually use bootstrap SaaS to remove the components that I won&#8217;t be using, this helps my project lighter. </p>
+
+
+
+<p>Moreover when you are using Bootstrap with VueJS you wont be using JavaScript based components such as dropdown, accordion, modal, carousel won&#8217;t work with VueJS out of the box. Well I won&#8217;t suggest that they be used that way. So its better to remove from SaaS the components which are not required. </p>
+
+
+
+<p>For this very reason you could try a solution like <a href="https://bootstrap-vue.org/">boostrapVue</a>  it gives you components which you can directly in your project. </p>
+
+
+
+<p>I personally do not like using these because it binds CSS directly in your project like <a href="https://vuetifyjs.com/en/">Vuetify</a> which particularly is not a very good idea to go about for a simple fact that all the projects end up looking identical and this for me makes the project look boring. (Just my opinion). </p>
+
+
+
+<p>For this same reason I started writing my own basic components like modal, dropdown, tabs etc. which can play well with any framework may it be bootstrap, tailwind or just plain CSS. Still not a full fledged library but I love the concept and is superflexible. Its callled <a href="https://shishirraven.github.io/bravevue/#/">BraveVue.</a></p>
+
+
+
+<p>Once I started building the library I also discovered that on the same concept there is another library which is available which is called <a href="https://headlessui.dev/">headless UI </a>by tailwind. You should definitely try it out. </p>
+
+
+
+<h2 id="how-to-start-using-bootstrap-in-your-vuejs-project">How to start using Bootstrap in your VueJS Project</h2>
+
+
+
+<p>There are more than one way to use Bootstrap in your project, I basically export my projects as Web App so many times I do not load bootstrap from npm rather I just put the CSS files in the index.html and that the quickest and the fastest way to setup Bootstrap in my projects. </p>
+
+
+
+<p>But if you are planning to use SasS along with the bootstrap you should install it using npm and then you can start using it. </p>
+
+
+
+<pre class="wp-block-code"><code>npm install bootstrap --save</code></pre>
+
+
+
+<p> Then you can use boostrap Sass by including and customizing components as you wish. The following is the setup that I used for <a href="https://shishirraven.github.io/bravevue/#/brave_select">BraveVue Documentation</a>. You can make your own customizations. </p>
+
+
+
+<p>All you need to do is add Boostrap components to your style sass. Usually you would need to add it to your app.vue.</p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/973340fbc5c72133913d4c220ae35af9.js"></script>
+</div>
+
+
+
+<p>You can select the components that you need from the Bootstrap and make your own color customizations to it as you wish. </p>
+
+
+
+<p>That&#8217;s it, If you are looking for developer to work along with you on a VueJS project or any interesting project or just want to say hi. Drop me an email at shishir.raven@gmail.com </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/02/03/how-to-use-bootstrap-sass-with-vuejs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to make a Bootstrap Menu active in a Single Page Website</title>
+		<link>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/</link>
+					<comments>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 01 Mar 2019 14:03:50 +0000</pubDate>
+				<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[How to]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=166</guid>
+
+					<description><![CDATA[Usually on an active menu we apply a slightly different style. Like look at the bootstrap example below. Notice how the font color of home is slightly darker than the rest of the menus, indicating how it is an active menu. Now in bootstrap this is done by adding a active class to that menu. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Usually on an active menu we apply a slightly different style.  Like look at the bootstrap example below. <br><br>Notice how the font color of home is slightly darker  than the rest of the menus, indicating how it is an active menu. <br></p>
+
+
+
+<figure class="wp-block-image"><img width="1024" height="75" src="https://iamshishir.com/wp-content/uploads/2019/03/image-1024x75.png" alt="" class="wp-image-167" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-1024x75.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-300x22.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image-768x56.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095214/image.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<span id="more-166"></span>
+
+
+
+<p>Now in bootstrap this is done by adding a active class to that menu. <br></p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="620" src="https://iamshishir.com/wp-content/uploads/2019/03/image-1-1024x620.png" alt="" class="wp-image-168" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-1024x620.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-300x182.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1-768x465.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/03/03095215/image-1.png 1147w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>In a Single Page Application(SPA) you can apply this active class to the current section by the use of Jquery. </p>
+
+
+
+<p>Jquery is by default included in any bootstrap project but if you are using something other than bootstrap you may include it. </p>
+
+
+
+<p>( Note :It&#8217;s not necessary that you use jQuery to achieve this and this can be done using plain Javascript also but for example we would put jQuery to use. )</p>
+
+
+
+<p>The following is the Strategy we will use. </p>
+
+
+
+<ol><li>On click of any &#8216;nav-item&#8217; class we would remove &#8216;active&#8217; class from all li.nav-item elements</li><li>We will add &#8216;active&#8217; class to current .nav-item. </li></ol>
+
+
+
+<p>Here is how we will code it for bootstrap menu. </p>
+
+
+
+<pre class="wp-block-code"><code>$(".nav-item").on("click", function(e){
+  // Remove class active form all li.nav-tiem
+  $("li.nav-item").removeClass("active");
+  // Add Class to current Element. 
+  $(this).addClass("active");
+});</code></pre>
+
+
+
+<p>That&#8217;s it. This will get our job done. ?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/01/how-to-make-a-bootstrap-menu-active-in-a-single-page-website/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

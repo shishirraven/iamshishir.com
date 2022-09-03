@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Shishir Raven</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sat, 03 Sep 2022 21:27:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Snake &#038; Ladders Multiplayer Game.</title>
+		<link>/2022/08/21/snake-ladders-multiplayer-game/</link>
+					<comments>/2022/08/21/snake-ladders-multiplayer-game/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 21 Aug 2022 23:25:48 +0000</pubDate>
+				<category><![CDATA[Games build by me]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1258</guid>
+
+					<description><![CDATA[I build a multi player game of the classic &#8220;Snake &#38; Ladders&#8221;, the game can be played between 1 or more remote players. Technologies Used. Vue JS Tailwind CSS for Styling. Socket.io for Real Time communication.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-container-2 wp-block-gallery-1 wp-block-gallery has-nested-images columns-default is-cropped">
+<figure class="wp-block-image size-large"><img width="1052" height="776" data-id="1259"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png" alt="" class="wp-image-1259" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png 1052w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-300x221.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-1024x755.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-768x567.png 768w" sizes="(max-width: 1052px) 100vw, 1052px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1254" height="938" data-id="1260"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png" alt="" class="wp-image-1260" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png 1254w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-300x224.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-1024x766.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-768x574.png 768w" sizes="(max-width: 1254px) 100vw, 1254px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1762" height="952" data-id="1261"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png" alt="" class="wp-image-1261" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png 1762w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-300x162.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1024x553.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-768x415.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1536x830.png 1536w" sizes="(max-width: 1762px) 100vw, 1762px" /></figure>
+</figure>
+
+
+
+<p>I build a multi player game of the classic &#8220;Snake &amp; Ladders&#8221;, the game can be played between 1 or more remote players. </p>
+
+
+
+<div class="wp-container-3 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://iamshishir.com/snake_and_ladders/">Play Snake and Ladders </a></div>
+</div>
+
+
+
+<h2>Technologies Used. </h2>
+
+
+
+<ol><li>Vue JS</li><li>Tailwind CSS for Styling. </li><li>Socket.io for Real Time communication. </li></ol>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/08/21/snake-ladders-multiplayer-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Removing all the Default Theme Javascript and CSS from a WordPress Template.</title>
+		<link>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
+					<comments>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 29 Jul 2022 17:25:09 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1232</guid>
+
+					<description><![CDATA[Why? Case : Using a VueJS Application in a WordPress Plugin and Theme CSS is Clashing. There are some default CSS/JS which are included in every page + there is the Theme CSS which is also included on every page. I did not required any for it to work on my page. Since you are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<h2>Why? </h2>
+
+
+
+<h3>Case : Using a VueJS Application in a WordPress Plugin and Theme CSS is Clashing. </h3>
+
+
+
+<p>There are some default CSS/JS which are included in every page + there is the Theme CSS which is also included on every page. I did not required any for it to work on my page. Since you are reading this page your requirement would be similar</p>
+
+
+
+<h2>How?</h2>
+
+
+
+<h3>Strategy</h3>
+
+
+
+<p>On <strong>`wp_enqueue_scripts`</strong> hook usually add our own scripts, so before adding our own CSS/JS we will  <strong>dequeue</strong> all the scripts and style.</p>
+
+
+
+<h3>Code</h3>
+
+
+
+<p>The following is an example function that I use. </p>
+
+
+
+<pre class="wp-block-code"><code>
+function goals_enqueue_stuff() {
+
+  if ( is_page_template( wp_normalize_path(plugin_dir_path( __FILE__ ) . 'templates\goals_vue_app.php') ) ) 
+  {
+
+
+    //  Removing all Scripts. 
+    global $wp_scripts;
+    foreach( $wp_scripts-&gt;queue as $script ) :
+         wp_dequeue_script( $script );
+    endforeach;
+
+    // Removing all Styles
+    global $wp_styles;
+    foreach( $wp_styles-&gt;queue as $style ) :
+        wp_dequeue_style( $style );
+    endforeach;
+
+
+   wp_enqueue_media();
+    wp_enqueue_style( 'goal-routine-css', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/index.css');
+    wp_enqueue_script( 'goal-routine-module', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/index.js');
+    wp_enqueue_script( 'goal-routine-modulepreload', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/vendor.js');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'goals_enqueue_stuff',1000 );</code></pre>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hosting VueJS Project on Github Pages</title>
+		<link>/2022/07/17/hosting-vuejs-project-on-github-pages/</link>
+					<comments>/2022/07/17/hosting-vuejs-project-on-github-pages/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 17 Jul 2022 15:35:35 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<category><![CDATA[VueJS]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1222</guid>
+
+					<description><![CDATA[Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. I added the base URL to the vite config file. I added the base also to the router [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hosting a VueJS project is pretty straight forward but I faced problem with VueJS Routing. First of all it did not work out of the box. I had to change the base path in the config file. </p>
+
+
+
+<p>I added the base URL to the vite config file. </p>
+
+
+
+<pre class="wp-block-code"><code>import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path'
+
+export default defineConfig({
+  base: "/bravevue/",
+  plugins: &#91;vue()],
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
+    },
+  },
+  server: {
+    open: true,
+  },
+});
+</code></pre>
+
+
+
+<p>I added the base also to the router file. </p>
+
+
+
+<pre class="wp-block-code"><code>const router = createRouter({
+  history: createWebHistory("/bravevue/"),
+  routes,
+  linkActiveClass: "dark:bg-slate-800 ",
+});</code></pre>
+
+
+
+<p>Well even after this the code did not worked fine if we refresh the page. So I had to make a copy of index.html to 404.html. This is a work around through it sends a 404 error to the browser anyways. </p>
+
+
+
+<p>I wish there could be a more elegant solution to this but for now it works. </p>
+
+
+
+<p>That&#8217;s it. </p>
+
+
+
+<p>I am building a open source component library called <a href="https://shishirraven.github.io/bravevue/">bravevue</a> if you are looking for a customized headless UI library you are free to use this. </p>
+
+
+
+<p>Homepage : <a href="https://shishirraven.github.io/bravevue/">https://shishirraven.github.io/bravevue/</a>  </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/17/hosting-vuejs-project-on-github-pages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Finally Microsoft has build the feature that I was looking for. It&#8217;s Focus Sessions.</title>
+		<link>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
+					<comments>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 15 Jul 2022 18:23:39 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1217</guid>
+
+					<description><![CDATA[Well I am a fan of pomodoro technique and its a wonderful thing. So I was always looking for a countdown timer that could run on the Windows and could appear on top of the all the windows. Did some searches on the internet and could not find a suitable free match. But to my [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well I am a fan of <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoro technique</a> and its a wonderful thing. </p>
+
+
+
+<p>So I was always looking for a countdown timer that could run on the Windows and could appear on top of the all the windows. Did some searches on the internet and could not find a <span style="text-decoration: underline;">suitable free match. </span></p>
+
+
+
+<p>But to my wonder the Mircosoft has added this feature on their timer. (Makes me so so happy <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> )</p>
+
+
+
+<p>Here is where you could find it. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="561" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1024x561.png" alt="" class="wp-image-1218" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1024x561.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-300x164.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-768x421.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1536x842.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image.png 1582w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Here see the window which stays on top of all the windows, making it easy for you to see how much time is left. </figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="332" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1024x332.png" alt="" class="wp-image-1219" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1024x332.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-300x97.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-768x249.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1536x497.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1.png 1797w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Here is a Video I found online which explains the feature. Though using it is quite straight forward. </p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="&#x1fa9f; How to use Focus Session &amp; Focus Assist in Windows 11 [Productivity Tip - Stay Focused]" width="640" height="360" src="https://www.youtube.com/embed/qGtruXeeO5k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Let me know what you think about this feature. !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why is somebody not working on these ideas</title>
+		<link>/2022/07/14/why-is-somebody-not-working-on-these-ideas/</link>
+					<comments>/2022/07/14/why-is-somebody-not-working-on-these-ideas/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 14 Jul 2022 05:01:14 +0000</pubDate>
+				<category><![CDATA[Thoughts]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1212</guid>
+
+					<description><![CDATA[Well efficiency is missing in our current usage of resources like the use of electricity. Like I miss switching off the fan when I leave the room. Couldn&#8217;t an automated system which could detect an empty room for 5 minutes and turn off the fan a brilliant idea. One of the similar ideas is the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well efficiency is missing in our current usage of resources like the use of electricity. Like I miss switching off the fan when I leave the room.</p>
+
+
+
+<p>Couldn&#8217;t an automated system which could detect an empty room for 5 minutes and turn off the fan a brilliant idea.</p>
+
+
+
+<p>One of the similar ideas is the use of natural light. Could we design our buildings in a more sustainable ways.</p>
+
+
+
+<p>It always strikes me the how many lights fill a showroom. Could there be a way we could design in such a way that natural light could replace it as much as possible.</p>
+
+
+
+<p>I think government should run design and innovation competitions to innovate this.</p>
+
+
+
+<p>And publish and promote such ideas and designs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/14/why-is-somebody-not-working-on-these-ideas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Speed up Project Development with a .bat file.</title>
+		<link>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
+					<comments>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 09:47:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1202</guid>
+
+					<description><![CDATA[Well every developer might be facing the same process when they open up their laptops every day. Like opening the project, opening the Project Management Website, opening the code folder etc, etc. Here are some ready to use commands that can help you Automate the process. Opening the Project Folder in VS Code through a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well every developer might be facing the same process when they open up their laptops every day. Like opening the project, opening the Project Management Website, opening the code folder etc, etc. Here are some ready to use commands that can help you Automate the process. </p>
+
+
+
+<h2>Opening the Project Folder in VS Code through a bat file. </h2>
+
+
+
+<pre class="wp-block-code"><code>code -n C:\path-to-the-folder-you-want-to-open</code></pre>
+
+
+
+<h2>Opening a Folder. </h2>
+
+
+
+<pre class="wp-block-code"><code>%SystemRoot%\explorer.exe C:\path-to-the-folder-you-want-to-open</code></pre>
+
+
+
+<h2>Opening a URL in Browser. </h2>
+
+
+
+<pre class="wp-block-code"><code>start chrome "https://iamshishir.com/"</code></pre>
+
+
+
+<h2>Taking a Dump of MySQL </h2>
+
+
+
+<pre class="wp-block-code"><code>C:\xampp\mysql\bin\mysqldump -h localhost -u root yourdb &gt; yourdb.sql</code></pre>
+
+
+
+<h2>Removing a file </h2>
+
+
+
+<pre class="wp-block-code"><code>del yourdb.sql</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to avoid node_modules folder in Zip.</title>
+		<link>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
+					<comments>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 29 Apr 2022 08:59:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1196</guid>
+
+					<description><![CDATA[Just as I started coding on an exciting note taking app I realized that if my laptop crashed I would lose all the hard work I have put into coding thousands of lines. I had not taken the backup in a while so I stopped the work and uploaded a zip to Google Drive. But [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Just as I started coding on an exciting note taking app I realized that if my laptop crashed I would lose all the hard work I have put into coding thousands of lines.</p>
+
+
+
+<p>I had not taken the backup in a while so I stopped the work and uploaded a zip to Google Drive.<br><br>But as with node projects it started to zip node modules <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4c2.png" alt="📂" class="wp-smiley" style="height: 1em; max-height: 1em;" />. Well the process is slow and the folder size is bloated due to modules code which is not actually necessary for backup. </p>
+
+
+
+<p>Can you relate to this? Well if yes, then this is how I make it easier for myself.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Skipping node_modues folder while zipping it for backup." width="640" height="360" src="https://www.youtube.com/embed/g5VYKm_gHVI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Automatically extracting price from Amazon.com</title>
+		<link>/2022/04/18/automatically-extracting-price-from-amazon-com/</link>
+					<comments>/2022/04/18/automatically-extracting-price-from-amazon-com/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 18 Apr 2022 20:22:53 +0000</pubDate>
+				<category><![CDATA[puppeteer]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1189</guid>
+
+					<description><![CDATA[This post illustrates how you can extract price from amazon.in or amazon.com using puppeteer.This project uses Node.JS and puppeteer library to do the extractions. Extracting Prices from Amazon.in and outputting to console.]]></description>
+										<content:encoded><![CDATA[
+<p>This post illustrates how you can extract price from amazon.in or amazon.com using puppeteer.<br>This project uses Node.JS and <a href="https://pptr.dev/">puppeteer library </a>to do the extractions. </p>
+
+
+
+<p></p>
+
+
+
+<h2>Extracting Prices from Amazon.in and outputting to console. </h2>
+
+
+
+<pre class="wp-block-code"><code>const puppeteer = require("puppeteer");
+
+const url =
+  "https://www.amazon.in/LG-Charcoal-Convection-Microwave-MJEN326PK/dp/B0816YMD45/ref=sr_1_5?crid=16ARG5YVRB0QV&amp;keywords=microwave+charcoal&amp;qid=1650310100&amp;sprefix=microwave+charcoal%2Caps%2C229&amp;sr=8-5";
+let browser;
+(async () =&gt; {
+  browser = await puppeteer.launch({
+    headless: true,
+  });
+  const &#91;page] = await browser.pages();
+  await page.goto(url, {waitUntil: "networkidle0"});
+  const selector = ".a-price&gt;.a-offscreen";
+  await page.waitForSelector(selector);
+  const price = await page.$eval(selector, el =&gt; el.innerText);
+  console.log(price); // =&gt; $58.95
+})()
+  .catch(err =&gt; console.error(err))
+  .finally(async () =&gt; await browser.close())
+;</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/18/automatically-extracting-price-from-amazon-com/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Custom Post Type returning only posts belonging to the Author in WordPress REST API</title>
+		<link>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
+					<comments>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Apr 2022 06:52:47 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[WordPress REST API]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1181</guid>
+
+					<description><![CDATA[Add the following to your plugin code. Replace &#8216;goals&#8217; with your content type name. About this solution. The great part about this is that you don&#8217;t need to create any custom endpoints to show only the related posts to the author. Can apply very easily for any CUSTOM Posts. Possible Scenarios where can you use [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>Add the following to your plugin code. <br>Replace &#8216;goals&#8217; with your content type name.</p>
+
+
+
+<pre class="wp-block-code"><code>function only_users_goals( $query ) 
+{
+	if ( $query-&gt;get( 'post_type' ) === 'goals' ) {
+		$query-&gt;set( 'author', get_current_user_id() );
+	}
+}
+add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
+
+
+
+<p><strong>About this solution. </strong></p>
+
+
+
+<ul><li>The great part about this is that you don&#8217;t need to create any custom endpoints to show only the related posts to the author. </li><li>Can apply very easily for any CUSTOM Posts. </li></ul>
+
+
+
+<p><strong>Possible Scenarios where can you use it.  </strong></p>
+
+
+
+<p>Suppose you are providing a solution where user wants the user to post and some entries into WordPress custom post type(CPT). there you can apply this solution. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Adding Sortable to a List in VueJS 3 in 3 Simple steps.</title>
+		<link>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/</link>
+					<comments>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2022 01:48:18 +0000</pubDate>
+				<category><![CDATA[Vue 3]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1164</guid>
+
+					<description><![CDATA[Step 1. Install vue.draggable.next Step 2 : Import and add as component Step 2 : Use it as follows to create a Loop. Note: Don&#8217;t replace &#8220;element&#8221; with the model name. I was making this mistake and it took me a while that it has to remain as element name only.]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p><br><strong>Step 1</strong>. Install vue.draggable.next</p>
+
+
+
+<pre class="wp-block-code"><code>yarn add vuedraggable@next
+
+npm i -S vuedraggable@next</code></pre>
+
+
+
+<p><strong>Step 2 :</strong> Import and add as component</p>
+
+
+
+<pre class="wp-block-code"><code>import draggable from 'vuedraggable';
+export default {
+  components:{draggable},
+...</code></pre>
+
+
+
+<p>Step 2 : Use it as follows to create a Loop. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;draggable group="node"  v-model="posts" item-key="id"&gt;
+        &lt;template #item="{ element, index }" &gt;
+            &lt;div&gt;{{ element.title }}&lt;/div&gt;
+        &lt;/template&gt;
+&lt;/draggable&gt;
+   
+</code></pre>
+
+
+
+<p>Note: Don&#8217;t replace &#8220;element&#8221; with the model name. I was making this mistake and it took me a while that it has to remain as element name only. </p>
+
+
+
+<p></p>
+
+
+
+<p> </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/03/30/adding-sortable-to-a-list-in-vuejs-3-in-3-simple-steps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

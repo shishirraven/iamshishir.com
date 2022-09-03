@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wordpress &#8211; Shishir Raven</title>
+	<atom:link href="/category/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Fri, 29 Jul 2022 17:25:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Wordpress &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Removing all the Default Theme Javascript and CSS from a WordPress Template.</title>
+		<link>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/</link>
+					<comments>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 29 Jul 2022 17:25:09 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1232</guid>
+
+					<description><![CDATA[Why? Case : Using a VueJS Application in a WordPress Plugin and Theme CSS is Clashing. There are some default CSS/JS which are included in every page + there is the Theme CSS which is also included on every page. I did not required any for it to work on my page. Since you are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<h2>Why? </h2>
+
+
+
+<h3>Case : Using a VueJS Application in a WordPress Plugin and Theme CSS is Clashing. </h3>
+
+
+
+<p>There are some default CSS/JS which are included in every page + there is the Theme CSS which is also included on every page. I did not required any for it to work on my page. Since you are reading this page your requirement would be similar</p>
+
+
+
+<h2>How?</h2>
+
+
+
+<h3>Strategy</h3>
+
+
+
+<p>On <strong>`wp_enqueue_scripts`</strong> hook usually add our own scripts, so before adding our own CSS/JS we will  <strong>dequeue</strong> all the scripts and style.</p>
+
+
+
+<h3>Code</h3>
+
+
+
+<p>The following is an example function that I use. </p>
+
+
+
+<pre class="wp-block-code"><code>
+function goals_enqueue_stuff() {
+
+  if ( is_page_template( wp_normalize_path(plugin_dir_path( __FILE__ ) . 'templates\goals_vue_app.php') ) ) 
+  {
+
+
+    //  Removing all Scripts. 
+    global $wp_scripts;
+    foreach( $wp_scripts-&gt;queue as $script ) :
+         wp_dequeue_script( $script );
+    endforeach;
+
+    // Removing all Styles
+    global $wp_styles;
+    foreach( $wp_styles-&gt;queue as $style ) :
+        wp_dequeue_style( $style );
+    endforeach;
+
+
+   wp_enqueue_media();
+    wp_enqueue_style( 'goal-routine-css', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/index.css');
+    wp_enqueue_script( 'goal-routine-module', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/index.js');
+    wp_enqueue_script( 'goal-routine-modulepreload', plugin_dir_url( __FILE__ ) . 'goal-app/dist/assets/vendor.js');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'goals_enqueue_stuff',1000 );</code></pre>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/29/removing-all-the-default-theme-javascript-and-css-from-a-wordpress-template/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Custom Post Type returning only posts belonging to the Author in WordPress REST API</title>
+		<link>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/</link>
+					<comments>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 05 Apr 2022 06:52:47 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[WordPress REST API]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1181</guid>
+
+					<description><![CDATA[Add the following to your plugin code. Replace &#8216;goals&#8217; with your content type name. About this solution. The great part about this is that you don&#8217;t need to create any custom endpoints to show only the related posts to the author. Can apply very easily for any CUSTOM Posts. Possible Scenarios where can you use [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>Add the following to your plugin code. <br>Replace &#8216;goals&#8217; with your content type name.</p>
+
+
+
+<pre class="wp-block-code"><code>function only_users_goals( $query ) 
+{
+	if ( $query-&gt;get( 'post_type' ) === 'goals' ) {
+		$query-&gt;set( 'author', get_current_user_id() );
+	}
+}
+add_action( 'pre_get_posts', 'only_users_goals' );</code></pre>
+
+
+
+<p><strong>About this solution. </strong></p>
+
+
+
+<ul><li>The great part about this is that you don&#8217;t need to create any custom endpoints to show only the related posts to the author. </li><li>Can apply very easily for any CUSTOM Posts. </li></ul>
+
+
+
+<p><strong>Possible Scenarios where can you use it.  </strong></p>
+
+
+
+<p>Suppose you are providing a solution where user wants the user to post and some entries into WordPress custom post type(CPT). there you can apply this solution. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/05/custom-post-type-returning-only-posts-belonging-to-the-author-in-wordpress-rest-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Enabling Filters for Meta Fields in the WordPress Rest API.</title>
+		<link>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/</link>
+					<comments>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2022 23:46:47 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[WordPress REST API]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=934</guid>
+
+					<description><![CDATA[WordPress has been an excellent platform and as of now it is gaining popularity as a headless CMS. And I too have chosen to keep WordPress as a headless CMS. And why not WordPress has lots of great features and a very active development community. I mean no software is perfect and the best next [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress has been an excellent platform and as of now it is gaining popularity as a headless CMS. And I too have chosen to keep WordPress as a headless CMS. And why not WordPress has lots of great features and a very active development community. </p>
+
+
+
+<p>I mean no software is perfect and the best next thing to a software is to have something which have lots of active development going on. This way one has lots of support for the software. In in todays world software versions are released more frequently than even and the eco system of development relies on a lot of 3rd party tools and services hence we have to keep the things upto-to-date with these 3rd party tools so in my opinion WordPress is a very good option to chose from. </p>
+
+
+
+<p>Secondly the WordPress is a world class CMS. No wonder why WordPress contributes to 36% of the total market share for the websites in the world. </p>
+
+
+
+<p>And I will contribute to its Architecture which allows it to be extended without touching the Core System. And this is very much required in todays world because there so many developers and each developer has a different level of experience and through process. So if they change/tamper the original code it would be very difficult to track the changes and also revert them.</p>
+
+
+
+<p>Even if you would be able to revert the code still their are chances that it could be improved there. But in case of WordPress they can make small plugins and install them. If something goes wrong you just can turn off the plugin (or deactivate it ) and puff all the problems are gone. </p>
+
+
+
+<p>Not only that, this way they developers can independently develop plugins on a separate version of WordPress, test it and then put it on the Original Website. Also it is easy to upload the plugins through the in built system. </p>
+
+
+
+<p>All these are the primary reason which has encouraged me to take WordPress as the platform of choice for the current project I am working on. </p>
+
+
+
+<h2 id="rest-api">REST API</h2>
+
+
+
+<p>Rest API is which makes WordPress Quite a good candidate to work as a Headless CMS, will in my current project not only I am using it as a Headless CMS but more over I am building a software over it which not only Reads the data from the headless CMS but it also writs beck data to it. </p>
+
+
+
+<p>But my experience is not straight forward there are some things which do not work out of the box. Like I have been using the WordPress by using Custom Post type and I have extended it with my own field with meta fields. </p>
+
+
+
+<p>Now here while I am Reading, Writing data every things works fine out of the Box, but when I am reading data I have some requirements such as ordering the data with the meta fields and also filtering the data. </p>
+
+
+
+<p>To achieve ordering of the data based on the meta field I had to use Filters and it was achieved. If you are looking forward to do so the article I wrote about it the following is the <a href="https://iamshishir.com/sorting-orderby-for-custom-meta-fields-in-wordpress/">link</a>. </p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-shishir-raven wp-block-embed-shishir-raven"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="x0PRxVJ6dl"><a href="https://iamshishir.com/sorting-orderby-for-custom-meta-fields-in-wordpress/">WordPress REST API. Sorting/Orderby for custom meta fields in WordPress and fixing &#8220;Invalid parameter(s): orderby&#8221;</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" title="&#8220;WordPress REST API. Sorting/Orderby for custom meta fields in WordPress and fixing &#8220;Invalid parameter(s): orderby&#8221;&#8221; &#8212; Shishir Raven" src="https://iamshishir.com/sorting-orderby-for-custom-meta-fields-in-wordpress/embed/#?secret=x0PRxVJ6dl" data-secret="x0PRxVJ6dl" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Now the Second problem that I am facing is how to filter the records based on meta fields.  Now I started by research on the internet and I found on the documentation of the WordPress that the filtering option existed in the REST api but now it has been removed from it in the latest versions. The also suggested that there are plugins available which can enable the same functionality again. Now this was disappointing because I love when the WordPress by default provides the functionality because that way I am sure they are going to keep the functionality maintained in the future. </p>
+
+
+
+<p>But I had no other option available than to write the functionality yourself. </p>
+
+
+
+<p>I found out that the WordPress documentation requests you to write a custom endpoint yourself and then you can get you customized results. Now this is an option but it would been I would have to write all the endpoints myself and this would mean a lot of work. </p>
+
+
+
+<p>I needed something which is more like a generic solution enabling the filtering by default.<br>Here is when I found this plugin. </p>
+
+
+
+<p><br><a href="https://github.com/WP-API/rest-filter">https://github.com/WP-API/rest-filter</a> </p>
+
+
+
+<p>Now it was a great help, the plugin works as intended but writing queries it is difficult because you can write nested queries. So it is very powerful and it works but the problem is that its difficult to form queries. </p>
+
+
+
+<p>So for my own purpose I added a little change, instead of sending queries directly as POST variables, I made changes so that I can send them through a JSON Variable. </p>
+
+
+
+<p>If anyone needs to do so they can use the following code. </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/b365ac60055f091529d31f6956fb4b18.js"></script>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/01/25/enabling-filters-for-meta-fields-in-the-wordpress-rest-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WordPress REST API. Sorting/Orderby for custom meta fields in WordPress and fixing &#8220;Invalid parameter(s): orderby&#8221;</title>
+		<link>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/</link>
+					<comments>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 24 Jan 2022 00:24:34 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[WordPress REST API]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=902</guid>
+
+					<description><![CDATA[Why? By default in WordPress you can only use the valid fields which are specified by each post type. Read more on WordPresss REST API documentation. This post is useful to you if you might be receiving an error as following. code &#8220;rest_invalid_param&#8221; message &#8220;Invalid parameter(s): orderby&#8221; How can you check which fields are available [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="why">Why?</h2>
+
+
+
+<p>By default in WordPress you can only use the valid fields which are specified by each post type. Read more on <a href="https://developer.wordpress.org/rest-api/using-the-rest-api/pagination/#ordering-results">WordPresss REST API documentation.</a> </p>
+
+
+
+<p>This post is useful to you if you might be receiving an error as following. </p>
+
+
+
+<figure class="wp-block-table is-style-regular"><table><tbody><tr><td>code</td><td>&#8220;rest_invalid_param&#8221;</td></tr><tr><td>message</td><td>&#8220;Invalid parameter(s): orderby&#8221;</td></tr></tbody></table></figure>
+
+
+
+<figure class="wp-block-image alignwide size-full"><img width="627" height="395" src="https://iamshishir.com/wp-content/uploads/2022/01/image-2.png" alt="" class="wp-image-914" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095556/image-2.png 627w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095556/image-2-300x189.png 300w" sizes="(max-width: 627px) 100vw, 627px" /><figcaption> rest_invalid_param &#8211; error you receive when you put a custom meta field on order by.</figcaption></figure>
+
+
+
+<h2 id="how-can-you-check-which-fields-are-available">How can you check which fields are available ?</h2>
+
+
+
+<p><strong>REST API </strong>&#8211;<a href="http://oursite.com/wp-json/"> http://yoursite.com/wp-json/</a></p>
+
+
+
+<p>The above URL on your WordPress website gives you all the routes and here you can also find all the valid fields for <strong>orderby</strong> parameter you can send while requesting data through REST calls.  </p>
+
+
+
+<h2 id="example-to-check-available-orderby-fields-for-posts-content-type">Example to check available orderby fields  for posts content type. </h2>
+
+
+
+<p>Example of how you will find all the fields available for post type = <strong>posts</strong>. <br>Check the JSON on the following node. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="313" height="148" src="https://iamshishir.com/wp-content/uploads/2022/01/image.png" alt="" class="wp-image-903" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095554/image.png 313w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095554/image-300x142.png 300w" sizes="(max-width: 313px) 100vw, 313px" /></figure></div>
+
+
+
+<p>Inside you will find all the fields like the screenshot pasted below. </p>
+
+
+
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" width="895" height="397" src="https://iamshishir.com/wp-content/uploads/2022/01/image-1.png" alt="" class="wp-image-904" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095555/image-1.png 895w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095555/image-1-300x133.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/01/03095555/image-1-768x341.png 768w" sizes="(max-width: 895px) 100vw, 895px" /></figure>
+
+
+
+<p>Similar how we see the the available fields for the posts type we can also see the fields available for other content types. </p>
+
+
+
+<div class="wp-container-1 wp-block-group p-5 has-background" style="background-color:#fffeef">
+<p><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Tip</p>
+
+
+
+<p>If you open the link in Firefox it will give you a hierarchical navigation like below whereas Chrome just throws raw JSON which is difficult to read without a JSON Parser such as this one <a href="http://json.parser.online.fr/ ">http://json.parser.online.fr/ </a> you might have to paste the raw JSON content to read it properly. </p>
+</div>
+
+
+
+<h2 id="making-our-custom-fields-available-for-the-rest-api-order-by">Making our custom fields available for the REST API order by. </h2>
+
+
+
+<p>We would need to add some code to functions.php either inside your plugin or theme. <br></p>
+
+
+
+<p>To make our custom field available we will use two filters</p>
+
+
+
+<ol><li><strong>&#8216;rest_&#8217; . $post_type . &#8216;_collection_params&#8217;</strong><br>We will use to  add our custom fields to the allowed list of fields. </li><li><strong>&#8216;rest_&#8217; . $post_type . &#8216;_query </strong><br>Will use to add the order by functionality when our API is called. </li></ol>
+
+
+
+<p>Add the following code and replace &#8220;wf_account&#8221; with your own post type. <br>And fields with your own fields. </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/0045230a8913737c1ed02a671c757cb5.js"></script>
+</div>
+
+
+
+<p>Once you do so you would be able to see the new fields available and the error will go away. . </p>
+
+
+
+<p>The second step is to make the orderBy Work for your fields add the following code. </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/651aae2a8b227dc91458f0053f41c255.js"></script>
+</div>
+
+
+
+<p>Once you add these two functions your sorting will start working. </p>
+
+
+
+<h3 id="initiating-the-function-only-when-rest-api-is-used">Initiating the function only when REST API is used. </h3>
+
+
+
+<p>Well we don&#8217;t need these functions to load up when the normal WordPress is being used so we will call them  when REST API is used using action <a href="https://developer.wordpress.org/reference/hooks/rest_api_init/">rest_api_init</a>. this will keep our code optimized. </p>
+
+
+
+<p>Here is the complete example </p>
+
+
+
+<div class="not-prose">
+<script src="https://gist.github.com/shishirraven/9899390c644e0cda14725a1b30ed5f87.js"></script>
+</div>
+
+
+
+<p>That&#8217;s it. If you </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/01/24/sorting-orderby-for-custom-meta-fields-in-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WordPress Bulk Delete All comments</title>
+		<link>/2021/02/24/wordpress-bulk-delete-all-comments/</link>
+					<comments>/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 24 Feb 2021 18:35:20 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[bulk delete]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=771</guid>
+
+					<description><![CDATA[Why I need the Bulk Delete option? A few months back I launched a WordPress Website and today when I visited it I saw that my blog has 10,326 Comments. I knew the moment when I saw it that this is all spam. Why the existing Bulk Delete option in WordPress Sucks? Alternate solution. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="why-i-need-the-bulk-delete-option">Why I need the Bulk Delete option?</h2>
+
+
+
+<p>A few months back I launched a WordPress Website and today when I visited it I saw that my blog has 10,326 Comments. I knew the moment when I saw it that this is all spam. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="218" height="40" src="https://iamshishir.com/wp-content/uploads/2021/02/image.png" alt="" class="wp-image-772"/></figure>
+
+
+
+<h2 id="why-the-existing-bulk-delete-option-in-wordpress-sucks-alternate-solution">Why the existing Bulk Delete option in WordPress Sucks? Alternate solution.</h2>
+
+
+
+<p>The primary reason for any Bulk Actions + Checkbox like the ones which I show in the image below image selects only the items on the page itself. Which are like 20 items out of over 500 pages. (Remember I have 10,326 Comments) </p>
+
+
+
+<span id="more-771"></span>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="861" height="591" src="https://iamshishir.com/wp-content/uploads/2021/02/image-1.png" alt="" class="wp-image-773" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1.png 861w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1-300x206.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1-768x527.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+
+
+
+<p>Alternatively, if it worked like how the Bulk Action items work in Gmail. I wouldn&#8217;t have to write this mail. </p>
+
+
+
+<p>See in the screenshot below, how Gmail gives me an option to select all between 50 conversation on the page and all the 9065 conversations when I use the Checkbox to select all the Items. </p>
+
+
+
+<figure class="wp-block-image alignfull size-large"><img loading="lazy" width="1024" height="142" src="https://iamshishir.com/wp-content/uploads/2021/02/image-2-1024x142.png" alt="" class="wp-image-774" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-1024x142.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-300x42.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-768x106.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2.png 1530w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>It would have been so much great if the WordPress also had a similar option to allow me to select all 10,326. But unfortunately it&#8217;s not there as of 5.6.2 Versioni of WordPress it is not there. </p>
+
+
+
+<h2 id="how-i-fixed-the-problem">How I fixed the problem?</h2>
+
+
+
+<p>Well Google is always there for my Rescue. And I found a Plugin that can help me in deleting all the Comments at once. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://wordpress.org/plugins/delete-all-comments-of-website/"><img loading="lazy" width="745" height="147" src="https://iamshishir.com/wp-content/uploads/2021/02/image-3.png" alt="Delete all WordPress comments Plugin" class="wp-image-775" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095534/image-3.png 745w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095534/image-3-300x59.png 300w" sizes="(max-width: 745px) 100vw, 745px" /></a></figure>
+
+
+
+<p>This is the first thing that pops up when. <br>When I searched for it in the plugins section it said it has not been tested with the current version of WordPress. But since my blog does not have almost anything. I can go ahead. </p>
+
+
+
+<p>After installation and Activation of the plugin you can find the menu to delete under </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="263" height="352" src="https://iamshishir.com/wp-content/uploads/2021/02/image-4.png" alt="Delete Comments in Menu. " class="wp-image-776" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-4.png 263w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-4-224x300.png 224w" sizes="(max-width: 263px) 100vw, 263px" /></figure>
+
+
+
+<p>These are the options that the Delete Plugin gives. </p>
+
+
+
+<figure class="wp-block-image alignfull size-large"><img loading="lazy" width="1024" height="445" src="https://iamshishir.com/wp-content/uploads/2021/02/image-5-1024x445.png" alt="Available options for Delete Comments Plugin. " class="wp-image-777" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-1024x445.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-300x130.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-768x334.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-1536x668.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5.png 1692w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Well for my purpose, I wanted to delete all the comments from A-Z so I do not need any complex options. But you might, so you can search for some other plugin if this does not have what you need. </p>
+
+
+
+<p>I just selected the and pressed &#8220;Delete Now Button&#8221; and Comments and got the following popup. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="663" height="447" src="https://iamshishir.com/wp-content/uploads/2021/02/image-6.png" alt="Success Message after all the comments have been deleted by the wordpress Delete All comments plugin. 
+" class="wp-image-778" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095537/image-6.png 663w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095537/image-6-300x202.png 300w" sizes="(max-width: 663px) 100vw, 663px" /></figure>
+
+
+
+<p>Well, but to see the Comments Count in the menu bar disappear, I had to just refresh the Page. </p>
+
+
+
+<p>Anyways, this time I did not &#8220;Buy a Beer&#8221; to the developer Navneet Soni. But it really did save me a a lot of time. A big thanks goes to him. </p>
+
+
+
+<h2 id="steps-you-can-follow">Steps you can follow. </h2>
+
+
+
+<div class="schema-how-to wp-block-yoast-how-to-block"><p class="schema-how-to-description">How to Delete all the comments from your WordPress. </p> <ol class="schema-how-to-steps"><li class="schema-how-to-step" id="how-to-step-1614190245466"><strong class="schema-how-to-step-name">Login into your WordPress and Navigate to Add New Plugin</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/add_new_plugin.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190397511"><strong class="schema-how-to-step-name">In the Keyword Box enter &#8220;Delete All comments&#8221;</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/delete_allcomments.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190614899"><strong class="schema-how-to-step-name">Select the Plugin by Navneet Soni and hit &#8220;Install Now&#8221; button. <br/>Note the plugin has 20000+ Active Installation with 5 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" />(Wow)</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/plugin_image.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190658597"><strong class="schema-how-to-step-name">Once the Installation is done the button will change to &#8220;Activate&#8221;, then press the &#8220;Activate&#8221; button. <br/></strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/activate.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190979613"><strong class="schema-how-to-step-name">Select your Preferred delete option and hit Delete. <br/> </strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/delete_opt.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614191214334"><strong class="schema-how-to-step-name">Deactivate and remove the plugin. <br/>Well this is an optional step, but I prefer to keep by wordpress light. So if i know I no longer require the plugin, I deactivate and delete the plugin. <br/>So you too can chose to do so. </strong> <p class="schema-how-to-step-text"></p> </li></ol></div>
+
+
+
+<p>Well, If you have any further Ideas on how to delete the comments, that is faster and better than this plugin. Please share with me in the comments. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fixing the WordPress “500 Internal Server Error” while upgrading the server to 7.3 in Cpanel</title>
+		<link>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/</link>
+					<comments>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Mon, 25 Nov 2019 19:32:49 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=607</guid>
+
+					<description><![CDATA[In Cpanel, I upgraded the server to 7.3 and started receiving 500 Error. I Could quickly fix the error by enabling the following extensions. I hope it helps you!]]></description>
+										<content:encoded><![CDATA[
+<p><br>In Cpanel, I upgraded the server to 7.3 and started receiving 500 Error. <br></p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="857" height="423" src="https://iamshishir.com/wp-content/uploads/2019/11/image-1.png" alt="" class="wp-image-609" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095417/image-1.png 857w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095417/image-1-300x148.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095417/image-1-768x379.png 768w" sizes="(max-width: 857px) 100vw, 857px" /></figure>
+
+
+
+<p><br>I Could quickly fix the error by enabling the following extensions. <br></p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="334" src="https://iamshishir.com/wp-content/uploads/2019/11/image-1024x334.png" alt="" class="wp-image-608" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095415/image-1024x334.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095415/image-300x98.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095415/image-768x250.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095415/image-1536x501.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/11/03095415/image.png 1635w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>I hope it helps you!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/11/25/fixing-the-wordpress-500-internal-server-error-while-upgrading-the-server-to-7-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Keeping wordpress Clean</title>
+		<link>/2019/01/24/keeping-wordpress-clean/</link>
+					<comments>/2019/01/24/keeping-wordpress-clean/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2019 12:18:59 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=152</guid>
+
+					<description><![CDATA[WordPress is a amazing software and one of the most liked CMS in the world. And I particularly appreciate its ability to be extended. And at the right time it has upgraded itself to become a better editor. But there is one thing which I both love and hate about the wordpress. With a plethora [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress is a amazing software and one of the most liked CMS in the world. And I particularly appreciate its ability to be extended. And at the right time it  has upgraded itself to become a better editor. </p>
+
+
+
+<p>But there is one thing which I both love and hate about the wordpress. With a plethora of themes and plugins available which can practically perform any task. When you start installing a theme and then you download the demo files and then you download the all the additional plugins the whole project looks kind of bloated. </p>
+
+
+
+<p>What worries me as a user is security. It&#8217;s easier to trust wordpress but then there are thousands of developers that are creating so many good plugins and themes. I kind of get worried about how will I keep my project clean. </p>
+
+
+
+<p>Recently I just installed a wordpress and then played my way around with lots of plugins and themes. And at the end it was so much filled with demo data and image files. That the best method for me was to just reinstall wordpress. And then I only installed the plugins that I finalized. </p>
+
+
+
+<p>One of the reasons why I want to keep the WordPress clean is also because I want the project to be running fastest as possible. One of our website running on wordpress is kind of slow. Probably because of the custom theme we installed or the plugins which are inside the project. I am still not sure but since everything is set I kind of avoid making changes to the website. </p>
+
+
+
+<p>I really do not have a solid solution to keep the wordpress clean but my strategy is to use two wordpress. One for experimenting and the other where the original solution will be installed. Also I would be installing only the the themes and plugins which are trusted. The way I do it is to check the number of downloads, and to check the rating in reviews. But still in terms of security these stats may not always tell much. </p>
+
+
+
+<p>If anyone has ideas on how they keep their wordpress site clean and running fast please share your ideas in the comments below. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/01/24/keeping-wordpress-clean/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Gutenberg and Pods shortcode.</title>
+		<link>/2019/01/24/gutenberg-and-pods-shortcode/</link>
+					<comments>/2019/01/24/gutenberg-and-pods-shortcode/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 24 Jan 2019 11:59:38 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=145</guid>
+
+					<description><![CDATA[WordPress Pods pretty well supports the Gutenberg editor inside the custom types but when you want to use the ShortCodes to inside the pages when Gutenberg editor you don&#8217;t have a way to create them through wizard. After searching the Pods documentation I found that they are building a bock for Gutenberg which started 11 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress Pods pretty well supports the Gutenberg editor inside the custom types but when you want  to use the ShortCodes to inside the pages when Gutenberg editor you don&#8217;t have a way to create them through wizard. </p>
+
+
+
+<p>After searching the Pods documentation I found that they are building a bock for Gutenberg which started 11 months back and there are not much updates at the time I am writing this post. </p>
+
+
+
+<h2>Solution. </h2>
+
+
+
+<p>For now there is no direct solution to this issue until someone decides to create a shortcode generator block for Pods. At least what I could have found at the moment. But to just move forward the following is a solution that works just fine to get you going. </p>
+
+
+
+<p>Step1 : Install Classic Editor for WordPress and in settings enable &#8220;Allow users to switch editors. &#8220;</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="380" height="85" src="https://iamshishir.com/wp-content/uploads/2019/01/image.png" alt="" class="wp-image-146" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/01/03095212/image.png 380w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2019/01/03095212/image-300x67.png 300w" sizes="(max-width: 380px) 100vw, 380px" /></figure>
+
+
+
+<p>Step 2 : Switch to classic editor create a short code and then copy code and you can use it just inside a text block in new Gutenberg Editor. </p>
+
+
+
+<p>That&#8217;s it. </p>
+
+
+
+<p>If someone has a better solution please post it in the comments below. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/01/24/gutenberg-and-pods-shortcode/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How To Create A WordPress Plugin</title>
+		<link>/2018/12/21/how-to-create-a-wordpress-plugin/</link>
+					<comments>/2018/12/21/how-to-create-a-wordpress-plugin/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 21 Dec 2018 16:54:52 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=109</guid>
+
+					<description><![CDATA[Summary : Plugins extend functionality or add new features to your&#160;WordPress&#160;websites. Plugins are written in PHP Language. As Themes change the look of the website Plugins are Responsible for changing the functionality. Why Plugins ? Plugins help in hacking into the WordPress to add the desired functionality. Like for example I wanted to add Google [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Summary :</strong> <br>Plugins extend functionality or add new features to your&nbsp;<strong>WordPress</strong>&nbsp;websites. Plugins are written in PHP Language.  As Themes change the look of the website Plugins are Responsible for changing the functionality. </p>
+
+
+
+<span id="more-109"></span>
+
+
+
+<p></p>
+
+
+
+<h2>Why Plugins ?</h2>
+
+
+
+<p>Plugins help in hacking into the WordPress to add the desired functionality. Like for example I wanted to add Google Analytics code to my website and to do that there is no provision to do that by default. One of the simplest way (though not recommended) is to open the Theme Editor available and putting the code into the header file. Now this is not good because once the theme is updated the code that you added will be replaced by the Updated theme. Another reason is that its comparatively difficult to find and update again. </p>
+
+
+
+<p>Now with the help of a plugin we can do that easily. </p>
+
+
+
+<p>There is no dearth of plugins which are available online for WordPress and for the same reason WordPress is world #1 CMS. But sometime as a developer you need something very unique and here is where you can actually write your own plugin. </p>
+
+
+
+<p></p>
+
+
+
+<h2>Writing a simple Google Analytics Plugin. </h2>
+
+
+
+<p>To get started with our first plugin lets take a real world example of adding a plugin that gives interface to add a Google Analytics code to save it into WordPress Settings and then display it on the &lt;head&gt; section of the front end pages. </p>
+
+
+
+<h3>Step 1 : Setting up the Plugin Structure</h3>
+
+
+
+<p>Browse to &#8220;<strong>wp-contents/plugins</strong>&#8221; folder on your wordpress installation and create a folder called &#8220;google-analytics&#8221;. Inside the folder create a file &#8220;google-analytics.php&#8221;.</p>
+
+
+
+<h3>Step 2 : Add Plugin Meta</h3>
+
+
+
+<p>In your google-analytics.php we will add some meta data so that WordPress can know the Name and other details about our Plugin. </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+   /*
+   Plugin Name: Google Analytics
+   Plugin URI: iamshishir.com
+   description: Allows you to Embed Google Anaytics to your Webpage. 
+   Author: Shishir Raven
+   Author URI: https://iamshishir.com/
+   License: GNU
+   */
+?></code></pre>
+
+
+
+<p>Only Plugin Name is mandatory requirement but it is always recommended to add more details if you want to share the plugin with other users. </p>
+
+
+
+<p>At this moment is a functional WordPress plugin you would be able to see the plugin  appear under Plugins and you can also activate the plugin. But the plugin will of course do nothing.  </p>
+
+
+
+<h3 id="mce_20">Step 3 : Creating a master class. </h3>
+
+
+
+<p>In this step we will just add a master class called &#8220;googleAnalytics&#8221;</p>
+
+
+
+<pre class="wp-block-code"><code>class googleAnalytics
+{
+
+	public function __construct() 
+	{
+		$this->plugin               = new stdClass;
+		$this->plugin->name         = 'google-analytics'; // Plugin Folder
+		$this->plugin->displayName  = 'Embed Google Analytics'; // Plugin Name
+		$this->plugin->version      = '1';
+	}
+}
+$oyeGA = new googleAnalytics();</code></pre>
+
+
+
+<p>Here we just create our master class and in constructor we add a few settings inside a stdClass in $this-&gt;plugin.</p>
+
+
+
+<h3 id="mce_23">Step 4 : Let&#8217;s add our own menu item under Settings in the admin section.  </h3>
+
+
+
+<p>Add the following function to our class. This function when called will basically add a menu under Settings and when clicked with look for &#8220;settingsPage&#8221; function to execute. </p>
+
+
+
+<p>You can also <a href="https://developer.wordpress.org/reference/functions/add_submenu_page/">read more documentation about the function <strong>add_submenu_page</strong> on the wordpress documentation.</a> </p>
+
+
+
+<pre class="wp-block-code"><code>function adminPanel() 
+{
+	add_submenu_page( 
+	//$parent_slug -
+	'options-general.php', // Slug for main settings
+
+	// Page Title 
+	'Google Analytics Setting', 
+
+	// Menu title 
+	"Oye Google Analytics",
+	// Capablity
+	'manage_options',
+
+	// Menu Slug 
+	'google-analytics', 
+
+	//callable $function = ''
+	array( $this, 'settingsPage' ) );
+}</code></pre>
+
+
+
+<p>Since we want to call this function when admin panel we need to register this on admin_menu hook. </p>
+
+
+
+<pre class="wp-block-code"><code>add_action( 'admin_menu', array( &amp;$this, 'adminPanel' ) );</code></pre>
+
+
+
+<p>Add the above code inside constructor. Once you do this you should see a new menu appear under Settings Tab in Admin panel. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img loading="lazy" width="229" height="385" src="https://iamshishir.com/wp-content/uploads/2018/12/image-17.png" alt="" class="wp-image-113" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095149/image-17.png 229w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095149/image-17-178x300.png 178w" sizes="(max-width: 229px) 100vw, 229px" /></figure></div>
+
+
+
+<h3 id="mce_4">Step 5 : Registering a new Setting on WordPress. </h3>
+
+
+
+<p>Since we will be saving the the Embed Code on google we need storing space. We can do so by registering a new setting into wordpress. </p>
+
+
+
+<p>You can use the following code to do so. </p>
+
+
+
+<pre class="wp-block-code"><code>function registerSettings()
+{
+	register_setting( $this->plugin->name, 'oye_google_analytics_embed', 'trim' );
+}</code></pre>
+
+
+
+<p>When this function will be called a new setting &#8216;oye_google_analytics_embed&#8217; will be registered. Think this as of some storage space. </p>
+
+
+
+<p>We want this setting to be registered just as the admin in started we will use the &#8220;admin_init&#8221; hook. You need to copy this to the class constructor. </p>
+
+
+
+<pre class="wp-block-code"><code>add_action( 'admin_init', array( &amp;$this, 'registerSettings' ) );</code></pre>
+
+
+
+<h3 id="mce_5">Step 5 : Creating the page that will open when the &#8220;Oye Google Analytics&#8221; menu is clicked. </h3>
+
+
+
+<p>We already registered a function to &#8220;settingsPage&#8221; to be called when the menu item is clicked. Now we will define that function. </p>
+
+
+
+<p>This following function performs the following. </p>
+
+
+
+<ol><li>Check if the user trying to open the page is Admin. </li><li>Check if this page is a page which has been submitted by the form. <ol><li>Check nonce : this is simply a security utility inside wordpress. <a href="https://codex.wordpress.org/WordPress_Nonces">Read more about nonce</a>. </li><li>If everything is fine it inserts the data using. <strong>update_option&nbsp;</strong>in&nbsp;wordpress and sets the success message.</li></ol></li><li>Loads the settings into settings property using <strong>get_option</strong></li><li>Include the page that contains the Settings from. </li></ol>
+
+
+
+<pre class="wp-block-code"><code>function settingsPage() 
+{
+	// only admin user can access this page
+	if ( !current_user_can( 'administrator' ) ) {
+		echo '&lt;p>' . __( 'Sorry, you are not allowed to access this page.', $this->plugin->name ) . '&lt;/p>';
+	return;
+}
+
+// Save Settings
+if ( isset( $_REQUEST['submit'] ) ) {
+	// Check nonce
+	if ( !isset( $_REQUEST[$this->plugin->name.'_nonce'] ) ) 
+	{
+		// Missing nonce
+		$this->errorMessage = __( 'nonce field is missing. Settings NOT saved.', $this->plugin->name );
+	} 
+	elseif ( !wp_verify_nonce( $_REQUEST[$this->plugin->name.'_nonce'], $this->plugin->name ) ) 
+	{
+		// Invalid nonce
+		$this->errorMessage = __( 'Invalid nonce specified. Settings NOT saved.', $this->plugin->name );
+	} 
+	else 
+	{
+		// Save
+		// $_REQUEST has already been slashed by wp_magic_quotes in wp-settings
+		// so do nothing before saving
+		update_option( 'oye_google_analytics_embed', $_REQUEST['oye_google_analytics_embed'] );
+		$this->message = __( 'Settings Saved.', $this->plugin->name );
+	}
+}
+
+// Get latest settings
+$this->settings = array(
+'oye_google_analytics_embed' => esc_html( wp_unslash( get_option( 'oye_google_analytics_embed' ) ) )
+);
+
+// Load Settings Form
+include_once( WP_PLUGIN_DIR . '/' . $this->plugin->name . '/views/ga_settings.php' );
+
+}</code></pre>
+
+
+
+<h3 id="mce_16">Step 6 : Create the Settings Page View. </h3>
+
+
+
+<p>Basically this is the page which we include on the settingsPage() function. Called ga_settings.php. Inside this page we just need to have a form which will be prefilled with the current settings.  </p>
+
+
+
+<pre class="wp-block-code"><code>&lt;div class="wrap">
+    &lt;h2>&lt;?php echo $this->plugin->displayName; ?> » &lt;?php _e( 'Settings', $this->plugin->name ); ?>&lt;/h2>
+
+    &lt;?php
+    if ( isset( $this->message ) ) {
+        ?>
+        &lt;div class="updated fade">&lt;p>&lt;?php echo $this->message; ?>&lt;/p>&lt;/div>
+        &lt;?php
+    }
+    if ( isset( $this->errorMessage ) ) {
+        ?>
+        &lt;div class="error fade">&lt;p>&lt;?php echo $this->errorMessage; ?>&lt;/p>&lt;/div>
+        &lt;?php
+    }
+    ?>
+
+    &lt;div id="poststuff">
+    	&lt;div id="post-body" class="metabox-holder columns-2">
+    		&lt;!-- Content -->
+    		&lt;div id="post-body-content">
+				&lt;div id="normal-sortables" class="meta-box-sortables ui-sortable">
+	                &lt;div class="postbox">
+	                    &lt;h3 class="hndle">&lt;?php _e( 'Settings', $this->plugin->name ); ?>&lt;/h3>
+
+	                    &lt;div class="inside">
+		                    &lt;form action="options-general.php?page=google-analytics" method="post">
+		                    	&lt;p>
+		                    		&lt;label for="oye_google_analytics_embed">&lt;strong>
+		                    			&lt;?php _e( 'Paste Google Analytics Code', $this->plugin->name ); ?>
+		                    				
+		                    			&lt;/strong>&lt;/label>
+		                    		&lt;textarea name="oye_google_analytics_embed" id="oye_google_analytics_embed" 
+		                    		class="widefat" rows="8" style="font-family:Courier New;">&lt;?php echo $this->settings['oye_google_analytics_embed']; ?>&lt;/textarea>
+		                    		&lt;?php _e( 'These Google Analytics code will be  printed in the &lt;code>&lt;head>&lt;/code> section.', $this->plugin->name ); ?>
+		                    	&lt;/p>
+		                    	&lt;?php wp_nonce_field( $this->plugin->name, $this->plugin->name.'_nonce' ); ?>
+		                    	&lt;p>
+									&lt;input name="submit" type="submit" name="Submit" class="button button-primary" value="&lt;?php _e( 'Save', $this->plugin->name ); ?>" />
+								&lt;/p>
+						    &lt;/form>
+	                    &lt;/div>
+	                &lt;/div>
+	                &lt;!-- /postbox -->
+				&lt;/div>
+				&lt;!-- /normal-sortables -->
+    		&lt;/div>
+    		&lt;!-- /post-body-content -->
+
+    		&lt;!-- Sidebar -->
+    		&lt;div id="postbox-container-1" class="postbox-container">
+    			&lt;?php require_once( WP_PLUGIN_DIR . '/' . $this->plugin->name . '/views/sidebar.php' ); ?>
+    		&lt;/div>
+    		&lt;!-- /postbox-container -->
+    	&lt;/div>
+	&lt;/div>
+&lt;/div></code></pre>
+
+
+
+<p>Once you finish this step you would see a page as following. </p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" width="1024" height="377" src="https://iamshishir.com/wp-content/uploads/2018/12/image-18-1024x377.png" alt="" class="wp-image-114" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095150/image-18-1024x377.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095150/image-18-300x110.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095150/image-18-768x282.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095150/image-18.png 1531w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>At this point all you would be able to save settings into wordpress. </p>
+
+
+
+<h3 id="mce_23">Step 7 : Showing this Embed code on head section on front end. </h3>
+
+
+
+<p>Add a frontend hook.</p>
+
+
+
+<pre class="wp-block-code"><code>// Frontend Hooks
+add_action( 'wp_head', array( &amp;$this, 'putToHeader' ) );</code></pre>
+
+
+
+<p>And add a function which is called </p>
+
+
+
+<pre class="wp-block-code"><code>function putToHeader() 
+{
+	// Get meta
+	$meta = get_option( 'oye_google_analytics_embed' );
+	if ( empty( $meta ) ) 
+	{
+		return;
+	}
+
+	if ( trim( $meta ) == '' ) {
+		return;
+	}
+	// Output
+	echo wp_unslash( $meta );
+}</code></pre>
+
+
+
+<p>Now if you add Google Analytics code in your settings you should see the same when you observe the source of your front end page. </p>
+
+
+
+<p>Hope this article might have helped you learn the basics about the WordPress plugins. Please leave your comments below. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/21/how-to-create-a-wordpress-plugin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WordPress Glutenberg. Test drive.</title>
+		<link>/2018/12/12/wordpress-glutenberg-test-drive/</link>
+					<comments>/2018/12/12/wordpress-glutenberg-test-drive/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2018 21:27:00 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://localhost/test/shishirraven/?p=6</guid>
+
+					<description><![CDATA[I am using glutenberg for the first time to write this very article and I pretty much like it because it has a flow. Like suppose a person who is new to WordPress will enjoy using Glutenberg because it&#8217;s easy to get started. You do not have to learn anything if you want to add [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<span id="more-8"></span>
+
+
+
+<p>I am using glutenberg for the first time to write this very article and I pretty much like it because it has a flow. Like suppose a person who is new to WordPress will enjoy using Glutenberg because it&#8217;s easy to get started. You do not have to learn anything if you want to add content dropping in some simple images in contrast to the classic wordpress editor. But I guess there are still certain things which will not be easy to implement into Glutenberg. such as tiled view of the icons along with the some content and features.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="https://iamshishir.com/wp-content/uploads/2018/12/image-6.png" alt="" class="wp-image-49" width="478" height="339" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095128/image-6.png 951w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095128/image-6-300x213.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095128/image-6-768x546.png 768w" sizes="(max-width: 478px) 100vw, 478px" /></figure>
+
+
+
+<p>How can we actually have a layout which is looks like above.&nbsp; Is it even possible with just Glutenberg?<br><br>Well actually it is possible and I was able to do this with Glutenberg. Its awesome.&nbsp;<br>I created columns and then just pasted image copied with heading and other stuff and the results are pretty good. <br><br>Look the following section. It&#8217;s like a sample of the Mockup in action.&nbsp;&nbsp;<br></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-container-5 wp-block-columns has-3-columns">
+<div class="wp-container-2 wp-block-column">
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" src="https://iamshishir.com/wp-content/uploads/2018/12/image-7.png" alt="" class="wp-image-51" width="137" height="138" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-7.png 229w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-7-150x150.png 150w" sizes="(max-width: 137px) 100vw, 137px" /></figure></div>
+
+
+
+<h4>BUSINESS CONTACT</h4>
+
+
+
+<p>All you business connections are in a single place, How does it sounds? Get and instant access to your address book.&nbsp;</p>
+</div>
+
+
+
+<div class="wp-container-3 wp-block-column">
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" src="https://iamshishir.com/wp-content/uploads/2018/12/image-8.png" alt="" class="wp-image-52" width="133" height="133" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-8.png 225w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-8-150x150.png 150w" sizes="(max-width: 133px) 100vw, 133px" /></figure></div>
+
+
+
+<h4 style="text-align:center">SECURE LOGIN</h4>
+
+
+
+<p>We guarantee that all the data from your account is secure and stored in our servers for life time</p>
+</div>
+
+
+
+<div class="wp-container-4 wp-block-column">
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" src="https://iamshishir.com/wp-content/uploads/2018/12/image-7.png" alt="" class="wp-image-51" width="134" height="135" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-7.png 229w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095129/image-7-150x150.png 150w" sizes="(max-width: 134px) 100vw, 134px" /></figure></div>
+
+
+
+<h4>BUSINESS CONTACT</h4>
+
+
+
+<p>All you business connections are in a single place, How does it sounds? Get and instant access to your address book.&nbsp;</p>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>What I did not liked is that there is no function to duplicate column. I even tried a google search. But no quick results on it.&nbsp;<br><br>But what I did liked is that you can press &#8220;shift&#8221; to select multiple columns and then paste it into the next column. This little featured saved the day for me. I was pretty much worried about how would i do it. But this feature is just awesome.&nbsp;</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>I pretty much love this editor and I will recommend it for the people who write frequently. Because it gives a much better presentational control than the classic version. Firstly, because it gives you tools right where you are writing your draft.&nbsp;<br>Secondly because the learning curve is like very minimum and it&#8217;s easier to learn as compared to the classic version.&nbsp;</p>
+
+
+
+<p>If your write frequently and you want to prepare a decent enough article on your own then you will love Glutenberg.&nbsp;<br>But if you want to do more complex things and complex layouts I am not sure if it is the best approach.&nbsp;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/12/wordpress-glutenberg-test-drive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

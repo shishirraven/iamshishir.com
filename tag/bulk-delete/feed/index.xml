@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bulk delete &#8211; Shishir Raven</title>
+	<atom:link href="/tag/bulk-delete/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Wed, 24 Feb 2021 18:35:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>bulk delete &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WordPress Bulk Delete All comments</title>
+		<link>/2021/02/24/wordpress-bulk-delete-all-comments/</link>
+					<comments>/2021/02/24/wordpress-bulk-delete-all-comments/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 24 Feb 2021 18:35:20 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[bulk delete]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=771</guid>
+
+					<description><![CDATA[Why I need the Bulk Delete option? A few months back I launched a WordPress Website and today when I visited it I saw that my blog has 10,326 Comments. I knew the moment when I saw it that this is all spam. Why the existing Bulk Delete option in WordPress Sucks? Alternate solution. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="why-i-need-the-bulk-delete-option">Why I need the Bulk Delete option?</h2>
+
+
+
+<p>A few months back I launched a WordPress Website and today when I visited it I saw that my blog has 10,326 Comments. I knew the moment when I saw it that this is all spam. </p>
+
+
+
+<figure class="wp-block-image size-large"><img width="218" height="40" src="https://iamshishir.com/wp-content/uploads/2021/02/image.png" alt="" class="wp-image-772"/></figure>
+
+
+
+<h2 id="why-the-existing-bulk-delete-option-in-wordpress-sucks-alternate-solution">Why the existing Bulk Delete option in WordPress Sucks? Alternate solution.</h2>
+
+
+
+<p>The primary reason for any Bulk Actions + Checkbox like the ones which I show in the image below image selects only the items on the page itself. Which are like 20 items out of over 500 pages. (Remember I have 10,326 Comments) </p>
+
+
+
+<span id="more-771"></span>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="861" height="591" src="https://iamshishir.com/wp-content/uploads/2021/02/image-1.png" alt="" class="wp-image-773" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1.png 861w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1-300x206.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095532/image-1-768x527.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+
+
+
+<p>Alternatively, if it worked like how the Bulk Action items work in Gmail. I wouldn&#8217;t have to write this mail. </p>
+
+
+
+<p>See in the screenshot below, how Gmail gives me an option to select all between 50 conversation on the page and all the 9065 conversations when I use the Checkbox to select all the Items. </p>
+
+
+
+<figure class="wp-block-image alignfull size-large"><img loading="lazy" width="1024" height="142" src="https://iamshishir.com/wp-content/uploads/2021/02/image-2-1024x142.png" alt="" class="wp-image-774" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-1024x142.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-300x42.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2-768x106.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095533/image-2.png 1530w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>It would have been so much great if the WordPress also had a similar option to allow me to select all 10,326. But unfortunately it&#8217;s not there as of 5.6.2 Versioni of WordPress it is not there. </p>
+
+
+
+<h2 id="how-i-fixed-the-problem">How I fixed the problem?</h2>
+
+
+
+<p>Well Google is always there for my Rescue. And I found a Plugin that can help me in deleting all the Comments at once. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://wordpress.org/plugins/delete-all-comments-of-website/"><img loading="lazy" width="745" height="147" src="https://iamshishir.com/wp-content/uploads/2021/02/image-3.png" alt="Delete all WordPress comments Plugin" class="wp-image-775" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095534/image-3.png 745w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095534/image-3-300x59.png 300w" sizes="(max-width: 745px) 100vw, 745px" /></a></figure>
+
+
+
+<p>This is the first thing that pops up when. <br>When I searched for it in the plugins section it said it has not been tested with the current version of WordPress. But since my blog does not have almost anything. I can go ahead. </p>
+
+
+
+<p>After installation and Activation of the plugin you can find the menu to delete under </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="263" height="352" src="https://iamshishir.com/wp-content/uploads/2021/02/image-4.png" alt="Delete Comments in Menu. " class="wp-image-776" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-4.png 263w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-4-224x300.png 224w" sizes="(max-width: 263px) 100vw, 263px" /></figure>
+
+
+
+<p>These are the options that the Delete Plugin gives. </p>
+
+
+
+<figure class="wp-block-image alignfull size-large"><img loading="lazy" width="1024" height="445" src="https://iamshishir.com/wp-content/uploads/2021/02/image-5-1024x445.png" alt="Available options for Delete Comments Plugin. " class="wp-image-777" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-1024x445.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-300x130.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-768x334.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5-1536x668.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095535/image-5.png 1692w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Well for my purpose, I wanted to delete all the comments from A-Z so I do not need any complex options. But you might, so you can search for some other plugin if this does not have what you need. </p>
+
+
+
+<p>I just selected the and pressed &#8220;Delete Now Button&#8221; and Comments and got the following popup. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="663" height="447" src="https://iamshishir.com/wp-content/uploads/2021/02/image-6.png" alt="Success Message after all the comments have been deleted by the wordpress Delete All comments plugin. 
+" class="wp-image-778" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095537/image-6.png 663w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095537/image-6-300x202.png 300w" sizes="(max-width: 663px) 100vw, 663px" /></figure>
+
+
+
+<p>Well, but to see the Comments Count in the menu bar disappear, I had to just refresh the Page. </p>
+
+
+
+<p>Anyways, this time I did not &#8220;Buy a Beer&#8221; to the developer Navneet Soni. But it really did save me a a lot of time. A big thanks goes to him. </p>
+
+
+
+<h2 id="steps-you-can-follow">Steps you can follow. </h2>
+
+
+
+<div class="schema-how-to wp-block-yoast-how-to-block"><p class="schema-how-to-description">How to Delete all the comments from your WordPress. </p> <ol class="schema-how-to-steps"><li class="schema-how-to-step" id="how-to-step-1614190245466"><strong class="schema-how-to-step-name">Login into your WordPress and Navigate to Add New Plugin</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/add_new_plugin.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190397511"><strong class="schema-how-to-step-name">In the Keyword Box enter &#8220;Delete All comments&#8221;</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/delete_allcomments.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190614899"><strong class="schema-how-to-step-name">Select the Plugin by Navneet Soni and hit &#8220;Install Now&#8221; button. <br/>Note the plugin has 20000+ Active Installation with 5 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" />(Wow)</strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/plugin_image.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190658597"><strong class="schema-how-to-step-name">Once the Installation is done the button will change to &#8220;Activate&#8221;, then press the &#8220;Activate&#8221; button. <br/></strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/activate.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614190979613"><strong class="schema-how-to-step-name">Select your Preferred delete option and hit Delete. <br/> </strong> <p class="schema-how-to-step-text"><img alt="" src="https://iamshishir.com/wp-content/uploads/2021/02/delete_opt.png"/></p> </li><li class="schema-how-to-step" id="how-to-step-1614191214334"><strong class="schema-how-to-step-name">Deactivate and remove the plugin. <br/>Well this is an optional step, but I prefer to keep by wordpress light. So if i know I no longer require the plugin, I deactivate and delete the plugin. <br/>So you too can chose to do so. </strong> <p class="schema-how-to-step-text"></p> </li></ol></div>
+
+
+
+<p>Well, If you have any further Ideas on how to delete the comments, that is faster and better than this plugin. Please share with me in the comments. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/24/wordpress-bulk-delete-all-comments/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Maxon Cinema 4D &#8211; Shishir Raven</title>
+	<atom:link href="/category/maxon-cinema-4d/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 11 Apr 2019 17:07:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Maxon Cinema 4D &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>In Cinema 4D  how can I scale my object only on the on 1 axis , currently it scales universally.</title>
+		<link>/2019/04/11/in-cinema-4d-how-can-i-scale-my-object-only-on-the-on-1-axis-currently-it-scales-universally/</link>
+					<comments>/2019/04/11/in-cinema-4d-how-can-i-scale-my-object-only-on-the-on-1-axis-currently-it-scales-universally/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 17:07:14 +0000</pubDate>
+				<category><![CDATA[Maxon Cinema 4D]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=557</guid>
+
+					<description><![CDATA[It can be solved by just shifting from Model mode to object mode. See the Video.]]></description>
+										<content:encoded><![CDATA[
+<p>It can be solved by just shifting from Model mode to object mode. See the Video.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://iamshishir.com/wp-content/uploads/2019/04/cinema_4d_universal_scale_problem.mp4"></video><figcaption>How to make a spline scale on 1 axis rather than scaling universally</figcaption></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/04/11/in-cinema-4d-how-can-i-scale-my-object-only-on-the-on-1-axis-currently-it-scales-universally/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://iamshishir.com/wp-content/uploads/2019/04/cinema_4d_universal_scale_problem.mp4" length="2048929" type="video/mp4" />
+<enclosure url="https://iamshishir.com/wp-content/uploads/2019/04/cinema_4d_universal_scale_problem.mp4" length="2048929" type="video/mp4" />
+
+			</item>
+	</channel>
+</rss>

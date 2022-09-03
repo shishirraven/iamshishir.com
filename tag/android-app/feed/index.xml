@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Android App &#8211; Shishir Raven</title>
+	<atom:link href="/tag/android-app/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 13 Dec 2018 01:05:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Android App &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Drinking 8 Glasses of Water Android App.</title>
+		<link>/2018/12/13/drinking-8-glasses-of-water-android-app/</link>
+					<comments>/2018/12/13/drinking-8-glasses-of-water-android-app/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 13 Dec 2018 01:05:08 +0000</pubDate>
+				<category><![CDATA[My Work]]></category>
+		<category><![CDATA[Android App]]></category>
+		<guid isPermaLink="false">http://iamshishir.com/?p=58</guid>
+
+					<description><![CDATA[Well keeping yourself hydrated is good for health and I seemed to be forgetting this all the time. So I build this app which allows you to log the glasses of water that you intake for a day.&#160; The app is a bare minimum it just lets you log the glasses of water you drank. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<span id="more-58"></span>
+
+
+
+<figure class="wp-block-image"><img width="1024" height="497" src="https://iamshishir.com/wp-content/uploads/2018/12/image-9-1024x497.png" alt="" class="wp-image-59" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-1024x497.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-300x146.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9-768x373.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2018/12/03095130/image-9.png 1277w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Well keeping yourself hydrated is good for health and I seemed to be forgetting this all the time. So I build this app which allows you to log the glasses of water that you intake for a day.&nbsp;</p>
+
+
+
+<p>The app is a bare minimum it just lets you log the glasses of water you drank. No disturbing reminders nothing too special. I may add a few features in the future.</p>
+
+
+
+<p>You can download the App for free on Amazon store.&nbsp;</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.amazon.com/Drink-8-Glasses-of-Water/dp/B075NVBTGZ">Download on Amazon Store</a></div>
+
+
+
+<p>Some say that its enough to drink water when you are thirsty. And some say 8 glasses is a good amount. This app is for the ones that go with 8 glasses a day. I do not recommend anything. Please research and take advice from experts as to what goes best for you.&nbsp;</p>
+
+
+
+<p>This app was pretty much my pet project.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/12/13/drinking-8-glasses-of-water-android-app/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

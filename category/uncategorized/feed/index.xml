@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Shishir Raven</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Fri, 15 Jul 2022 18:23:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Uncategorized &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Finally Microsoft has build the feature that I was looking for. It&#8217;s Focus Sessions.</title>
+		<link>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/</link>
+					<comments>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 15 Jul 2022 18:23:39 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1217</guid>
+
+					<description><![CDATA[Well I am a fan of pomodoro technique and its a wonderful thing. So I was always looking for a countdown timer that could run on the Windows and could appear on top of the all the windows. Did some searches on the internet and could not find a suitable free match. But to my [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well I am a fan of <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoro technique</a> and its a wonderful thing. </p>
+
+
+
+<p>So I was always looking for a countdown timer that could run on the Windows and could appear on top of the all the windows. Did some searches on the internet and could not find a <span style="text-decoration: underline;">suitable free match. </span></p>
+
+
+
+<p>But to my wonder the Mircosoft has added this feature on their timer. (Makes me so so happy <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> )</p>
+
+
+
+<p>Here is where you could find it. </p>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="561" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1024x561.png" alt="" class="wp-image-1218" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1024x561.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-300x164.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-768x421.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image-1536x842.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095944/image.png 1582w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Here see the window which stays on top of all the windows, making it easy for you to see how much time is left. </figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="332" src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1024x332.png" alt="" class="wp-image-1219" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1024x332.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-300x97.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-768x249.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1-1536x497.png 1536w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/07/03095945/image-1.png 1797w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Here is a Video I found online which explains the feature. Though using it is quite straight forward. </p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="&#x1fa9f; How to use Focus Session &amp; Focus Assist in Windows 11 [Productivity Tip - Stay Focused]" width="640" height="360" src="https://www.youtube.com/embed/qGtruXeeO5k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Let me know what you think about this feature. !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/15/finally-microsoft-has-build-the-feature-that-i-was-looking-for-its-focus-sessions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Speed up Project Development with a .bat file.</title>
+		<link>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/</link>
+					<comments>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 09:47:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1202</guid>
+
+					<description><![CDATA[Well every developer might be facing the same process when they open up their laptops every day. Like opening the project, opening the Project Management Website, opening the code folder etc, etc. Here are some ready to use commands that can help you Automate the process. Opening the Project Folder in VS Code through a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Well every developer might be facing the same process when they open up their laptops every day. Like opening the project, opening the Project Management Website, opening the code folder etc, etc. Here are some ready to use commands that can help you Automate the process. </p>
+
+
+
+<h2>Opening the Project Folder in VS Code through a bat file. </h2>
+
+
+
+<pre class="wp-block-code"><code>code -n C:\path-to-the-folder-you-want-to-open</code></pre>
+
+
+
+<h2>Opening a Folder. </h2>
+
+
+
+<pre class="wp-block-code"><code>%SystemRoot%\explorer.exe C:\path-to-the-folder-you-want-to-open</code></pre>
+
+
+
+<h2>Opening a URL in Browser. </h2>
+
+
+
+<pre class="wp-block-code"><code>start chrome "https://iamshishir.com/"</code></pre>
+
+
+
+<h2>Taking a Dump of MySQL </h2>
+
+
+
+<pre class="wp-block-code"><code>C:\xampp\mysql\bin\mysqldump -h localhost -u root yourdb &gt; yourdb.sql</code></pre>
+
+
+
+<h2>Removing a file </h2>
+
+
+
+<pre class="wp-block-code"><code>del yourdb.sql</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/06/18/how-to-speed-up-project-development-with-a-bat-file/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to avoid node_modules folder in Zip.</title>
+		<link>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/</link>
+					<comments>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 29 Apr 2022 08:59:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1196</guid>
+
+					<description><![CDATA[Just as I started coding on an exciting note taking app I realized that if my laptop crashed I would lose all the hard work I have put into coding thousands of lines. I had not taken the backup in a while so I stopped the work and uploaded a zip to Google Drive. But [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Just as I started coding on an exciting note taking app I realized that if my laptop crashed I would lose all the hard work I have put into coding thousands of lines.</p>
+
+
+
+<p>I had not taken the backup in a while so I stopped the work and uploaded a zip to Google Drive.<br><br>But as with node projects it started to zip node modules <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4c2.png" alt="📂" class="wp-smiley" style="height: 1em; max-height: 1em;" />. Well the process is slow and the folder size is bloated due to modules code which is not actually necessary for backup. </p>
+
+
+
+<p>Can you relate to this? Well if yes, then this is how I make it easier for myself.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Skipping node_modues folder while zipping it for backup." width="640" height="360" src="https://www.youtube.com/embed/g5VYKm_gHVI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/29/how-to-avoid-node_modules-folder-in-zip/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Crowdsourcing, what it is, types, benefits and how you can use it.</title>
+		<link>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/</link>
+					<comments>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 20 Feb 2021 16:31:16 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=734</guid>
+
+					<description><![CDATA[What is Crowdsourcing? Crowdsourcing is extremely powerful in accessing Intelligence, talent and cumulative power of many for your project or problem The word Crowdsourcing originates from A mixture of “crowd” and “outsourcing,” and was coined in 2006. It can be said that it is a way of using crowds as a source for various things [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-container-3 wp-block-columns alignwide">
+<div class="wp-container-1 wp-block-column">
+<h2 id="what-is-crowdsourcing">What is Crowdsourcing?</h2>
+
+
+
+<p>Crowdsourcing is extremely powerful in accessing Intelligence, talent and cumulative power of many for your project or problem</p>
+
+
+
+<p>The word Crowdsourcing originates from A mixture of “crowd” and “outsourcing,” and was coined in 2006. </p>
+
+
+
+<p>It can be said that it is a way of using crowds as a source for various things such as getting tasks done or gathering Ideas.</p>
+
+
+
+<p>I believe Crowdsourcing has a lot of potential for businesses. </p>
+
+
+
+<p> Innovators and workers to get together with a tribe of people with similar interests or skills to collaborate, contribute and earn on big and small projects.</p>
+</div>
+
+
+
+<div class="wp-container-2 wp-block-column">
+<figure class="wp-block-image"><img src="https://cdn.pixabay.com/photo/2017/06/30/09/25/crowd-2457732_960_720.jpg" alt="Crowd, Human, Silhouettes, Personal, Group Of People"/></figure>
+</div>
+</div>
+
+
+
+<span id="more-734"></span>
+
+
+
+<h2 id="what-can-be-done-using-crowdsourcing">What can be done using Crowdsourcing?</h2>
+
+
+
+<p>A lot of tasks can be presented to the public by launching Design Competitions, Posting Problems and requesting for Ideas. Giving your App for testing.</p>
+
+
+
+<div class="wp-container-8 wp-block-columns alignwide">
+<div class="wp-container-5 wp-block-column">
+<div class="wp-container-4 wp-block-group is-style-twentytwentyone-border">
+<h3 id="1-crowdfunding"><strong>1. Crowdfunding.</strong> </h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="910" height="720" src="https://iamshishir.com/wp-content/uploads/2021/02/crowdfunding.jpg" alt="Crowdfunding
+" class="wp-image-742" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095514/crowdfunding.jpg 910w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095514/crowdfunding-300x237.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095514/crowdfunding-768x608.jpg 768w" sizes="(max-width: 910px) 100vw, 910px" /></figure>
+
+
+
+<p>Crowdfunding has been extremely successful in the past 10 years and has raised millions and even billions for their Innovators and Project Owners. . <br><br>EOS is a blockchain operating system has crowdfunded $4 billion. <a href="https://en.wikipedia.org/wiki/List_of_highest-funded_crowdfunding_projects" target="_blank" rel="noreferrer noopener">(Highest Crowd funded projects on wikipedia)</a></p>
+
+
+
+<p>All kinds of projects various fields including Art, Design and Tech, Gaming, Food &amp; Craft and Music are using Crowdfunding to kick Start their Project. </p>
+</div>
+</div>
+
+
+
+<div class="wp-container-7 wp-block-column">
+<div class="wp-container-6 wp-block-group is-style-twentytwentyone-border">
+<h3 id="2-microtasking"><strong>2. Microtasking</strong><br></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="960" height="503" src="https://iamshishir.com/wp-content/uploads/2021/02/mirco_tasking.jpg" alt="Microtasking
+" class="wp-image-743" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095515/mirco_tasking.jpg 960w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095515/mirco_tasking-300x157.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095515/mirco_tasking-768x402.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Getting data that would otherwise be time-consuming to process or impossible to access. Getting Micro Tasks done such as Tagging, Transcribing, Translating, classifying.<br><br><strong>Examples of Micro-tasking</strong></p>
+
+
+
+<ul><li>Tagging satellite/aerial imagery to accelerate disaster damage assessments</li><li>Identifying deforestation/forest degradation from Landsat satellite imagery</li><li><a href="https://crowdsource.google.com/">Crowdsource by Google </a>is a project that presents microtasks for Image Caption, Handwriting Identification, Image Labeling. </li></ul>
+
+
+
+<p><br></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-container-13 wp-block-columns alignwide">
+<div class="wp-container-10 wp-block-column">
+<div class="wp-container-9 wp-block-group is-style-twentytwentyone-border">
+<h3 id="3-design-crowdsourcing"><strong>3. Design Crowdsourcing.</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="680" src="https://iamshishir.com/wp-content/uploads/2021/02/ux-788002_1280-1024x680.jpg" alt="Design Crowdsourcing" class="wp-image-749" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095516/ux-788002_1280-1024x680.jpg 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095516/ux-788002_1280-300x199.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095516/ux-788002_1280-768x510.jpg 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095516/ux-788002_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Holding a Crowdsourced Competition to get your logo or web design completed is being more effective as you can get fresh ideas in lowest price possible from around the globe. </p>
+
+
+
+<p>And the best part is you don&#8217;t pay for the designs you do not approve but you get more choices to choose from.</p>
+
+
+
+<p>here are a few things you can ge Done.   </p>
+
+
+
+<p>Graphic Crowdsourcing.</p>
+
+
+
+<ul><li>Logo Design.</li><li>Web and App Design. .<br></li><li>Print Design.<ul><li>Letterhead Design.</li><li>Envelope Design</li><li>Business Cards Design</li><li>Stationery Design</li><li>Art &amp; Illustrations.</li></ul></li></ul>
+
+
+
+<p></p>
+</div>
+</div>
+
+
+
+<div class="wp-container-12 wp-block-column">
+<div class="wp-container-11 wp-block-group is-style-twentytwentyone-border">
+<h3 id="5-crowdsourcing-innovation"><strong>5. Crowdsourcing Innovation </strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="684" src="https://iamshishir.com/wp-content/uploads/2021/02/idea-5617893_1280-1024x684.jpg" alt="Innovation
+" class="wp-image-750" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095518/idea-5617893_1280-1024x684.jpg 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095518/idea-5617893_1280-300x200.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095518/idea-5617893_1280-768x513.jpg 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095518/idea-5617893_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>When it comes to getting the brightest and smartest Ideas even Nasa considers and uses Crowdsourcing to solve problems. </p>
+
+
+
+<p>CrowdSource Innovation is being used by all sorts of companies. </p>
+</div>
+</div>
+</div>
+
+
+
+<h2 class="alignwide has-text-align-center" id="success-stories-of-crowdsourcing">Success Stories of  Crowdsourcing </h2>
+
+
+
+<div class="wp-container-17 wp-block-columns alignwide">
+<div class="wp-container-15 wp-block-column" style="flex-basis:20%">
+<div class="wp-container-14 wp-block-group has-blue-background-color has-background">
+<figure class="wp-block-image size-large"><img loading="lazy" width="669" height="768" src="https://iamshishir.com/wp-content/uploads/2021/02/wikipedia_logo.png" alt="" class="wp-image-751" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095519/wikipedia_logo.png 669w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095519/wikipedia_logo-261x300.png 261w" sizes="(max-width: 669px) 100vw, 669px" /></figure>
+</div>
+</div>
+
+
+
+<div class="wp-container-16 wp-block-column">
+<h2 id="did-you-know-crowdsourced">Did you know Crowdsourced</h2>
+
+
+
+<h3 id="is-wikipedia-crowdsourced">Is Wikipedia Crowdsourced?</h3>
+
+
+
+<p>Yes, Wikipedia can probably be said to be the father of internet crowdsourcing. </p>
+
+
+
+<p>Overall, <strong>Wikipedia</strong> comprises more than 55 million <strong>articles written by a community of volunteer editors</strong>. It attracting 1.7 billion unique visitors per month</p>
+</div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-20 wp-block-columns alignwide">
+<div class="wp-container-18 wp-block-column" style="flex-basis:30%">
+<figure class="wp-block-image size-large"><img loading="lazy" width="750" height="750" src="https://iamshishir.com/wp-content/uploads/2021/02/Jy4p7jzc.jpeg" alt="" class="wp-image-759" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095522/Jy4p7jzc.jpeg 750w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095522/Jy4p7jzc-300x300.jpeg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095522/Jy4p7jzc-150x150.jpeg 150w" sizes="(max-width: 750px) 100vw, 750px" /></figure>
+</div>
+
+
+
+<div class="wp-container-19 wp-block-column" style="flex-basis:50%">
+<h3 id="nasa-nasa-solve-crowdsourcing-success-for-innovation-problem-solving"><strong>NASA</strong> &#8211; NASA Solve &#8211; Crowdsourcing Success for Innovation &amp; Problem solving.</h3>
+
+
+
+<p>NASA Solve lists opportunities available to the general public to contribute to solving tough problems related to NASA’s mission.</p>
+
+
+
+<p>Through challenges, prize competitions, and crowdsourcing activities.</p>
+
+
+
+<p>Anyone from the public who wants to get involved in helping develop meaningful solutions for real world problems related to NASA’s mission can participate. </p>
+
+
+
+<p>Contributing with skills time and passion they uniquely have.</p>
+
+
+
+<h4 id="a-few-of-nasa-solve-accomplishments-using-crowdsourcing">A few of Nasa Solve Accomplishments using Crowdsourcing. </h4>
+
+
+
+<ul><li>$1.3 million dollars Awarded to a team for a<a href="https://www.nasa.gov/content/green-flight-challenge-0/"> fuel efficient aircraft,</a></li><li>&nbsp;A Team won $500,000 for building a <a href="https://www.nasa.gov/content/regolith-excavation-challenge-0/">regolith collecting robot</a></li><li>A pair of men collected a combined $300,000 for their <a href="https://www.nasa.gov/content/astronaut-glove-competition-0/">astronaut glove prototypes</a>.</li></ul>
+</div>
+</div>
+
+
+
+<div style="height:68px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-23 wp-block-columns alignwide">
+<div class="wp-container-21 wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="1000" height="710" src="https://iamshishir.com/wp-content/uploads/2021/02/lego_ideas.png" alt="" class="wp-image-753" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095520/lego_ideas.png 1000w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095520/lego_ideas-300x213.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095520/lego_ideas-768x545.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</div>
+
+
+
+<div class="wp-container-22 wp-block-column">
+<h3 id="lego-ideas-success-using-crowdsourcing">LEGO Ideas success using Crowdsourcing</h3>
+
+
+
+<p>Lego Ideas allows users to submit ideas for Lego products to be turned into potential sets available commercially</p>
+
+
+
+<p>With the original designer receiving 1% of the royalties.</p>
+
+
+
+<p>LEGO Ideas has reduced the time to market for new LEGO kits from 2 years to 6 months. </p>
+
+
+
+<p>In just over 5 years, 23 new LEGO kits have been developed from the Ideas community. All were best sellers, with 90% selling out in their first release.</p>
+</div>
+</div>
+
+
+
+<div style="height:67px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-26 wp-block-columns alignwide">
+<div class="wp-container-24 wp-block-column" style="flex-basis:30%">
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://iamshishir.com/wp-content/uploads/2021/02/eos.jpg" alt="" class="wp-image-756" width="382" height="229"/></figure>
+</div>
+
+
+
+<div class="wp-container-25 wp-block-column">
+<h2 id="eos-io-raised-4-100-000-000-through-crowdfunding">EOS.IO Raised&nbsp; $4,100,000,000 through Crowdfunding.</h2>
+
+
+
+<p>EOS.IO is a blockchain protocol based on the cryptocurrency EOS. </p>
+
+
+
+<p>The smart contract platform claims to eliminate transaction fees. <br>Conduct millions of transactions per second.</p>
+</div>
+</div>
+
+
+
+<p></p>
+
+
+
+<h2 class="alignwide" id="the-benefits-of-crowdsourcing">The Benefits of CrowdSourcing</h2>
+
+
+
+<p>Crowdsourcing has many benefits over the traditional sourcing methods. </p>
+
+
+
+<p>When used in the right way can be <strong>very powerful </strong>and can deliver with speed.</p>
+
+
+
+<p> here are some of the benefits. </p>
+
+
+
+<div class="wp-container-29 wp-block-columns alignwide">
+<div class="wp-container-27 wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="640" height="427" src="https://iamshishir.com/wp-content/uploads/2021/02/board-4887880_640.jpg" alt="" class="wp-image-761" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095522/board-4887880_640.jpg 640w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095522/board-4887880_640-300x200.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></figure>
+</div>
+
+
+
+<div class="wp-container-28 wp-block-column">
+<h3 id="offers-unexpected-solution-to-difficult-problems"><strong>Offers Unexpected Solution to Difficult Problems. </strong></h3>
+
+
+
+<p>Organization might face a Creative Block or might not have the necessary skill or perspective for solving certain problem. </p>
+
+
+
+<p>But crowdsourcing resolves these issues as it has Greater diversity of thinking wider pool of experts from diverse knowledge backgrounds at their disposal. </p>
+
+
+
+<p>Therefore even Nasa is using crowdsourcing when they have access to the best of expertise hired. </p>
+</div>
+</div>
+
+
+
+<div style="height:52px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-32 wp-block-columns alignwide">
+<div class="wp-container-30 wp-block-column">
+<figure class="wp-block-image size-large"><img src="https://iamshishir.com/wp-content/uploads/2021/02/pexels-pixabay-48770-1024x724.jpg" alt="" class="wp-image-762"/></figure>
+</div>
+
+
+
+<div class="wp-container-31 wp-block-column">
+<h3 id="available-24x7-people-are-able-to-work-on-your-project-from-anyplace-anytime">Available 24X7, people are able to work on your project from anyplace, anytime.</h3>
+
+
+
+<p>With Crowdsourcing you can save time as people can work from all around the Globe. </p>
+
+
+
+<p>They can do more tasks than with resources limited to 9 hours of office time. </p>
+
+
+
+<p>However Crowdsourcing is typically done through Web Platforms hence it is more accessible to people. </p>
+</div>
+</div>
+
+
+
+<div style="height:33px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-35 wp-block-columns alignwide">
+<div class="wp-container-33 wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="640" height="360" src="https://iamshishir.com/wp-content/uploads/2021/02/lego-1044891_640.jpg" alt="" class="wp-image-763" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095526/lego-1044891_640.jpg 640w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095526/lego-1044891_640-300x169.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></figure>
+</div>
+
+
+
+<div class="wp-container-34 wp-block-column">
+<h3 id="scalable-hence-you-can-do-more-with-multiple-projects">Scalable, hence you can do more with Multiple Projects. </h3>
+
+
+
+<p>When you utilize Crowdsourcing, you are not limited because your workforce is occupied.</p>
+
+
+
+<p>But you are liberated to do more you can  employ thousands of team at demand. </p>
+
+
+
+<p></p>
+</div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-38 wp-block-columns alignwide">
+<div class="wp-container-36 wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="640" height="422" src="https://iamshishir.com/wp-content/uploads/2021/02/different-nationalities-1743392_640.jpg" alt="" class="wp-image-764" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095527/different-nationalities-1743392_640.jpg 640w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095527/different-nationalities-1743392_640-300x198.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></figure>
+</div>
+
+
+
+<div class="wp-container-37 wp-block-column">
+<h3 id="true-feedback">True Feedback </h3>
+
+
+
+<p>Employees can be biased or can adopt a certain pattern of thinking which might not deliver desire results. </p>
+
+
+
+<p>Also Employees might withhold solutions that would increase their own workload. </p>
+
+
+
+<p>But using Crowdsourcing for possible solutions can can give a totally new perspective that may solve your problem better. </p>
+
+
+
+<p>So You can expect honest feedback that will genuinely help you improve as a company.</p>
+
+
+
+<p></p>
+</div>
+</div>
+
+
+
+<div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-41 wp-block-columns alignwide">
+<div class="wp-container-39 wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="869" height="456" src="https://iamshishir.com/wp-content/uploads/2021/02/overhead_expenses.jpg" alt="" class="wp-image-765" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095528/overhead_expenses.jpg 869w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095528/overhead_expenses-300x157.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/02/03095528/overhead_expenses-768x403.jpg 768w" sizes="(max-width: 869px) 100vw, 869px" /></figure>
+</div>
+
+
+
+<div class="wp-container-40 wp-block-column">
+<h3 id="lower-overhead">Lower Overhead.  </h3>
+
+
+
+<p>When we use Web based crowdsourcing we do not need to provide office space, laptops, office supplies and other tangible needs. </p>
+
+
+
+<p>So as a result you save a lot of financial resources which can be used into other areas. </p>
+</div>
+</div>
+
+
+
+<div style="height:47px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-44 wp-block-columns alignwide">
+<div class="wp-container-42 wp-block-column">
+<figure class="wp-block-image size-large"><img src="https://iamshishir.com/wp-content/uploads/2021/02/pexels-alexander-mils-2068975-1024x683.jpg" alt="" class="wp-image-766"/></figure>
+</div>
+
+
+
+<div class="wp-container-43 wp-block-column">
+<h3 id="significantly-lower-cost">Significantly Lower cost.   </h3>
+
+
+
+<p>Crowdsourcing projects can cost you much lower then performing the same task utilizing company resources. </p>
+
+
+
+<p>When you are running a Competition you only have to pay the team or Individual that wins and fits your requirement. </p>
+
+
+
+<p>You also can find and identify highly skilled resources and use them later for other projects. </p>
+</div>
+</div>
+
+
+
+<div style="height:59px" aria-hidden="true" class="wp-block-spacer"></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/20/crowdsourcing-what-it-is-types-benefits-and-how-you-can-use-it/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to write articles faster?</title>
+		<link>/2021/02/06/how-to-write-articles-faster/</link>
+					<comments>/2021/02/06/how-to-write-articles-faster/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 06 Feb 2021 06:11:24 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=704</guid>
+
+					<description><![CDATA[Tip 1 : Write More. Write Daily. Practice Translates to Speed. Writing helps in Vocabulary Expansion &#38; Maintenance and it with daily practice it makes it easier for your to translate an Idea to Words. Writing daily has some great benefits Your Ideas get improved exponentially. Writing in the form of Journal helps you gain [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="tip-1-write-more-write-daily-practice-translates-to-speed">Tip 1 : Write More. Write Daily. Practice Translates to Speed.</h2>
+
+
+
+<p>Writing helps in Vocabulary Expansion &amp; Maintenance and it with daily practice it makes it easier for your to translate an Idea to Words. </p>
+
+
+
+<div class="wp-container-47 wp-block-columns alignwide are-vertically-aligned-center">
+<div class="wp-container-45 wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/12f3a5e1-c85f-49cd-94f4-6dce9cb18ef1-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-988" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/12f3a5e1-c85f-49cd-94f4-6dce9cb18ef1-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/12f3a5e1-c85f-49cd-94f4-6dce9cb18ef1-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/12f3a5e1-c85f-49cd-94f4-6dce9cb18ef1-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p></p>
+</div>
+
+
+
+<div class="wp-container-46 wp-block-column is-vertically-aligned-center" style="flex-basis:70%">
+<h3 id="writing-daily-has-some-great-benefits">Writing daily has some great benefits </h3>
+
+
+
+<ol><li>Your Ideas get improved exponentially. </li><li>Writing in the form of Journal helps you gain more clarity and can also help you untangle your thoughts. </li><li>It acts as a wake-up call to your brain and you can learn to be creative and thoughtful on demand. </li><li>You get more confident and comfortable over time and overcome the fear of making mistakes. </li></ol>
+</div>
+</div>
+
+
+
+<h3 id="ideas-that-can-help-you-to-write-daily">Ideas  that can help you to write Daily</h3>
+
+
+
+<div class="wp-container-50 wp-block-columns alignwide">
+<div class="wp-container-48 wp-block-column" style="flex-basis:50%">
+<figure class="wp-block-image size-full"><img loading="lazy" width="400" height="400" src="https://iamshishir.com/wp-content/uploads/2022/02/download-1.png" alt="" class="wp-image-989" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/download-1.png 400w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/download-1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095613/download-1-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
+
+
+
+<p></p>
+</div>
+
+
+
+<div class="wp-container-49 wp-block-column" style="flex-basis:50%">
+<h4 id="habit-forming-by-not-breaking-the-chain">Habit forming by not &#8220;Breaking the Chain.&#8221; </h4>
+
+
+
+<p>Habits are the invisible force that control our actions. They are automatic routines that run on autopilot. Some habits are good for us, while others keep us locked in a cycle of self-destruction. &nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<p>Habits can be developed with consistency and discipline. The key to creating positive change is to focus on starting small and building upon new habits over time.</p>
+
+
+
+<p></p>
+
+
+
+<p>You can use a calendar to mark when you wrote daily. And can track the continuous chain of writing. </p>
+
+
+
+<p></p>
+
+
+
+<p>Marking on a calendar can help you track your writing habit. </p>
+</div>
+</div>
+
+
+
+<p></p>
+
+
+
+<h4 id="write-at-the-same-time-every-day"><strong>Write At the Same Time Every Day</strong></h4>
+
+
+
+<p>Writing at the same time daily can make the process of forming writing habit easier. and time can give you cue to suggest that you write. </p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h3 id="quotes-to-encourage-you">Quotes to Encourage you. </h3>
+
+
+
+<p>he quotes below are to inspire you, make you think and help you take action. You can also put them somewhere in you room or on your desktop. </p>
+
+
+
+<div style="height:36px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-51 wp-block-group has-tertiary-background-color has-background">
+<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide"/>
+
+
+
+<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-thumbnail"><img loading="lazy" width="150" height="150" src="https://iamshishir.com/wp-content/uploads/2021/10/eb_white_american_author-150x150.jpg" alt="" class="wp-image-821" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/10/03095551/eb_white_american_author-150x150.jpg 150w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/10/03095551/eb_white_american_author-300x300.jpg 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/10/03095551/eb_white_american_author-1024x1024.jpg 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/10/03095551/eb_white_american_author-768x768.jpg 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2021/10/03095551/eb_white_american_author.jpg 1200w" sizes="(max-width: 150px) 100vw, 150px" /></figure></div>
+
+
+
+<blockquote class="wp-block-quote has-text-align-center is-style-default"><p>&#8220;A writer who waits for ideal conditions under which to work will die without putting a word on paper.&#8221;</p><cite>—  E.B. White </cite></blockquote>
+
+
+
+<p></p>
+
+
+
+<hr class="wp-block-separator is-style-default"/>
+</div>
+
+
+
+<div class="wp-container-52 wp-block-group has-tertiary-background-color has-background">
+<blockquote class="wp-block-quote"><p>I write every morning.</p><cite>Ernest Hemingway</cite></blockquote>
+</div>
+
+
+
+<blockquote class="wp-block-quote"><p>You have to write whether you feel like it or not.</p><cite>Khaled Hosseini</cite></blockquote>
+
+
+
+<h2 id="create-an-outline-first-it-gives-your-article-rails-on-which-you-can-run-your-thoughts-train-much-smoother">Create an outline first, it gives your article rails on which you can run your thoughts train much smoother. </h2>
+
+
+
+<p>Giving an outline makes it easier to focus on a single point and explain it further. You just need to think and write about only the current point from the outline. </p>
+
+
+
+<p>When you have the structure in place it make your mind more peaceful and calm. It prevents your mind to wander as you know exactly on what topic you have to write next. </p>
+
+
+
+<p>You can write an outline in the beginning when your mind and focus are the sharpest. This way you don&#8217;t have to push yourself when you get tired in the later hours of the day. It is really a speed booster. </p>
+
+
+
+<h2 id="always-edit-in-the-end-to-avoid-breaking-the-flow-of-thoughts">Always edit in the End, to avoid breaking the flow of thoughts. </h2>
+
+
+
+<p>When you are editing your articles while writing the first draft, you are actually break the your flow of thoughts. So many experts suggest that you follow the rule of not touching the backspace. Keep the words flowing and soon your productivity will soar. </p>
+
+
+
+<p>This helps you finish your first draft in quickest time possible.</p>
+
+
+
+<p>Additionally you can also turn off the Spell-Checker so that you even do not get distracted by spelling mistakes you make. <br>(Of course you can check for Grammar and Spelling mistakes just before you Publish)</p>
+
+
+
+<h2 id="learn-and-use-touch-typing-to-write-faster">Learn and use Touch Typing to write faster. </h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/042c5481-28ec-4d85-8f58-1e8f2376bfc6-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-980" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095607/042c5481-28ec-4d85-8f58-1e8f2376bfc6-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095607/042c5481-28ec-4d85-8f58-1e8f2376bfc6-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095607/042c5481-28ec-4d85-8f58-1e8f2376bfc6-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p>Touch Typing is a skill that can help you write faster. It not only saves time but it improves posture and focus. </p>
+
+
+
+<p>As a writer it&#8217;s important for you to match your speed of through with the speed of recording it through keyboard. And learning touch typing is a great way to easily boost it. </p>
+
+
+
+<p>Within 2-3 weeks of practice you would  be able to type at a much faster speed without even looking at the keyboard anymore. </p>
+
+
+
+<h2 id="use-voice-typing-to-write-your-copy">Use Voice Typing to write your copy. </h2>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="400" height="400" src="https://iamshishir.com/wp-content/uploads/2022/02/download.png" alt="" class="wp-image-985" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/download.png 400w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/download-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/download-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
+
+
+
+<p>With accurate voice recognition tools it has become easier to speak your notes to the application. Google Docs has an in-built Voice to Text feature that I use often to write down Ideas. </p>
+
+
+
+<p>It makes it easier to prepare your draft and then later edit it to produce the final copy. </p>
+
+
+
+<h2 id="choose-the-most-productive-time-in-the-day">Choose the Most Productive time in the day.</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/0f08fcfd-1832-42e8-a925-0f379cb15df3-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-986" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/0f08fcfd-1832-42e8-a925-0f379cb15df3-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/0f08fcfd-1832-42e8-a925-0f379cb15df3-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/0f08fcfd-1832-42e8-a925-0f379cb15df3-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p>Writing needs you to be in the most Peaceful time of the day so that you can write with quality. A good writing with your full attention and high energy can really help you create a copy that you would have to edit lesser in future. </p>
+
+
+
+<p>Experts suggest that the best time to write is in the morning because you have greater potential to think and reason with yourself than any other time  in the day. </p>
+
+
+
+<h2 id="read-regularly">Read Regularly.</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/ded21d24-cb38-4e67-862b-4fcb8201f661-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-982" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095608/ded21d24-cb38-4e67-862b-4fcb8201f661-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095608/ded21d24-cb38-4e67-862b-4fcb8201f661-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095608/ded21d24-cb38-4e67-862b-4fcb8201f661-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p>Reading regularly helps you feed your mind with different ways to express yourself as you make your vocabulary richer with every read. </p>
+
+
+
+<p>Reading also helps you gain knowledge, New Ideas and techniques that will stretch your mind. This will definitely reflect in your writing and will help you overcome <a href="https://en.wikipedia.org/wiki/Writer%27s_block">writer&#8217;s block</a>. </p>
+
+
+
+<h2 id="get-rid-of-distractions">Get rid of distractions</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/ea7ab00a-8055-4f6b-9933-d47005a9b8d4-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-984" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/ea7ab00a-8055-4f6b-9933-d47005a9b8d4-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/ea7ab00a-8055-4f6b-9933-d47005a9b8d4-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095610/ea7ab00a-8055-4f6b-9933-d47005a9b8d4-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<ul><li>Work in an office or quiet space</li><li>Write offline</li><li>Finish all important tasks before writing</li></ul>
+
+
+
+<h2 id="learn-shortcuts-on-your-editor">Learn Shortcuts on your Editor.</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/cf5cacb9-2c96-4fec-8a21-6fa60bf09f96-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-987" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/cf5cacb9-2c96-4fec-8a21-6fa60bf09f96-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/cf5cacb9-2c96-4fec-8a21-6fa60bf09f96-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095612/cf5cacb9-2c96-4fec-8a21-6fa60bf09f96-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+
+
+
+<p>Shortcuts for Headings, Bold, Italics, Alignment can really speed up the formatting the articles. It is a good habit to learn all the shortcuts for your editor of choice for functions you perform regularly. </p>
+
+
+
+<figure class="wp-block-image alignfull size-large"><img src="https://iamshishir.com/wp-content/uploads/2021/02/IMG_20210208_030903-1024x890.jpg" alt="" class="wp-image-729"/></figure>
+
+
+
+<p></p>
+
+
+
+<p>Do you really think these tips are helpful in writing a articles faster? Please do write more about it in the comments below. I am really interested in learning what works for you!</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="398" height="398" src="https://iamshishir.com/wp-content/uploads/2022/02/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png" alt="" class="wp-image-990" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1.png 398w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-300x300.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/02/03095614/cdfe047f-faab-46f0-bceb-dd398c36b10a-e4c71b61-b398-4628-a002-4aad7a0b5a44-v1-150x150.png 150w" sizes="(max-width: 398px) 100vw, 398px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/06/how-to-write-articles-faster/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to access your localhost from Anywhere</title>
+		<link>/2020/04/11/how-to-access-your-localhost-from-anywhere/</link>
+					<comments>/2020/04/11/how-to-access-your-localhost-from-anywhere/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sat, 11 Apr 2020 16:06:35 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=664</guid>
+
+					<description><![CDATA[I develop a lot of things for the web. And when you do so you do not code live you usually develop on your localhost and then you have to upload it online so that you can give a demo to your client (or show progress to your boss). To avoid of hassles of uploading [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I develop a lot of things for the web. And when you do so you do not code live you usually develop on your localhost and then you have to upload it online so that you can give a demo to your client (or show progress to your boss). </p>
+
+
+
+<p>To avoid of hassles of uploading the code every time you can make your localhost available to the web. This means you will get a URL that can work from anywhere in the world that will show your localhost. Isn&#8217;t that great. </p>
+
+
+
+<p>I assume that you already have a localhost running like Xampp. </p>
+
+
+
+<p>Create an account on ngrok.com and follow instructions. You would see all the instructions from download to set up there. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="920" height="690" src="https://iamshishir.com/wp-content/uploads/2020/04/image.png" alt="" class="wp-image-666" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/04/03095435/image.png 920w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/04/03095435/image-300x225.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/04/03095435/image-768x576.png 768w" sizes="(max-width: 920px) 100vw, 920px" /></figure>
+
+
+
+<p>Once you run the last command you will get a URL in the command prompt like following. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="712" height="222" src="https://iamshishir.com/wp-content/uploads/2020/04/image-4.png" alt="" class="wp-image-670" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/04/03095438/image-4.png 712w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/04/03095438/image-4-300x94.png 300w" sizes="(max-width: 712px) 100vw, 712px" /></figure>
+
+
+
+<p>These links you can use to access your localhost. </p>
+
+
+
+<p>Thanks. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/11/how-to-access-your-localhost-from-anywhere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Vtiger Opensource showing blank page after Installation and logout.</title>
+		<link>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/</link>
+					<comments>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2020 15:44:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=660</guid>
+
+					<description><![CDATA[Fix : Comment out the following]]></description>
+										<content:encoded><![CDATA[
+<p>Fix : Comment out the following </p>
+
+
+
+<pre class="wp-block-code"><code>I commented Line 39 in .../modules/Users/views/Login.php
+// $news = $modelInstance->getNews();</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/01/vtiger-opensource-showing-blank-page-after-installation-and-logout/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Zip only specific extensions on Linux/Debian</title>
+		<link>/2020/03/31/zip-only-specific-extensions-on-linux-debian/</link>
+					<comments>/2020/03/31/zip-only-specific-extensions-on-linux-debian/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2020 13:45:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=658</guid>
+
+					<description><![CDATA[Case Requirement: I wanted to download only the PHP files in the existing folder structure leaving all the images, js and other folders. Zip Command Zip command to Download PHP and HTML Files.]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Case Requirement: </strong>I wanted to download only the PHP files in the existing folder structure leaving all the images, js and other folders. </p>
+
+
+
+<p>Zip Command</p>
+
+
+
+<pre class="wp-block-code"><code>zip -R onlyphp.zip  '*.php'</code></pre>
+
+
+
+<p>Zip command to Download PHP and HTML Files. </p>
+
+
+
+<pre class="wp-block-code"><code>zip -r foo website_folder -i '*.php' '*.html' '*.js' '*.css'</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/31/zip-only-specific-extensions-on-linux-debian/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Debian 10 Buster, Installing LAMP and PHPMyAdmin</title>
+		<link>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/</link>
+					<comments>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Tue, 28 Jan 2020 18:44:39 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=643</guid>
+
+					<description><![CDATA[Writing this guide to help anyone who would like to install LAMP Debian 10 with MySQL (not maria DB). I found great help on the internet and I would be using articles. I tried to use Tasksel for some reason it just did not work. It would have been wonderful to install everything from a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Writing this guide to help anyone who would like to install LAMP Debian 10 with MySQL (not maria DB). I found great help on the internet and I would be using articles. </p>
+
+
+
+<p>I tried to use Tasksel for some reason it just did not work. It would have been wonderful to install everything from a single command. </p>
+
+
+
+<h2>Installing Apache and PHP</h2>
+
+
+
+<p>I used the following article to install Apache and PHP but since the used Maria DB I skipped that part </p>
+
+
+
+<p><a href="https://www.linuxbabe.com/debian/install-lamp-stack-debian-10-buster">https://www.linuxbabe.com/debian/install-lamp-stack-debian-10-buster</a></p>
+
+
+
+<h2>Installing MySQL. </h2>
+
+
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-debian-10">https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-debian-10</a></p>
+
+
+
+<h2>Installing PHPMyAdmin</h2>
+
+
+
+<p>I used the following guide but since it used MariaDB I altered the command to suite MySQL </p>
+
+
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10">https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10</a></p>
+
+
+
+<p>The following are the commands which were altered. </p>
+
+
+
+<pre class="wp-block-code"><code>sudo mariadb &lt; /usr/share/phpmyadmin/sql/create_tables.sql</code></pre>
+
+
+
+<p>was altered to the following</p>
+
+
+
+<pre class="wp-block-code"><code>sudo mysql -p &lt; /usr/share/phpmyadmin/sql/create_tables.sql</code></pre>
+
+
+
+<p> This would prompt for the password which you can enter. </p>
+
+
+
+<p>From there on you can use the following commands. </p>
+
+
+
+<pre class="wp-block-code"><code>sudo mysql -p
+alter user  'pma'@'localhost' identified with mysql_native_password by 'password'
+GRANT SELECT, INSERT, UPDATE, DELETE ON phpmyadmin.* TO 'pma'@'localhost'</code></pre>
+
+
+
+<p>Please remember to replace the password with your own password. </p>
+
+
+
+<p>I also updated the authentication method for the root user because it was throwing an error. </p>
+
+
+
+<figure class="wp-block-image"><img src="https://user-images.githubusercontent.com/9190882/36596767-d5ccc98e-18b7-11e8-9120-f78057bca4b5.png" alt="image"/></figure>
+
+
+
+<p>To fix this I used the following MySQL Command</p>
+
+
+
+<pre class="wp-block-code"><code>alter user  'root'@'localhost' identified with mysql_native_password by 'password'</code></pre>
+
+
+
+<p>Please remember to replace &#8216;password&#8217; with your own password. </p>
+
+
+
+<p>You can follow the rest of the instructions just as they have been described in Step 3 of the following link. </p>
+
+
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10">https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10</a></p>
+
+
+
+<p>I am thankful for all the authors who have written all the above articles it was a great help. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/01/28/debian-10-buster-installing-lamp-and-phpmyadmin/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Finding the heaviest files or folders in Debian.</title>
+		<link>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/</link>
+					<comments>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Fri, 24 Jan 2020 16:37:50 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=639</guid>
+
+					<description><![CDATA[Keeping the server clean is quite an activity and for me where my companies DNA is to create SAAS based platforms. Users are responsible for most of the uploads. I needed a quickly find out which folders or files are taking most of the space on our server and I found the following command. Basically [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Keeping the server clean is quite an activity and for me where my companies DNA is to create SAAS based platforms. Users are responsible for most of the uploads. </p>
+
+
+
+<p>I needed a quickly find out which folders or files are taking most of the space on our server and I found the following command. </p>
+
+
+
+<pre class="wp-block-code"><code>sudo du -a /var/www/ | sort -n -r | head -n 500</code></pre>
+
+
+
+<p>Basically it gives you an output with</p>
+
+
+
+<ol><li>Size of the File. </li><li>Name of the file</li></ol>
+
+
+
+<pre class="wp-block-preformatted">42638348        /var/www/
+33049436        /var/www/sites
+5245756 /var/www/access.log
+4889300 /var/www/sites/instance_2221
+4870372 /var/www/sites/instance_2221/instance_2220
+4797768 /var/www/sites/instance_2221/instance_2220/gallery</pre>
+
+
+
+<p>Well, the size is quite not readable so we need a way to display in KB, MB, or GB. </p>
+
+
+
+<pre class="wp-block-code"><code> sudo du -h   -a  /var/www/ | sort -h -r | head -n 10</code></pre>
+
+
+
+<p>The output of this is much easier to understand. </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="607" height="126" src="https://iamshishir.com/wp-content/uploads/2020/01/image-4.png" alt="" class="wp-image-640" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/01/03095422/image-4.png 607w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2020/01/03095422/image-4-300x62.png 300w" sizes="(max-width: 607px) 100vw, 607px" /></figure>
+
+
+
+<p>You can use these commands on Debian or other Linux variants. </p>
+
+
+
+<p>Thanks</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/01/24/finding-the-heaviest-files-or-folders-in-debian/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

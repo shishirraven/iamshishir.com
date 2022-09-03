@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Adobe After Effects &#8211; Shishir Raven</title>
+	<atom:link href="/category/adobe-after-effects/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Thu, 18 Apr 2019 03:43:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Adobe After Effects &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Adobe After Effects, Hide/Show layer and Shy Layers to manage the layers better.</title>
+		<link>/2019/04/18/hide-show-layers-in-after-effects-to-manage-the-layers-better/</link>
+					<comments>/2019/04/18/hide-show-layers-in-after-effects-to-manage-the-layers-better/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2019 03:43:44 +0000</pubDate>
+				<category><![CDATA[Adobe After Effects]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=562</guid>
+
+					<description><![CDATA[I am beginner at learning after effects and after learning the basics about animation and shapes layer I found that very quickly layers to many very quickly. One think that helped me in managing them better is to hide layers which I am not working with and showing only the ones which are important. Two [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I am beginner at learning after effects and after learning the basics about animation and shapes layer I found that very quickly layers to many very quickly. One think that helped me in managing them better is to hide layers which I am not working with and showing only the ones which are important. </p>
+
+
+
+<p><strong>Two Techniques that worked best are. </strong><br>1. Show/hide properties<br>2. Shy Layers. </p>
+
+
+
+<h2>Show/Hide Layers. </h2>
+
+
+
+<p>Suppose you are synchronizing the animations and you only want to see the layers which have keyframes, you can select the layer and hit U key and it will show only the layers which have key frames. I loved this because it clears out all the unwanted layers at the moment. </p>
+
+
+
+<p>The following is an excellent tutorial on youtube by Josh Short that explains more shortcuts that can come handy. </p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/sSCOLKI3SVA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><figcaption>Show and Hide Property Keyboard Shortcuts by Josh Short</figcaption></figure>
+
+
+
+<h2>Shy Layers</h2>
+
+
+
+<p>Sometimes you might want to work only with two layers and hide all the others and this is super easy and very helpful to remove the complexity while editing a few layers. </p>
+
+
+
+<p>See the following tutorial by Baker Tuts. </p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/HgpLz7BIRKg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2019/04/18/hide-show-layers-in-after-effects-to-manage-the-layers-better/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

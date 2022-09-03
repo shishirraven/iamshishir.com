@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Games build by me &#8211; Shishir Raven</title>
+	<atom:link href="/category/games-build-by-me/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I code things</description>
+	<lastBuildDate>Sat, 03 Sep 2022 21:27:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/03/03101536/cropped-shishir_profie-e1662199926667-32x32.png</url>
+	<title>Games build by me &#8211; Shishir Raven</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Snake &#038; Ladders Multiplayer Game.</title>
+		<link>/2022/08/21/snake-ladders-multiplayer-game/</link>
+					<comments>/2022/08/21/snake-ladders-multiplayer-game/#respond</comments>
+		
+		<dc:creator><![CDATA[Shishir Raven]]></dc:creator>
+		<pubDate>Sun, 21 Aug 2022 23:25:48 +0000</pubDate>
+				<category><![CDATA[Games build by me]]></category>
+		<category><![CDATA[My Work]]></category>
+		<guid isPermaLink="false">https://iamshishir.com/?p=1258</guid>
+
+					<description><![CDATA[I build a multi player game of the classic &#8220;Snake &#38; Ladders&#8221;, the game can be played between 1 or more remote players. Technologies Used. Vue JS Tailwind CSS for Styling. Socket.io for Real Time communication.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-container-2 wp-block-gallery-1 wp-block-gallery has-nested-images columns-default is-cropped">
+<figure class="wp-block-image size-large"><img width="1052" height="776" data-id="1259"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png" alt="" class="wp-image-1259" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders.png 1052w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-300x221.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-1024x755.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095948/home_screen_snake_and_ladders-768x567.png 768w" sizes="(max-width: 1052px) 100vw, 1052px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1254" height="938" data-id="1260"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png" alt="" class="wp-image-1260" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen.png 1254w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-300x224.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-1024x766.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095949/invite_friends_screen-768x574.png 768w" sizes="(max-width: 1254px) 100vw, 1254px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1762" height="952" data-id="1261"  src="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png" alt="" class="wp-image-1261" srcset="https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game.png 1762w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-300x162.png 300w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1024x553.png 1024w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-768x415.png 768w, https://s3.amazonaws.com/live.iamshishir.com/wp-content/uploads/2022/08/03095951/playing_game-1536x830.png 1536w" sizes="(max-width: 1762px) 100vw, 1762px" /></figure>
+</figure>
+
+
+
+<p>I build a multi player game of the classic &#8220;Snake &amp; Ladders&#8221;, the game can be played between 1 or more remote players. </p>
+
+
+
+<div class="wp-container-3 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://iamshishir.com/snake_and_ladders/">Play Snake and Ladders </a></div>
+</div>
+
+
+
+<h2>Technologies Used. </h2>
+
+
+
+<ol><li>Vue JS</li><li>Tailwind CSS for Styling. </li><li>Socket.io for Real Time communication. </li></ol>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/08/21/snake-ladders-multiplayer-game/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
